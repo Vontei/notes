@@ -1,4 +1,4 @@
-# Recipe for getting a job!
+# Recipes for getting a job!
 
 ## LinkedIn
 
@@ -23,26 +23,26 @@
  *  Apply for jobs on a regular basis
 
 
-GitHub
+## GitHub
  *  Create a full profile listing your skills and contact information and what you’re working on
  *  Back link all of your other social media profiles
  *  Commit to GitHub daily so that your profile overview shows that you are active i.e. dark green. Do not bother committing or updating things like a read me file people will see that you had worthless commits
  *  Find open-source projects and contribute. Even if it’s just a correction of a spelling error or syntax people see that you’re contributing
 
 
-Quora
+## Quora
 
  *  Find and answer a computer programming questions on a regular basis
  *  You can also have your answer back link to your personal website blog with a detailed answer
 
 
-Stack Overflow
+## StackOverflow
  *  Ask a pertinent computer programming question on a regular basis. Please make sure there isn’t already an answer for the question you’re asking
  *  Answer a question whenever you see a better way to do something or search for questions that were just recently posted that have no answers
  *  You should increase your points by 100 each month for the first two months after that should be 200 month for the next six months
 
 
-Personal website
+## Personal website
  *  This is a reflection of your skills so if your website sucks so do you in the eyes of potential employers
  *  If you say that you are a developer with experience with angular your website should be angular etc.
  *  Don’t make people guess about the purpose of your website. The headline should say your name and what you are i.e. full stack developer JavaScript developer etc.
@@ -53,7 +53,7 @@ Personal website
  *  Have a picture of what you have built in your profile then below it or with a click more information comes up explaining what you did and where someone could find the project live or the code on GitHub
 
 
-Blog
+## Blog
  *  Blog should be done something like ghost or WordPress integrated into your website
  *  Blog post should be 500 words or more and back link to any relevant post that he had in the past
  *  Blogs contain 2 to 3 links of third-party websites
@@ -65,7 +65,7 @@ Blog
  *  Blog post should provide useful information for the reader not just the story of your life which no one cares about
 
 
-Twitter
+## Twitter
  *  Tweet five times a day relevant articles and cool things that you found
  *  You can also use Twitter as your external bookmarks i.e. bookmarking cool things and sharing them with the world
  *  People are more interested in cool pictures and info graphics than they are text

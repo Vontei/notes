@@ -1,3 +1,3 @@
-# g11-course-info
+# G11 - Galvanize Full Stack Course Info
 
-schedule, links to exercises, job hunting info
+Includes a schedule, broken down by week, links to exercises, and job hunting information.

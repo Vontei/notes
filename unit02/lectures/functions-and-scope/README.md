@@ -1,19 +1,18 @@
 # Functions Part 1
 
-##Defining a function
+## Defining a function
 
-```
+```javascript
 var greet = function() {
   console.log("Hello World");
 };
 
 greet();
-
 ```
 
-##Defining a function with a parameter
+## Defining a function with a parameter
 
-```
+```javascript
 var greeting = function (someName) {
   // anything inside of here will execute when called
   console.log("Good morning " + someName);
@@ -23,7 +22,6 @@ var name = "Momo";
 var name2 = "Rusty";
 greeting(name);
 greeting(name2);
-
 ```
 
 
@@ -33,7 +31,7 @@ greeting(name2);
 
 ####Let's greet some instructors
 
-```
+```javascript
 var instructor = "Rosa";
 console.log("Hello " + instructor); // Hello Rosa
 
@@ -43,7 +41,7 @@ console.log("Hello " + instructor); // Hello Zubair
 
 ####Let's greet some students
 
-```
+```javascript
 var student = "David";
 console.log("Hello " + student);  // Hello David
 
@@ -61,8 +59,7 @@ The questions we should be asking are:
 
 ![](http://codyburleson.com/wp-content/uploads/2014/11/dontrepeatyourself_motivator_2.jpg)
 
-```
-
+```javascript
 var greeter = function(person) {
   // We can avoid re-writing the same code by placing the repeated code inside of a function
   console.log("Hello " + person);
@@ -75,12 +72,11 @@ greeter("Zubair");
 // ... and some students.
 greeter("David");
 greeter("Liz");
-
 ```
 
 ###Functions make our code easier to maintain
 
-```
+```javascript
 var greeter = function(person) {
   // With just 1 change, we can adjust our program output
   console.log("Bonjour " + person);
@@ -89,13 +85,12 @@ var greeter = function(person) {
 // Now let's greet some people...
 greeter("Buzz Aldrin");
 greeter("Stravinsky");
-
 ```
 
 
 ##Defining a function with two parameters
-```
 
+```javascript
 var greeting = function (taco, stuff) {
   // anything inside of here will execute when called
   console.log("Good morning", stuff, taco);
@@ -111,7 +106,7 @@ greeting(name2, name);
 
 ##Returning values
 
-```
+```javascript
 var sum = function(x,y) {
   return x + y;
 }
@@ -126,25 +121,33 @@ var sum = function(x,y) {
 
 ## Functions afternoon
 
+###Scope
+
+- What is it? Availability
+- Default scope: Global/Window Scope, can be accessed within an child scopes
+
+  ```javascript
+  var globalVar = 'Michael';
+  ```
+
 
 ###Scope
 
 What's the result of running the following code:
 
-```
+```javascript
 var sum = function(x,y) {
  var result = x + y
  return result
 }
 
-sum(4,5)
+sum(4, 5)
 console.log(result)
-
 ```
 
 ###A function with scoped variables
 
-```
+```javascript
 var scoped = function(name) {
 	var greeting = "Hello " + name + "!";
 	return greeting;
@@ -154,14 +157,16 @@ var hello = scoped("Rusty");
 console.log(hello);
 ```
 
+Parent vs child? What is available to each?
+
 ###Why is variable scope important?
 Let's add to the example above to add to our discussion of variable scope.
 
-```
-
+```javascript
 var greeting = "Hello Galvanize";
 
 var scoped = function(name) {
+  // hiding
   var greeting = "Hello " + name + "!";
   return greeting;
 };
@@ -174,10 +179,11 @@ console.log(greeting); // What will the output of this line be?
 
 ###Local vs. Global Scope and the 'var' keyword
 
-```
+```javascript
 var greeting = "Hello Galvanize";
 
 var scoped = function(name) {
+  // no longer hiding; referencing the parent variable (reassigned)
   greeting = "Hello " + name + "!";
   return greeting;
 };
@@ -190,7 +196,7 @@ console.log(greeting); // What will the output of this line be?
 
 ###Optional Arguments
 
-```
+```javascript
 function power(base, exponent) {
   if (exponent == undefined)
     exponent = 2;
@@ -216,14 +222,15 @@ Pair with a student to create a comprehensive Javascript cheatsheet.  It should 
 
 There is more than one way to define a function.  What's the difference between the following 2 methods?
 
-```
+```javascript
 function bark() {
   console.log("MEOW");
 }
 ```
+
 and
 
-```
+```javascript
 var bark = function() {
   console.log("MEOW");
 }

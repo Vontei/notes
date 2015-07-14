@@ -62,7 +62,9 @@ arr.unshift('q');   // Array is now ['q', 'z', 'b', 'c'];
 
 ## Objects
 
-Objects are the building blocks of javascript.  You can make very complex structures out of objects.  They are very similar to arrays, except that the accessor doesn't have to be a number.  Here is a simple example:
+Objects are the building blocks of javascript.  You can make very complex structures out of objects.  They are very similar to arrays, except that the accessor doesn't have to be a number and they are unordered.  
+
+Examples:
 
 ```javascript
 var myObj = {}; // Creates an empty object literal

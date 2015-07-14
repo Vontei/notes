@@ -2,7 +2,7 @@
 
 ## Objective
 
-Be able to access and create complex objects. For example
+Be able to access and create complex objects. For example:
 
 ```javascript
 var players = [
@@ -60,10 +60,6 @@ arr.unshift('z');   // Array is now ['z', 'b', 'c'];
 arr.unshift('q');   // Array is now ['q', 'z', 'b', 'c'];
 ```
 
-### Exercise
-
-Look up splice and figure out how to remove the 3rd element from our array.
-
 ## Objects
 
 Objects are the building blocks of javascript.  You can make very complex structures out of objects.  They are very similar to arrays, except that the accessor doesn't have to be a number.  Here is a simple example:
@@ -120,7 +116,3 @@ Now that calculator has been created, it's easy to add new functionality:
 calculator.subtract = function(left, right) { return left - right };
 calculator.subtract(6, 4);  // Returns 2
 ```
-
-### Exercise
-
-Create an object that takes a series of numbers as an array and can find the average and the max.

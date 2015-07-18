@@ -156,7 +156,7 @@ Test it out!
 
 #### `innerText` vs `innerHTML`
 
-Research this on your own. **How would you construct the Google query?**
+Research this on your own. **How would you construct the Google query to find a solution quickly?** Ideally, after you search, you should find an answer within the first three results. If not, redefine your search, as, more often than not, the results are unlikely to be relevant.
 
 #### `createElement`
 

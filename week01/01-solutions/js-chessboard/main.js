@@ -1,4 +1,4 @@
-// console.log("test");
+// attempt # 1
 
 for (var row = 0; row < 8; row++) {
 
@@ -23,6 +23,8 @@ for (var row = 0; row < 8; row++) {
   console.log(line);
 
 }
+
+// attempt # 2
 
 // var odd = " # # # #\n";
 // var even = "# # # # \n";

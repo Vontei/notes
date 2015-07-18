@@ -161,3 +161,11 @@ FINISH DISCUSSION
 ## Actives
 
 ADD ASSIGNMENT
+
+## Stretch Goals
+
+ADD STRETCH GOALS
+
+## Further Reading
+
+ADD FURTHER READINGS

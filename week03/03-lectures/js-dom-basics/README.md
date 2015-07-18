@@ -8,13 +8,15 @@ Let's look at the basics of using *vanilla* JavaScript to manipulate the DOM...
 - Figure out the "what" and "why" by...
    - reading through the objectives
    - reading through the activities below
-- REMEMBER! It's about the process. There's no rush. Take risks, have fun! Don't be afraid to make mistakes and try things.
+   - reading slowly, really try to answer *each* question before looking at the solution
+- REMEMBER! It's about the process. There's no rush. Take risks, and have fun! Don't be afraid to make mistakes and try things.
 
 ### Objectives:
 
 By the end of this lesson you should be able to:
 
 - ADD EVAN'S OBJECTIVES
+- ADD PER JEFF DEAN: I’d add something at the bottom like “how’d you do?  look through each objective and rate yourself 1-4.  What new questions do you have now that you’ve done this - list 4 here…"
 
 ### Key terms:
 

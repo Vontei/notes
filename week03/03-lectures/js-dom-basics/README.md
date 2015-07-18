@@ -70,7 +70,7 @@ Open the JavaScript console in Chrome. **What do you see?**
 
 **What does this give us?**
 
-Since we are assigning the [DOM node](http://www.w3schools.com/jsref/dom_obj_all.asp) - `<p id="main">Just a paragraph...</p>` to a variable, we now have a reference to it. With the node in hand, we can now view its content (tags, attributes, inner text), manipulate/change any part of it (attributes, inner text, etc.), move it, or remove it altogether. JavaScript gives us this power!
+Since we are assigning the [DOM node](http://www.w3schools.com/jsref/dom_obj_all.asp) - `<p id="main">Just a paragraph...</p>` - to a variable, we now have a reference to it. With the node in hand, we can now its content (tags, attributes, inner text - **what are these?**), manipulate/change any part of it (attributes, inner text, etc.), move it, or remove the node altogether. JavaScript gives us this power!
 
 Any node within the [document](http://www.w3schools.com/js/js_htmldom_document.asp), the root node, can be accessed via JavaScript. **What if we wanted to target (or access) the list?**
 
@@ -78,7 +78,7 @@ Without an `id` attribute, we need to use a different [method](http://www.w3scho
 
 #### `getElementsByTagName`
 
-The 'getElementsByTagName' method returns a collection/array of nodes. These collections are "live", which means that if you add a new HTML element to the collection, it will also be added to the DOM. You can treat the collection just like you would a normal JavaScript array.
+The `getElementsByTagName()` method returns a collection/array of nodes. These collections are "live", which means that if you add a new HTML element to the collection, it will also be added to the DOM. You can treat the collection just like you would a normal JavaScript array.
 
 Add the following code to your JavaScript file:
 

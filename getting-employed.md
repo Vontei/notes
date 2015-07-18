@@ -12,8 +12,8 @@
 *  Remove all skills that aren’t pertinent to web development such as Microsoft Word or the like
 *  Add 10 to 15 skills related to computer programming such as JavaScript, Angular, HTML5, etc.
 *  Ask your friends to endorse your skills, however do not ask them to endorse all of them because it will look strange if your profile has 15 endorsements from the same person get them to stagger them - one in three is a good ratio
-*  Join 50 computer programming groups
-*  Send out 25 requests connect per day to relevant people such as CTO’s, senior developers, or thought leaders in the computer programming world. Don’t bother sending it out to people that are not relevant connections
+*  Join 10 computer programming groups
+*  Send out 5 to 25 requests connect per day to relevant people such as CTO’s, senior developers, or thought leaders in the computer programming world. Don’t bother sending it out to people that are not relevant connections
 
 
 

@@ -4,7 +4,7 @@ Let's look at the basics of using *vanilla* JavaScript to manipulate the DOM...
 
 ## Overview
 
-- Be sure to figure out the "what" and "why" reading through the sections slowly, realy trying to answer *each* question before looking at the solution
+- Be sure to figure out the "what" and "why" by reading through the sections slowly, realy trying to answer *each* question before looking at the solution.
 - REMEMBER! It's about the process. There's no rush. Take risks, and have fun! Don't be afraid to make mistakes and try things.
 
 ### Objectives:

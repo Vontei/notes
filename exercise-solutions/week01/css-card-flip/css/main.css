@@ -1,0 +1,43 @@
+/* add your styles here */
+
+/* solution to hover picture
+.portfolio-item {
+  position: relative;
+}
+
+.primary {
+  position: absolute;
+}
+
+.secondary {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.portfolio-item:hover .secondary {
+  opacity: 1;
+}
+*/
+
+/*Solution to flip cards*/
+.portfolio-item {
+  position: relative;
+}
+
+.primary {
+  position: absolute;
+  transition-duration: 1s;
+}
+
+.secondary {
+  transform: rotateY(-180deg);
+  transition-duration: 1s;
+}
+
+.portfolio-item:hover .primary {
+  transform: rotateY(180deg);
+}
+
+.portfolio-item:hover .secondary {
+  transform: rotateY(0deg);
+}

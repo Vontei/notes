@@ -29,11 +29,39 @@ By the end of this lesson you should be able to:
 1. Create a new local project directory called "js-dom-basics".
 1. Add a local git repository.
 1. Create a remote repository on Github.
+1. Add a *main.js* file.
 1. Add a simple `console.log("sanity check!")` in the *main.js* to verify that it's included correctly.
 1. In git, add/commit locally, and then push your changes to Github.
 
 ## Discussion
 
+Look over the *index.html* file before starting...
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript and the DOM - a primer</title>
+</head>
+<body>
+
+  <section>
+    <h1>Just a header</h1>
+    <p id="main">Just a paragraph...</p>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li>item 5</li>
+    </ul>
+  </section>
+
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
+```
 
 #### `getElementbyID`
 

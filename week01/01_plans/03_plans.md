@@ -1,17 +1,17 @@
-## Today's Goals
+# Week 1, Day 3
 
-Students will...
+## Today's Goals
 
 - Review how to use HTML to build a webpage
 - Understand the difference between HTML `tags`, `elements`, and `attributes`
 - Be able to articulate the difference between HTML syntax and semantics
-- Build a simple webpage using semantic markup  
+- Build a simple webpage using semantic markup
 
 > NOTE: We will just be going over the very basics of HTML and CSS; we will take a much deeper dive later in the cohort.
 
 ## 9am Standup
 
-- Events, Helps, Happenings  
+- Events, Helps, Happenings
 
 ## 9:15am Warm-up
 

@@ -1,6 +1,6 @@
-## Today's Goals
+# Week 1, Day 4
 
-Students will...
+## Today's Goals
 
 1. Start *loving* JavaScript!
   - Understand the JavaScript primitives - numbers, strings, booleans, null, undefined
@@ -11,7 +11,7 @@ Students will...
 
 ## 9am Standup
 
-- Events, Helps, Happenings  
+- Events, Helps, Happenings
 
 ## 9:15am Warm-up
 

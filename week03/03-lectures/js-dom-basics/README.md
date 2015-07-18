@@ -158,7 +158,7 @@ Test it out!
 
 Research this on your own. **How would you construct the Google query to find a solution quickly?**
 
-Ideally, after you search, you should find an answer within the first three results. If not, redefine your search, as, more often than not, the results are unlikely to be relevant. This begs the question - *What constitues a good search result?* Think about this. Think about when you constructed a good search query vs. a poor search query. What kinds of sites did you find a good result from? [StackOverflow](http://stackoverflow.com/), [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), and [w3schools JavaScript](http://www.w3schools.com/js/) generally yield good results. Often you will find that the more esoteric the subject, the more you will have to rely on [StackOverflow](http://stackoverflow.com/). Keep this in mind. Practice. Practice. Practice.
+Ideally, after you search, you should find an answer within the first three results. If not, redefine your search, as, more often than not, the results are *unlikely* to be relevant. This begs the question - **What constitues a good search result?** Think about this for a minute - or two. Think about when you constructed a good search query vs. a poor search query. Which sites produced a good result? [StackOverflow](http://stackoverflow.com/), [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), and [w3schools JavaScript](http://www.w3schools.com/js/) generally yield good results. Overtime, you will find that the more esoteric the subject, the more you will have to rely on [StackOverflow](http://stackoverflow.com/). Keep this in mind. Practice. Practice. Practice.
 
 #### `createElement`
 

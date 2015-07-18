@@ -162,7 +162,7 @@ Ideally, after you search, you should find an answer within the first three resu
 
 > Also, keep in mind, that the more esoteric subjects are generally ones that people are talking less about, which gives you an opportunity to participate. The more you participate, the more you will be reconized as a thought leader in the community. Thought leaders don't have to look for jobs - jobs come to them.
 
-SHOULD THIS BE MOVED TO ITS OWN DOCUMENT? SHOW WE ADD IN A LIBRARY VS. WIKIPEDIA METAPHOR?
+SHOULD THIS BE MOVED TO ITS OWN DOCUMENT OR AN ASIDE? SHOW WE ADD IN A LIBRARY/LIBRARIAN VS. WIKIPEDIA METAPHOR?
 
 #### `createElement`
 

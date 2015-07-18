@@ -18,3 +18,11 @@
 
 1. Michael will stay late (~8pm) on Tuesday and Thursday
 1. There will be Saturday coverage (~10am to ~1pm)
+
+## Lecture Schedule
+
+| -             | Monday  | Tuesday | Wednesday | Thursday | Friday |
+|---------------|---------|---------|-----------|----------|--------|
+| Lesson        | Michael | Zach    | Zach      | Zach     | Reyna  |
+| Exercise      | Michael | Zach    | Zach      | Zach     | Reyna  |
+| Understanding | Reyna   | Reyna   | Reyna     | Reyna    | Reyna  |

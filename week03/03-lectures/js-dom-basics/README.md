@@ -108,9 +108,11 @@ for (var i = 0; i < allListItems.length; i++) {
 
 Simply update the loop like so:
 
+```javascript
 for (var i = 0; i < allListItems.length; i++) {
   console.log(allListItems[i].innerText);
 }
+```
 
 **What will this do?**
 
@@ -130,4 +132,8 @@ Research this on your own. **How would you construct the Google query?**
 
 #### `createElement`
 
-## Activies
+FINISH DISCUSSION
+
+## Actives
+
+ADD ASSIGNMENT

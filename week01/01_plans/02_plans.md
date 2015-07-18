@@ -1,15 +1,35 @@
+# Week 1, Day 2
+
 ## Today's Goals
 
-Students will...
-
+- Agree on classroom norms.
+- Acknowledge graduation criteria.
 - Become familiar with the basic terminal commands
 - Demonstrate the basic git commands/workflow
 - Understand what a Version Control System (VCS) is
 - Understand the difference between git and Github
+- Explain how UNIX commands work.
+    - Identify the parts of a UNIX command and explain the purpose of each. (command <optional flag(s)> <optional operand(s)>)
+    - Discuss the UNIX philosophy (small programs that do one thing well, can be chained together).
+    - Describe how to stop a running process with CTL+C or CTL+D
+    - Learn how to quickly get help on a command without leaving the comfort of the terminal - COMMAND --help or COMMAND -h
+- Navigate the file system using the command line.
+  - Explain how the mac file system is set up like a tree, with `/` at the root.
+  - Use `pwd` to print your working directory.
+  - Use `cd` to change your working directory.
+  - Explain the difference between absolute and relative paths.
+  - Explain `.` and `..`
+  - Navigate to a specific location using both absolute and relative file paths.
+  - Discuss what types of files are in the home and root directories. (your files vs. system files)
+  - Use `cd ~` to jump home.
+  - Use TAB to autocomplete paths
+  - Use up arrow to view previous commands
+- Manage files using the command line.
+- Chain and Pipe commands to work more efficiently.
 
 ## 9am Standup
 
-- Events, Interestings, Happenings  
+- Events, Interestings, Happenings
 
 ## 9:15am Warm-up
 

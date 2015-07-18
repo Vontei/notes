@@ -1,6 +1,6 @@
-## Today's Goals
+# Week 1, Day 5
 
-Students will...
+## Today's Goals
 
 - Review the week in small groups.
 - Take 2 small assessments.
@@ -8,7 +8,7 @@ Students will...
 
 ## 9am Standup
 
-- Events, Helps, Interestings  
+- Events, Helps, Interestings
 
 ## 9:15am Warm-up
 

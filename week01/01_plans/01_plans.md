@@ -7,9 +7,7 @@ Welcome!
 - Get to know your instructors.
 - Get to know your classmates.
 - Introduce habits and mindsets that improve your ability to learn.
-- Agree on classroom norms.
 - Describe what it takes to be a kind, courteous Galvanize member.
-- Acknowledge graduation criteria.
 - Setup hardware.
 - Take a headshot.
 - Get financials in order.
@@ -46,7 +44,7 @@ Welcome!
 Divide into groups...
 
  - Computers (network access, download Chrome, and Atom) with Michael
- - Joanna for $$$/contracts
+ - Joanna for money/contracts
  - Photos with Reyna
  - Tours/Fob with Casy/Kelly/Matt
  - Outcomes with James
@@ -63,118 +61,7 @@ Divide into groups...
 
 ## Course Overview
 
-**Unit 1**
-- Orientation
-- Command Line
-- Version Control with Git
-- Javascript Fundamentals
-
-**Unit 2**
-- Advanced Javascript
-- Object Oriented Programming
-- Testing
-- Sorting Algorithms
-
-**Unit 3**
-- HTML
-- CSS
-- DOM Manipulation
-- Recursion
-
-**Unit 4**
-- DOM manipulations with jQuery
-- AJAX
-- APIs
-- HTTP and Internet Basics
-- Linked Lists
-
-**Unit 5**
-- React
-- JS Research Project
-
-**Unit 6**
-- Node
-- NPM, Servers, Express
-- RESTful Routing
-
-**Unit 7**
-- CRUD with Express
-- Databases
-- MongoDB
-- Mongoose/Monk
-
-**Unit 8**
-- Advanced Express Apps
-- Single Page Apps
-- Scraping
-- Trees
-
-**Unit 9**
-- Full Stack JS Project
-
-**Unit 10**
-- Ruby Basics
-- Rspec
-
-**Unit 11**
-- Introduction to Rails
-- Rails Actionpack
-- MVC fundamentals
-- SQL Databases
-
-**Unit 12**
-- Advanced SQL Queries
-- Model Associations
-- Validations
-
-**Unit 13**
-- Advanced Rails
-- User Authentication
-- Scraping
-- Mailers
-- Rake Tasks
-
-**Unit 14**
-- Midterm Pair Rails Project
-
-**Unit 15**
-- Midterm Pair Rails Project Continued
-
-**Unit 16**
-- Angular Introduction
-- Built-In Directives
-- Controllers
-- Custom Directives
-
-**Unit 17**
-- Advanced Angular
-- Angular + Rails
-- Angular + Express
-
-**Unit 18**
-- Project
-
-**Unit 19**
-- Project Continued
-
-**Unit 20**
-- Interview Techniques
-- Computer Science Review
-- Sorting
-- Trees
-- Graphs
-
-**Unit 21**
-- Capstone Project
-
-**Unit 22**
-- Capstone Project
-
-**Unit 23**
-- Capstone Project
-
-**Unit 24**
-- Capstone Project and Graduation
+[Link](https://github.com/gSchool/g11-course-curriculum/blob/master/schedule.md)
 
 ## What makes a good developer?
 
@@ -198,3 +85,4 @@ Divide into groups...
 ## Homework
 
 - Finish the pre-work!
+

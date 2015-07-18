@@ -21,8 +21,8 @@
 
 ## Lecture Schedule
 
-| -             | Monday  | Tuesday | Wednesday | Thursday | Friday |
-|---------------|---------|---------|-----------|----------|--------|
-| Lesson        | Michael | Zach    | Zach      | Zach     | Reyna  |
-| Exercise      | Michael | Zach    | Zach      | Zach     | Reyna  |
-| Understanding | Reyna   | Reyna   | Reyna     | Reyna    | Reyna  |
+| N/A           | Monday  | Tuesday | Wednesday | Thursday | Friday     |
+|---------------|---------|---------|-----------|----------|------------|
+| Lecture       | Michael | Zach    | Zach      | Zach     | Zach/Reyna |
+| Exercise      | Zach    | Michael | Michael   | Michael  | Michael    |
+| Understanding | Reyna   | Reyna   | Reyna     | Reyna    | Reyna      |

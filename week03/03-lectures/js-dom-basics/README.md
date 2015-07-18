@@ -20,8 +20,8 @@ By the end of this lesson you should be able to:
 1. Add a local git repository.
 1. Create a remote repository on Github.
 1. Add a *main.js* file.
-1. Add a simple `console.log("sanity check!")` in the *main.js* to verify that it's included correctly.
-1. In git, add/commit locally, and then push your changes to Github.
+1. Add a simple `console.log("sanity check!")` in *main.js* to verify that it's included correctly. **How do you test this?**
+1. Finally, add/commit to your local git repo, and then push your changes to Github.
 
 ## Discussion
 

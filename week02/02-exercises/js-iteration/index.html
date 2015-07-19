@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JS Iteration Practice</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Prices</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="names.html">Names</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="page-header">
+            <h3>Prices</h3>
+          </div>
+          <select class="all-prices text-right" multiple name="prices">
+            <option value="30">$30.00</option>
+            <option value="98">$98.00</option>
+            <option value="74">$74.00</option>
+            <option value="29">$29.00</option>
+            <option value="55">$55.00</option>
+            <option value="82">$82.00</option>
+            <option value="56">$56.00</option>
+            <option value="81">$81.00</option>
+            <option value="88">$88.00</option>
+            <option value="68">$68.00</option>
+            <option value="5">$5.00</option>
+            <option value="23">$23.00</option>
+            <option value="19">$19.00</option>
+            <option value="80">$80.00</option>
+            <option value="29">$29.00</option>
+            <option value="16">$16.00</option>
+            <option value="69">$69.00</option>
+            <option value="25">$25.00</option>
+            <option value="89">$89.00</option>
+            <option value="50">$50.00</option>
+          </select>
+          <p class="help-block">
+            <em>Use CMD+Click to select multiple non-contiguous options</em>
+          </p>
+          <p class="help-block">
+            <em>Use SHIFT+Click to select multiple contiguous options</em>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="page-header">
+            <h3>Actions</h3>
+          </div>
+          <p>
+            <button class="btn btn-primary" id="sum-all">Sum All</button>
+          </p>
+          <p>
+            <button class="btn btn-primary" id="count-selected">Count Selected</button>
+          </p>
+          <p>
+            <button class="btn btn-primary" id="sum-selected">Sum Selected</button>
+          </p>
+          <p>
+            <button class="btn btn-primary" id="average-all">Average All</button>
+          </p>
+          <p>
+            <button class="btn btn-primary" id="average-selected">Average Selected</button>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="page-header">
+            <h3>Answer</h3>
+          </div>
+          <!--
+            replace this comment with a div with an ID
+            and make your javascript code fill this div's innerHTML with
+            the correct answer
+          -->
+        </div>
+      </div>
+    </div>
+    <script src="js/logic.js"></script>
+    <script src="js/dom.js"></script>
+  </body>
+</html>

@@ -8,22 +8,26 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
-
-- Sublime Text
+- This Week - CSS, Responsive Design, the DOM Redux, and more JavaScript
+- Sublime Text 3 Setup
 - G11 Course Curriculum Repo
-- HTML/CSS
+
+## 10am - CSS Layout
+
+- [Learn CSS Layout](http://learnlayout.com/)
+- [Display and positioning cheatsheet](- https://github.com/gSchool/g11-course-curriculum/blob/master/week03/03_lectures/css-display-and-positioning.md)
+- [All About Floats](https://css-tricks.com/all-about-floats/)
+- Terminology
+  - HTML: Tag, element, attribute
+  - CSS: Ruleset, selector, value, name
 
 ## 12pm Lunch
 
-Food.
+Food. Eat.
 
 ## 1pm Code!
 
 ## Exercises/Homework
 
 - JavaScript Problem
-- http://learnlayout.com/
-- https://smacss.com/book
-- Read: http://eloquentjavascript.net/
-- READ: https://css-tricks.com/all-about-floats/
+- Read [Chapter 12](http://eloquentjavascript.net/12_browser.html) and [Chapter 13](http://eloquentjavascript.net/13_dom.html) in Eloquent JS and complete all exercises

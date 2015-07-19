@@ -209,7 +209,20 @@ Make sense? Prepend another element. Once done, show an instructor.
 
 ## Actives
 
-ADD ASSIGNMENT
+Now, you're on your own. Have some fun!
+
+### One
+
+ADD ACTIVITIES
+
+### Two
+
+ADD ACTIVITIES
+
+### Three
+
+ADD ACTIVITIES
+
 
 ## Stretch Goals
 

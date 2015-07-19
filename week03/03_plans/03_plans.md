@@ -8,9 +8,7 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
-
-- HTML/CSS
+## 9:30 - CSS Centering
 
 ## 12pm Lunch
 

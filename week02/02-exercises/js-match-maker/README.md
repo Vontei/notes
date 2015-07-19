@@ -22,6 +22,7 @@ GOAL: Solidify understanding of JavaScript functions, condionals, booleans, and 
   Name: Michael Herman
   Phone Number: 415-514-6584
   City: Boulder
+  ```
 
 ## Refactor
 

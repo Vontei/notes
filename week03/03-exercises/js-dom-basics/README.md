@@ -154,7 +154,52 @@ Ideally, after you search, you should find an answer within the first three resu
 
 #### `createElement`
 
-FINISH DISCUSSION
+`createElement()` does just as the name suggests - it creates an [element node](http://www.w3schools.com/jsref/prop_node_nodetype.asp).
+
+Let's add another list element to the unorder list:
+
+1. Create the element
+
+  ```javascript
+  var li = document.createElement('li');
+  console.log(li);
+  ```
+
+  You should now have a `<li></li>` tag.
+
+1. Add text to the `li` element
+
+  ```javascript
+  var newElement = li.innerText = "another list item";
+  console.log(newElement);
+  console.log(li);
+  ```
+
+  The new element should now have text - `<li>another list item</li>`
+
+1. Add child element to the list
+
+  ```javascript
+  getSingleElement.appendChild(li);
+  console.log(allListItems);
+  ```
+
+  The list should now look like:
+
+  ```html
+  0
+  1
+  2
+  3
+  4
+  another list item
+  ```
+
+**What if you wanted to prepend the element?**
+
+```javascript
+getSingleElement.insertBefore(li, getSingleElement.firstChild);
+```
 
 ## Actives
 

@@ -23,13 +23,13 @@
 
 - This Week - CSS, Responsive Design, the DOM Redux, and more JavaScript
 - Homework Update
-- Sublime Text 3 Setup
+- [Sublime Text 3 Setup](http://mherman.org/blog/2015/02/05/sublime-text-for-web-developers/#.Vawuq5NViko) - tweet!
 - G11 Course Curriculum Repo
 
 ## 10am - CSS Layout
 
 - [Learn CSS Layout](http://learnlayout.com/)
-- [Display and positioning cheatsheet](- https://github.com/gSchool/g11-course-curriculum/blob/master/week03/03_lectures/css-display-and-positioning.md)
+- [Display and positioning cheatsheet](https://github.com/gSchool/g11-course-curriculum/blob/master/week03/03_lectures/css-display-and-positioning.md)
 - [All About Floats](https://css-tricks.com/all-about-floats/)
 - Terminology (make sure you understand these!)
   - HTML: Tag, element, attribute

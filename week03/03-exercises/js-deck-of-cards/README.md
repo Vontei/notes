@@ -11,7 +11,7 @@
 
 Within the *main.js* file-
   1. Make sure you understand the current code. Add comments. Read the code aloud!
-  1. Finish the *newDeck()* function so that it returns a deck of cards as an array of objects - `[{card: "j"suit: "s"}, {card: "q"suit: "d"}, ...]`
+  1. Finish the `newDeck()` function so that it returns a deck of cards as an array of objects - e.g., `[{card: "j"suit: "s"}, {card: "q"suit: "d"}, ...]`
   1. Write a function called `shuffleCards()` that takes the created card deck and returns the it shuffled.
   1. Review the following code, making certain you understand the DOM manipulation:
 
@@ -37,7 +37,7 @@ Within the *main.js* file-
     }
     ```
 
-Within the *index.html file-
+Within the *index.html* file-
   1. Add a another button called "Reset!", which clears all cards from the DOM. Think about what needs to happen, if anything, within the JavaScript file.
   1. Make sure this button is only displayed if the end user clicks the "Deal!" button.
   1. After the "Reset!" button is clicked remove or hide it from the DOM.

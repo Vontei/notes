@@ -1,3 +1,5 @@
+# Week 2, Day 1
+
 ## Today's Goals
 
 Students will...

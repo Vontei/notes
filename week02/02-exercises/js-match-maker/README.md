@@ -1,6 +1,6 @@
 # JavaScript Match Maker!
 
-GOAL: Solidify understanding of JavaScript functions, condionals, booleans, and data structures. Practice your problem solving skills.
+GOAL: Solidify understanding of JavaScript functions, conditionals, booleans, and data structures. Practice your problem solving skills.
 
 ## Setup
 
@@ -16,7 +16,7 @@ GOAL: Solidify understanding of JavaScript functions, condionals, booleans, and 
 1. Ask (`prompt`) the user for the total number of students learning JavaScript
 1. For each student, ask the user for their name, phone number, and city. Create an object for each person. Add each object to an array. BONUS: add validation.
 1. Repeat steps 1 and 2 for mentors. Create a new array of objects. You should now have two arrays - one for students, the other for mentors.
-1. Print (`alert`) the total number of students, the number of mentors, and each person nicely formated like so:
+1. Print (`alert`) the total number of students, the number of mentors, and each person nicely formatted like so:
 
   ```
   Name: Michael Herman
@@ -35,4 +35,4 @@ Instead of alerting the user with `alert`, add the results to the DOM. Need help
 
 ## Bonus Two
 
-Instead of promoting the user with `prompt`, perfrom the same actions as before with HTML forms.
+Instead of promoting the user with `prompt`, perform the same actions as before with HTML forms.

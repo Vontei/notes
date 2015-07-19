@@ -10,6 +10,8 @@
 
 ## 9:30 - Lecture
 
+- Sublime Text
+- G11 Course Curriculum Repo
 - HTML/CSS
 
 ## 12pm Lunch
@@ -21,4 +23,7 @@ Food.
 ## Exercises/Homework
 
 - JavaScript Problem
+- http://learnlayout.com/
+- https://smacss.com/book
 - Read: http://eloquentjavascript.net/
+- READ: https://css-tricks.com/all-about-floats/

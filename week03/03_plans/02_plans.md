@@ -21,3 +21,11 @@ Food.
 ## Exercises/Homework
 
 - Tip Calc
+
+
+CSS Architecture
+
+- https://smacss.com/book
+
+CSS Centering
+Responsive Design

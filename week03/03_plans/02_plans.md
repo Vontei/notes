@@ -25,8 +25,3 @@ https://smacss.com/book
 ## Exercises/Homework
 
 - Tip Calc
-
--
-
-CSS Centering
-Responsive Design

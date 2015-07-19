@@ -34,6 +34,6 @@ Food. Eat.
 
 ## Exercises/Homework
 
-- [JavaScript Deck of Cards]()
-- [Building a Grid with CSS](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/css-grid-system)
+- [JavaScript Deck of Cards](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/js-deck-of-cards)
+- [Building a Grid System with CSS](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/css-grid-system)
 - Read [Chapter 12](http://eloquentjavascript.net/12_browser.html) and [Chapter 13](http://eloquentjavascript.net/13_dom.html) in Eloquent JS and complete all exercises

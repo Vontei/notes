@@ -1,4 +1,4 @@
-# Building a Grid with CSS
+# Building a Grid System with CSS
 
 ## Objective(s)
 

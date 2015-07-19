@@ -1,6 +1,6 @@
 # JavaScript Match Maker!
 
-GOAL: Solidify understanding of JavaScript functions, conditionals, booleans, and data structures. Practice your problem solving skills.
+GOAL: Solidify understanding of JavaScript functions, conditionals, booleans, and data structures and practice your problem solving skills by creating a fun program to match students with mentors.
 
 ## Setup
 

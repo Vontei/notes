@@ -10,6 +10,8 @@
 
 ## 9:30 - Lecture
 
+- DOM Redux
+
 ## 12pm Lunch
 
 Food.
@@ -17,3 +19,5 @@ Food.
 ## 1pm Code!
 
 ## Exercises/Homework
+
+- Tip Calc

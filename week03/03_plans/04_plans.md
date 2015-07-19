@@ -10,10 +10,16 @@
 
 ## 9:30 - Lecture
 
+- HTML/CSS
+
 ## 12pm Lunch
 
 Food.
 
 ## 1pm Code!
 
+## 3pm Present Tip Calculator
+
 ## Exercises/Homework
+
+- HTML/CSS Problem

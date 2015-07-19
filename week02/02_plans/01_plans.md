@@ -16,19 +16,37 @@ Students will...
 
 ## 9:15am Warm-up
 
-- [Code Combat](https://codecombat.com/)
+- Review of Chessboard - with Mike
 
-## 9:30am Functions - part 1 (basics)
+## 9:45am Functions - part 1 (basics)
 
-[Lecture](https://github.com/gSchool/fullstack-curriculum/blob/master/lessons/js-language/js-functions-part-1.instructor.md)
+- [Lecture](https://github.com/gSchool/g11-course-info/blob/master/unit02/lectures/functions-and-scope/functions.md)
+- EXERCISE: Design an experiment to demonstrate the difference between returning a value in a function and console.logging it. Create a new repo for this called "function-return-vs-console-log". (Make sure you have the following files - README.md, index.html, main.js)
 
 ## 12pm Lunch
 
 ## 1pm Functions - part 2 (scope)
 
-[Lecture](https://github.com/gSchool/fullstack-curriculum/blob/master/lessons/js-language/js-functions-part-1.instructor.md)
+- [Lecture](https://github.com/gSchool/g11-course-info/blob/master/unit02/lectures/functions-and-scope/scope.md)
+- CHEATSHEET EXERCISE: Each table should create a comprehensive Javascript cheatsheet.  It should cover everything we've talked about in the class so far.
+- EXERCISE: There is more than one way to define a function.  What's the difference between the following 2 methods?
+
+    ```javascript
+    function bark() {
+      console.log("MEOW");
+    }
+    ```
+
+    and
+
+    ```javascript
+    var bark = function() {
+      console.log("MEOW");
+    }
+    ```
 
 ## Exercises/Homework
 
-- Function Practice - part 1
+- [Function Practice - part 1](https://github.com/gSchool/js-functions-part1)
 - Read Chapter 4 in Eloquent JavaScript.
+- STRETCH GOAL: All easy problems on [Coder Byte](http://coderbyte.com/CodingArea/Challenges/)

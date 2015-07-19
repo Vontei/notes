@@ -29,5 +29,6 @@ Food. Eat.
 
 ## Exercises/Homework
 
+- [Building a Grid with CSS](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/css-grid-system)
 - JavaScript Problem
 - Read [Chapter 12](http://eloquentjavascript.net/12_browser.html) and [Chapter 13](http://eloquentjavascript.net/13_dom.html) in Eloquent JS and complete all exercises

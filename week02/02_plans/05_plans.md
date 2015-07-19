@@ -35,3 +35,4 @@ Students will...
 
 - https://github.com/gSchool/js-iteration
 - https://github.com/gSchool/g11-course-curriculum/tree/master/week02/02-exercises/js-match-maker
+- Download [Sublime Text 3](http://www.sublimetext.com/3)

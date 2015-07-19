@@ -16,16 +16,17 @@
 
 Food.
 
-## 1pm Code!
+## 1pm CSS Architecture
+
+https://smacss.com/book
+
+## 3pm Code!
 
 ## Exercises/Homework
 
 - Tip Calc
 
-
-CSS Architecture
-
-- https://smacss.com/book
+-
 
 CSS Centering
 Responsive Design

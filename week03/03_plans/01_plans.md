@@ -2,6 +2,19 @@
 
 ## Today's Goals
 
+- Get Sublime Text 3 up and running
+- CSS
+  - describe the two box-sizing properties
+  - correctly calculate the width and height of boxes with various box-sizing properties
+  - describe the box model including border, margin, padding, content
+  - list and describe the characteristics of the different positions - absolute, static etc…
+  - list and describe the characteristics of floats
+  - list and describe the various display properties - none, block, inline-block etc…
+  - describe the difference between inline and block elements
+  - correctly identify which common HTML elements are inline, which are block
+- JavaScript
+  - continue practicing functions and learn more about manipulating the DOM
+
 ## 9am Standup
 
 - Events, Helps, Happenings
@@ -18,7 +31,7 @@
 - [Learn CSS Layout](http://learnlayout.com/)
 - [Display and positioning cheatsheet](- https://github.com/gSchool/g11-course-curriculum/blob/master/week03/03_lectures/css-display-and-positioning.md)
 - [All About Floats](https://css-tricks.com/all-about-floats/)
-- Terminology
+- Terminology (make sure you understand these!)
   - HTML: Tag, element, attribute
   - CSS: Ruleset, selector, value, name
 

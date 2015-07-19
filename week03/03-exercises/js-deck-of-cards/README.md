@@ -11,7 +11,7 @@
 
 Within the *main.js* file-
   1. Make sure you understand the current code. Add comments. Read the code aloud!
-  1. Finish the *newDeck()* function so that it returns a deck of cards as an array of objects - `[{card: "j"suit: "s"}, {card: "q"suit: "d"}, ...]
+  1. Finish the *newDeck()* function so that it returns a deck of cards as an array of objects - `[{card: "j"suit: "s"}, {card: "q"suit: "d"}, ...]`
   1. Write a function called `shuffleCards()` that takes the created card deck and returns the it shuffled.
   1. Review the following code, making certain you understand the DOM manipulation:
 

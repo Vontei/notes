@@ -21,7 +21,7 @@
 
 ## 9:15am Warm-up
 
-- This Week - CSS, Responsive Design, the DOM Redux, and more JavaScript
+- This Week - CSS (Layout, Architecture, Centering, Responsive Design), Bootstrap, the DOM Redux, and more JavaScript!
 - Homework Update
 - [Sublime Text 3 Setup](http://mherman.org/blog/2015/02/05/sublime-text-for-web-developers/#.Vawuq5NViko) - tweet!
 - G11 Course Curriculum Repo
@@ -34,6 +34,8 @@
 - Terminology (make sure you understand these!)
   - HTML: Tag, element, attribute
   - CSS: Ruleset, selector, value, name
+
+Once done with the reading, start working on the Building a Grid System with CSS problem.
 
 ## 12pm Lunch
 

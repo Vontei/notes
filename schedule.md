@@ -9,25 +9,27 @@
 
 ## Unit 2
 
-* Advanced Javascript
-* Object Oriented Programming
-* Testing
-* Sorting Algorithms
+* Intermediate Javascript
+* DOM Manipulation
 
 ## Unit 3
 
 * HTML
 * CSS
-* DOM Manipulation
-* Recursion
+* DOM Manipulation Redux
+* Responsive Design
 
 ## Unit 4
 
+* Advanced Javascript
+* Object Oriented Programming
 * DOM manipulations with jQuery
 * AJAX
 * APIs
 * HTTP and Internet Basics
 * Linked Lists
+* Testing
+* Sorting Algorithms
 
 ## Unit 5
 

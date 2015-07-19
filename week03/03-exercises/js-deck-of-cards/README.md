@@ -39,5 +39,5 @@ Within the *main.js* file-
 
 Within the *index.html* file-
   1. Add a another button called "Reset!", which clears all cards from the DOM. Think about what needs to happen, if anything, within the JavaScript file.
-  1. Make sure this button is only displayed if the end user clicks the "Deal!" button.
+  1. Make sure this button is only displayed after the end user clicks the "Deal!" button.
   1. After the "Reset!" button is clicked remove or hide it from the DOM.

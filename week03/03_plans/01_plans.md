@@ -9,6 +9,7 @@
 ## 9:15am Warm-up
 
 - This Week - CSS, Responsive Design, the DOM Redux, and more JavaScript
+- Homework Update
 - Sublime Text 3 Setup
 - G11 Course Curriculum Repo
 

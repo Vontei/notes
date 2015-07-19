@@ -198,8 +198,14 @@ Let's add another list element to the unorder list:
 **What if you wanted to prepend the element?**
 
 ```javascript
-getSingleElement.insertBefore(li, getSingleElement.firstChild);
+var anotherListElement = document.createElement('li');
+anotherListElement.innerText = "prepend";
+console.log(anotherListElement);
+getSingleElement.insertBefore(anotherListElement, getSingleElement.firstChild);
+console.log(allListItems);
 ```
+
+Make sense? Prepend another element. Once done, show an instructor.
 
 ## Actives
 

@@ -1,4 +1,4 @@
-# Week 4, Day 1
+# Week 3, Day 3
 
 ## Today's Goals
 

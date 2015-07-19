@@ -10,6 +10,8 @@
 
 ## 9:30 - Lecture
 
+Bootstrap
+
 ## 12pm Lunch
 
 Food.
@@ -17,3 +19,6 @@ Food.
 ## 1pm Code!
 
 ## Exercises/Homework
+
+- Bootstrap problem/responsiveness
+- Javascript problem

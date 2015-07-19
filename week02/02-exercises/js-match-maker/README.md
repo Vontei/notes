@@ -27,7 +27,7 @@ GOAL: Solidify understanding of JavaScript functions, conditionals, booleans, an
 ## Refactor
 
 1. Instead of asking for the number of students, start by obtaining the student info and then asking the user if s/he would like to add another student. Continue until the user says no, and then move on to mentors. The final output should be the same.
-1. After the output, then ask the user for a city name. Display all the mentors in that city.
+1. After the output, ask the user for a city name. Display all the mentors in that city.
 
 ## Bonus
 

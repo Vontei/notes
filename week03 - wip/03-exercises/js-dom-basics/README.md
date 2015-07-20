@@ -233,7 +233,9 @@ Add the following code to the *main.js* file:
 document.getElementById('main').style.backgroundColor = "red";
 ```
 
-> Notice how we're using CSS property names in camelCase, rather than in dash-case, so that they are accesible within the JavaScript file.
+**What happened when you refreshed the page?**
+
+> Notice how we used a CSS property name in camelCase (`backgroundColor`), rather than in dash-case (`background-color`), so that they are accesible within the JavaScript file.
 
 Play around with some other style properties to manipulate the DOM. For example, change the background color of each of the list items.
 

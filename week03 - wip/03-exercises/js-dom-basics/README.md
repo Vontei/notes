@@ -221,9 +221,32 @@ Read about traversing the DOM [here](http://javascript.info/tutorial/traversing-
 1. `nextSibling()` - targets the next node at the same level as the current node
 1. `previousSibling()` - targets the previous node at the same level as the current node
 
-Now, go back and experience with each in the console.
+Now, go back and experiment with each first in the console before you update the *main.js* file.
 
 ### Manipulation
+
+Moving on from accessing nodes and traversing the DOM, let's look at manipulating elements. First off, each node can be manipulated via its properties.
+
+Add the following code to the *main.js* file:
+
+```javascript
+document.getElementById('main').style.backgroundColor = "red";
+```
+
+> Notice how we're using CSS property names in camelCase, rather than in dash-case, so that they are accesible within the JavaScript file.
+
+Play around with some other style properties to manipulate the DOM. For example, change the background color of each of the list items.
+
+**Don't know what to manipulate?**
+
+Enter JavaScript console. With it open, follow these steps:
+
+1.
+
+
+
+
+### Events
 
 ## Actives
 
@@ -243,7 +266,7 @@ ADD ACTIVITIES
 
 ## Conclusion
 
-How’d you do? Look back at the objectives and rate yourself 1 through 4 for each objective. What new questions do you have now that you’ve done this?
+How’d you do? Look back at the objectives and rate yourself 1 through 4 for each objective. If you rate yourself a 2 or below, please notify an instructor for additional help. What new questions do you have now that you’ve done this?
 
 ## Stretch Goals
 

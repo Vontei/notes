@@ -1,4 +1,4 @@
-# Week 4, Day 1
+# Week 4, Day 5
 
 ## Today's Goals
 
@@ -17,3 +17,5 @@ Food.
 ## 1pm Code!
 
 ## Exercises/Homework
+
+- Fill out ZPD

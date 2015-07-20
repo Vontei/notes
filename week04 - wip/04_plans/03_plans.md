@@ -1,4 +1,4 @@
-# Week 3, Day 4
+# Week 4, Day 3
 
 ## Today's Goals
 
@@ -8,7 +8,7 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Responsive Design
+## 9:30 - Lecture
 
 ## 12pm Lunch
 
@@ -16,8 +16,6 @@ Food.
 
 ## 1pm Code!
 
-## 3pm Present Tip Calculator
-
 ## Exercises/Homework
 
-- HTML/CSS Problem
+- Fill out ZPD

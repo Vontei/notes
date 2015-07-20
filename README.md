@@ -28,6 +28,3 @@ Each Weekly folder contains the following folders:
 1. [A Smarter Way to Learn JavaScript](http://www.amazon.com/Smarter-Way-Learn-JavaScript-technology/dp/1497408180/ref=zg_bs_3617_4)
 1. [Coderbyte](http://coderbyte.com/)
 
-
-test pull
-

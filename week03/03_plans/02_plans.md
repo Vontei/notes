@@ -8,6 +8,8 @@
 
 ## 9:15am Warm-up
 
+upstream
+
 ## 9:30 - Lecture
 
 - https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/js-dom-basics

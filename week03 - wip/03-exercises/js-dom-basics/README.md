@@ -274,25 +274,25 @@ Read about the different DOM events [here](http://www.w3schools.com/jsref/dom_ob
 
 Mouse events:
 
-- `mousedown`
-- `mouseup`
-- `click`
-- `mouseover`
-- `mouseout`
-- `mousemove`
+- `mousedown()`
+- `mouseup()`
+- `click()`
+- `mouseover()`
+- `mouseout()`
+- `mousemove()`
 
 Keyboard events:
 
-- `keypress`
-- `keydown`
-- `keyup`
+- `keypress()`
+- `keydown()`
+- `keyup()`
 
 Form events:
 
-- `select`
-- `change`
-- `submit`
-- `reset`
+- `select()`
+- `change()`
+- `submit()`
+- `reset()`
 
 **Think about scenarios where you'd use each one.**
 
@@ -300,21 +300,32 @@ Form events:
 
 Events are one thing, but handling such events so that they perform an action is where the real fun begins! Wait. **What's an event handler?** Put simply, it's just a function that contains the action that takes place after the event occurs. Keep in mind, that the *all* events happen in the DOM, and they happen regardless of whether or not you're attaching a JavaScript event handler to them.
 
-How about an example:
+How about an example? Add the following code to *main.js*:
 
 ```javascript
 // target the button
 var button = document.getElementById('main-button');
 
-// event
+// event handler
 function buttonClick() {
-    alert('You just clicked the button!');
+  console.log('You just clicked the button!');
 }
 
-// This is the event-registration part:
-myElement.onclick = buttonClick;
+// event registration
+button.onclick = buttonClick;
 ```
 
+Here, on the button click we're logging the text "You just clicked the button!" to the console. You can also write the code in a more concise manner using a nameless, or anonymous, function:
+
+// all in one - target, event handler
+document.getElementById("main-button").addEventListener("click", function(event){
+  console.log('You just clicked the button!');
+});
+```
+
+Test it out!
+
+Try adding individual listeners to each list element so that when you click the `li`'s text, outputs the text via an `alert()`. Take a look at some of the other events from above, test some of them out.
 
 ## Actives
 

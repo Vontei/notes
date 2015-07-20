@@ -12,7 +12,6 @@ Let's look at the basics of using *vanilla* JavaScript to manipulate the DOM...
 By the end of this lesson you should be able to:
 
 - ADD EVAN'S OBJECTIVES
-- ADD PER JEFF DEAN: I’d add something at the bottom like “how’d you do?  look through each objective and rate yourself 1-4.  What new questions do you have now that you’ve done this - list 4 here…"
 
 ## Setup
 
@@ -207,6 +206,21 @@ console.log(allListItems);
 
 Make sense? Prepend another element. Once done, show an instructor.
 
+#### Traversing the DOM
+
+In the last section, you were introduced to DOM travelersal, which is simply the action of traveling up and down through the DOM in order to target a specific Node.
+
+Read about traversing the DOM [here](http://javascript.info/tutorial/traversing-dom). Once done, make sure you understand, conceptually, what the following methods do:
+
+1. `childNodes()` - targets all child nodes, returning a collection
+1. `firstChild()` - targets the first child node
+1. `lastChild()` - targets the last child node
+1. `parentNode()` - targets the parent node from the current node
+1. `nextSibling()` - targets the next node at the same level as the current node
+1. `previousSibling()` - targets the previous node at the same level as the current node
+
+Now, go back and experience with each in the console.
+
 ## Actives
 
 Now, you're on your own. Have some fun!
@@ -223,6 +237,9 @@ ADD ACTIVITIES
 
 ADD ACTIVITIES
 
+## Conclusion
+
+How’d you do? Look back at the objectives and rate yourself 1 through 4 for each objective. What new questions do you have now that you’ve done this?
 
 ## Stretch Goals
 

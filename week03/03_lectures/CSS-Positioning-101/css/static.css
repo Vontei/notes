@@ -1,0 +1,22 @@
+.red_box {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background: #ee3e64;
+}
+
+.blue_box {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background: #44accf;
+  /*left: 200px; does not move the box from the left 200px
+    because static position does not support this.*/
+}
+
+.green_box {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background: #b7d84b;
+}

@@ -41,3 +41,11 @@ Within the *index.html* file-
   1. Add a another button called "Reset!", which clears all cards from the DOM. Think about what needs to happen, if anything, within the JavaScript file.
   1. Make sure this button is only displayed after the end user clicks the "Deal!" button.
   1. After the "Reset!" button is clicked remove or hide it from the DOM.
+
+## Resources
+
+1. [Normalize CSS](http://nicolasgallagher.com/about-normalize-css/) - Make sure you understand *normalize.css*!
+1. [Creating your own Grid system](http://j4n.co/blog/Creating-your-own-css-grid-system)
+
+
+![](https://raw.githubusercontent.com/gSchool/g11-course-curriculum/master/week03/03-exercises/css-grid-system/example.png?token=AB7Ld08Bk7_HEpiH6R8tnmiPLg8HeSC0ks5VtVRbwA%3D%3D)

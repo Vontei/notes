@@ -18,6 +18,8 @@ Food.
 
 ## 3pm Present Tip Calculator
 
+## 4pm Meet and Greet
+
 ## Exercises/Homework
 
 - HTML/CSS Problem

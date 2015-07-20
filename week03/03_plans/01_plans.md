@@ -27,7 +27,7 @@
 - [Sublime Text 3 Setup](http://mherman.org/blog/2015/02/05/sublime-text-for-web-developers/#.Vawuq5NViko) - tweet!
 - G11 Course Curriculum Repo - LMS
 
-## 10am - CSS Layout
+## 10:45am - CSS Layout
 
 - [Learn CSS Layout](http://learnlayout.com/) - **Make sure you understand the difference between display block, inline, inline-block and float.**
 - [Absolute, Relative, Fixed Positioning: How Do They Differ?](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)

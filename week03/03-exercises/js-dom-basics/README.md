@@ -15,6 +15,10 @@ Let's look at the basics of using *vanilla* JavaScript to manipulate the DOM...
 - Be sure to figure out the "what" and "why" by reading through the sections slowly, really trying to answer *each* question before looking at the solution.
 - REMEMBER! It's about the process. There's no rush. Take risks, and have fun! Don't be afraid to make mistakes and try things.
 
+### Why should you care?
+
+DOM operations form the basis of all client-side javascript, and all frameworks including jQuery and Angular ultimately just boil down to these calls. Knowing what the DOM is and how to use it is an essential skill for web developers, and many of the in-class assignments will include these DOM operations.
+
 ### Objectives
 
 By the end of this lesson you should be able to:

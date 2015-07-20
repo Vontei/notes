@@ -241,10 +241,13 @@ Play around with some other style properties to manipulate the DOM. For example,
 
 Enter JavaScript console. With it open, follow these steps:
 
-1.
+1. Again, target the node with an id of `main` - `var propertyTest = document.getElementById('main')
+undefined`
+1. Then type the follow - `propertyTest.style.` - and as soon as you type the dot (`.`) on the end, a drop down list will appear, showing you the available properties based on the `style`:
 
+  ![](dev_tools_style_properties.png)
 
-
+1. Choose something applicable to the specific HTML tag and add a new style. Simple, right?
 
 ### Events
 

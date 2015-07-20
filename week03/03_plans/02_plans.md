@@ -10,7 +10,7 @@
 
 ## 9:30 - Lecture
 
-- DOM Redux
+- https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/js-dom-basics
 
 ## 12pm Lunch
 

@@ -30,3 +30,4 @@ https://smacss.com/book
 - Ask the students “hey, what was the first step in that learn-to-learn process?” and pull from them
 - While your machine is on the TVs, close out a bunch of stuff, ask a student to read you the first part of the instructions - maybe starting with the first “find” objective
 - Sort of demo going through the doc for that first story, and model “reflecting” back to see if you achieved that objective.  Intentionally leave something out, and ask them how you’ve done...
+- Group Shuffle

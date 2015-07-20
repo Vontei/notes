@@ -52,6 +52,8 @@ Look over the *index.html* file before starting...
 </html>
 ```
 
+### Targeting and Traversal
+
 #### `getElementbyID`
 
 Add the following code to your JavaScript file:
@@ -220,6 +222,8 @@ Read about traversing the DOM [here](http://javascript.info/tutorial/traversing-
 1. `previousSibling()` - targets the previous node at the same level as the current node
 
 Now, go back and experience with each in the console.
+
+### Manipulation
 
 ## Actives
 

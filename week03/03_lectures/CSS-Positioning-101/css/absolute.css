@@ -1,0 +1,35 @@
+.red_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: #ee3e64;
+}
+
+.blue_box {
+  position: absolute;
+  top: 0;
+  right: 0;  /* Changing this line to left: 0; instead of right: 0; will illustrate the overlap effect that is possible with absolute. */
+  width: 200px;
+  height: 200px;
+  background: #44accf;
+}
+
+.green_box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: #b7d84b;
+}
+
+.yellow_box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background: #ebde52;
+}

@@ -20,4 +20,4 @@
 1. [http://j4n.co/blog/Creating-your-own-css-grid-system](http://j4n.co/blog/Creating-your-own-css-grid-system)
 
 
-![](https://raw.githubusercontent.com/gSchool/g11-course-curriculum/master/week03/03-exercises/css-grid-system/example.png?token=AB7Ld08Bk7_HEpiH6R8tnmiPLg8HeSC0ks5VtVRbwA%3D%3D)
+![](https://raw.githubusercontent.com/gSchool/g11-course-curriculum/master/week03/03_exercises/css-grid-system/example.png?token=AB7Ldw11B9v-xv0iWWmxkabBoJ9dMWOZks5VtqYMwA%3D%3D)

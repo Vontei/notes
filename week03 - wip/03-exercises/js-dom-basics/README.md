@@ -42,8 +42,11 @@ Look over the *index.html* file before starting...
 <body>
 
   <section>
+
     <h1>Just a header</h1>
+
     <p id="main">Just a paragraph...</p>
+
     <ul>
       <li>item 1</li>
       <li>item 2</li>
@@ -51,6 +54,9 @@ Look over the *index.html* file before starting...
       <li>item 4</li>
       <li>item 5</li>
     </ul>
+
+    <button id="main-button">Just a button</button>
+
   </section>
 
   <script type="text/javascript" src="main.js"></script>
@@ -292,6 +298,22 @@ Form events:
 
 #### Event Handling
 
+Events are one thing, but handling such events so that they perform an action is where the real fun begins! Wait. **What's an event handler?** Put simply, it's just a function that contains the action that takes place after the event occurs. Keep in mind, that the *all* events happen in the DOM, and they happen regardless of whether or not you're attaching a JavaScript event handler to them.
+
+How about an example:
+
+```javascript
+// target the button
+var button = document.getElementById('main-button');
+
+// event
+function buttonClick() {
+    alert('You just clicked the button!');
+}
+
+// This is the event-registration part:
+myElement.onclick = buttonClick;
+```
 
 
 ## Actives
@@ -314,7 +336,7 @@ ADD ACTIVITIES
 
 ADD STRETCH GOALS
 
-## Reflect: Self-asses
+## Reflect: Self-assesment
 
 How’d you do? Go back to the "Objectives" section. Go through each one and ask yourself:
 
@@ -333,12 +355,6 @@ If you haven't completed an objective, or you can't define a term, take a few mi
 
 What new questions do you have now that you've gone through this exercise?
 
-List at least 4 here:
-
-1.
-1.
-1.
-1.
 
 ## Further Reading
 

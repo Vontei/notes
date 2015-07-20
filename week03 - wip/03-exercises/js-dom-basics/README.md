@@ -4,7 +4,7 @@ Let's look at the basics of using *vanilla* JavaScript to manipulate the DOM...
 
 ## Overview
 
-- Be sure to figure out the "what" and "why" by reading through the sections slowly, realy trying to answer *each* question before looking at the solution.
+- Be sure to figure out the "what" and "why" by reading through the sections slowly, really trying to answer *each* question before looking at the solution.
 - REMEMBER! It's about the process. There's no rush. Take risks, and have fun! Don't be afraid to make mistakes and try things.
 
 ### Objectives
@@ -162,15 +162,15 @@ Test it out!
 
 Research this on your own. **How would you construct the Google query to find a solution quickly?**
 
-Ideally, after you search, you should find an answer within the first three results. If not, redefine your search query, as, more often than not, the current results are *unlikely* to be relevant. This begs the question - **What constitues a good search result?** Think about this for a minute - or two. Think about when you constructed a good search query vs. a poor search query. Which sites produced a good result? [StackOverflow](http://stackoverflow.com/), [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), and [w3schools JavaScript](http://www.w3schools.com/js/) generally yield good results. Over time, you will find that as the complexity and granularity of the subject increases, the less you can rely on mainstream resources to produce quality results. Often you will have to rely on less popular areas on [StackOverflow](http://stackoverflow.com/) as well as personal blog posts. Keep this in mind. Practice. Practice. Practice.
+Ideally, after you search, you should find an answer within the first three results. If not, redefine your search query, as, more often than not, the current results are *unlikely* to be relevant. This begs the question - **What constitutes a good search result?** Think about this for a minute - or two. Think about when you constructed a good search query vs. a poor search query. Which sites produced a good result? [StackOverflow](http://stackoverflow.com/), [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), and [w3schools JavaScript](http://www.w3schools.com/js/) generally yield good results. Over time, you will find that as the complexity and granularity of the subject increases, the less you can rely on mainstream resources to produce quality results. Often you will have to rely on less popular areas on [StackOverflow](http://stackoverflow.com/) as well as personal blog posts. Keep this in mind. Practice. Practice. Practice.
 
-> Also, keep in mind, that the more esoteric subjects are generally ones that people are talking less about, which gives you an opportunity to participate. The more you participate, the more you will be reconized as a thought leader in the community. Thought leaders don't have to look for jobs - jobs come to them.
+> Also, keep in mind, that the more esoteric subjects are generally ones that people are talking less about, which gives you an opportunity to participate. The more you participate, the more you will be recognized as a thought leader in the community. Thought leaders don't have to look for jobs - jobs come to them.
 
 #### `createElement`
 
 `createElement()` does just as the name suggests - it creates an [element node](http://www.w3schools.com/jsref/prop_node_nodetype.asp).
 
-Let's add another list element to the unorder list:
+Let's add another list element to the unordered list:
 
 1. Create the element
 
@@ -223,7 +223,7 @@ Make sense? Prepend another element. Once done, show an instructor.
 
 #### Traversing the DOM
 
-In the last section, you were introduced to DOM travelersal, which is simply the action of traveling up and down through the DOM in order to target a specific Node.
+In the last section, you were introduced to DOM traversal, which is simply the action of traveling up and down through the DOM in order to target a specific Node.
 
 Read about traversing the DOM [here](http://javascript.info/tutorial/traversing-dom). Once done, make sure you understand, conceptually, what the following methods do:
 
@@ -248,7 +248,7 @@ document.getElementById('main').style.backgroundColor = "red";
 
 **What happened when you refreshed the page?**
 
-> Notice how we used a CSS property name in camelCase (`backgroundColor`), rather than in dash-case (`background-color`), so that they are accesible within the JavaScript file.
+> Notice how we used a CSS property name in camelCase (`backgroundColor`), rather than in dash-case (`background-color`), so that they are accessible within the JavaScript file.
 
 Play around with some other style properties to manipulate the DOM. For example, change the background color of each of the list items.
 
@@ -329,25 +329,19 @@ Try adding individual listeners to each list element so that when you click the 
 
 ## Actives
 
-Now, you're on your own. Have some fun!
+Time to put some of that newfound knowledge into practice. Remember the card game app from last week? Well, it's time to bring life to it via the power of JavaScript!
 
-### One
-
-ADD ACTIVITIES
-
-### Two
-
-ADD ACTIVITIES
-
-### Three
-
-ADD ACTIVITIES
+1. Add an *index.html* and *main.css* file to the project, if you don't already have them.
+1. Create the basic HTML structure that you need to initialize the game - a button, perhaps.
+1. Add event handlers to your JavaScript file that fires the necessary functions to run your game.
+1. Make sure you're also updating the DOM, so the end user can see the results of the game.
+1. Using CSS, make your app look nice!
 
 ## Stretch Goals
 
-ADD STRETCH GOALS
+Continue to work with the app, either alone (as homework) or in the group, to add even more functionality. Need ideas? Ask an instructor.
 
-## Reflect: Self-assesment
+## Reflect: Self-Assessment
 
 How’d you do? Go back to the "Objectives" section. Go through each one and ask yourself:
 
@@ -366,9 +360,6 @@ If you haven't completed an objective, or you can't define a term, take a few mi
 
 What new questions do you have now that you've gone through this exercise?
 
-
 ## Further Reading
 
-ADD FURTHER READINGS
-
-http://callmenick.com/post/basics-javascript-dom-manipulation
+- [The Basics of JavaScript DOM Manipulation](http://callmenick.com/post/basics-javascript-dom-manipulation)

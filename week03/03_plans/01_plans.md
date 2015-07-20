@@ -29,7 +29,7 @@
 
 ## 10am - CSS Layout
 
-- [Learn CSS Layout](http://learnlayout.com/) - **Make sure you understand the difference between display block, inline, inline-block and float.
+- [Learn CSS Layout](http://learnlayout.com/) - **Make sure you understand the difference between display block, inline, inline-block and float.**
 - [Absolute, Relative, Fixed Positioning: How Do They Differ?](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)
 - [Display and positioning cheatsheet](https://github.com/gSchool/g11-course-curriculum/blob/master/week03/03_lectures/css-display-and-positioning.md)
 - [All About Floats](https://css-tricks.com/all-about-floats/)

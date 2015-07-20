@@ -13,9 +13,12 @@ By the end of this lesson you should be able to:
 
 - ADD EVAN'S OBJECTIVES
 
-### Terminology
+### Key terms
 
-ADD terminology
+1. DOM Traversal
+1. DOM Manipulation
+1. DOM Events
+1. Event Handling
 
 ## Setup
 
@@ -259,9 +262,9 @@ With the JavaScript Console open, follow these steps:
 
 Events are paramount to any web application. With events, we can define actions to take place based on something (the event) that happens. For example, let's say your HTML document has a button that when clicked (the event) an alert informs the user of something. Thus, you can add listeners to, well, listen for events to occur and then have something happen when the event fires.
 
-**What are some events?**
+#### Common Events
 
-Read about the different DOM events [here](http://www.w3schools.com/jsref/dom_obj_event.asp), taking note of the most common:
+Read about the different DOM events [here](http://www.w3schools.com/jsref/dom_obj_event.asp), taking note of the most commonly used:
 
 Mouse events:
 
@@ -285,7 +288,9 @@ Form events:
 - `submit`
 - `reset`
 
+**Think about scenarios where you'd use each one.**
 
+#### Event Handling
 
 
 
@@ -305,13 +310,35 @@ ADD ACTIVITIES
 
 ADD ACTIVITIES
 
-## Conclusion
-
-How’d you do? Look back at the objectives and rate yourself 1 through 4 for each objective. If you rate yourself a 2 or below, please notify an instructor for additional help. What new questions do you have now that you’ve done this?
-
 ## Stretch Goals
 
 ADD STRETCH GOALS
+
+## Reflect: Self-asses
+
+How’d you do? Go back to the "Objectives" section. Go through each one and ask yourself:
+
+- Have I completed this objective?
+- What concrete evidence do I have that I've completed the objective?
+
+Rate yourself 1 through 4 for each objective in terms of competence (4 being the highest). If you rate yourself a 2 or below, please notify an instructor for additional help.
+
+Go to the "Key Terms" section.  For each term, ask yourself:
+
+- What is my explanation for this term?
+
+If you haven't completed an objective, or you can't define a term, take a few minutes to try to fill in any gaps.
+
+## Reflect: Ask new questions
+
+What new questions do you have now that you've gone through this exercise?
+
+List at least 4 here:
+
+1.
+1.
+1.
+1.
 
 ## Further Reading
 

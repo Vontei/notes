@@ -11,7 +11,19 @@ Let's look at the basics of using *vanilla* JavaScript to manipulate the DOM...
 
 By the end of this lesson you should be able to:
 
-- ADD EVAN'S OBJECTIVES
+- describe javascript’s role in manipulating the DOM
+- explain that HTML attributes are default (initial) values for DOM properties
+- explain that DOM properties can be altered after initial page load
+- explain that the DOM provides a way for programs to change the structure, style, and content on a page dynamically
+- explain the difference between a text node and an element
+- find an element by id, tagname, classname, and more advanced CSS selectors
+- set an element’s innerHTML and text
+- construct and add simple elements to the DOM
+- remove elements from the dom
+- detach and reattach DOM elements
+- access properties of DOM elements such as text, html, value
+- create and access data-attributes on elements
+- add syntactically valid event listeners using named and anonymous functions
 
 ### Key terms
 
@@ -84,7 +96,7 @@ Open the JavaScript console in Chrome. **What do you see?**
 
 **What does this give us?**
 
-Since we are assigning the [DOM node](http://www.w3schools.com/jsref/dom_obj_all.asp) - `<p id="main">Just a paragraph...</p>` - to a variable, we now have a reference to it. With the node in hand, we can now its content (tags, attributes, inner text - **what are these?**), manipulate/change any part of it (attributes, inner text, etc.), move it, or remove the node altogether. JavaScript gives us this power!
+Since we are assigning the [DOM node](http://www.w3schools.com/jsref/dom_obj_all.asp) - `<p id="main">Just a paragraph...</p>` - to a variable, we now have a reference to it. With the node in hand, we can now its content (tags, attributes, inner text - **what are these?**), manipulate/change any part of it (attributes, inner text, etc.) after the page load, move it, or remove the node altogether. JavaScript gives us this power!
 
 Any node within the [document](http://www.w3schools.com/js/js_htmldom_document.asp), the root node, can be accessed via JavaScript. **What if we wanted to target (or access) the list?**
 
@@ -219,7 +231,7 @@ getSingleElement.insertBefore(anotherListElement, getSingleElement.firstChild);
 console.log(allListItems);
 ```
 
-Make sense? Prepend another element. Once done, show an instructor.
+Make sense? Prepend another element. Try removing an element with `removeChild()`. Once done, show an instructor.
 
 #### Traversing the DOM
 
@@ -238,7 +250,7 @@ Now, go back and experiment with each first in the console before you update the
 
 ### Manipulation
 
-Moving on from accessing nodes and traversing the DOM, let's look at manipulating elements. First off, each node can be manipulated via its properties.
+Moving on from accessing nodes and traversing the DOM, let's look at manipulating elements. First off, each node can be manipulated via its properties/HTML attributes.
 
 Add the following code to the *main.js* file:
 

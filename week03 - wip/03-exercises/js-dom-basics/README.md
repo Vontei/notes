@@ -13,6 +13,10 @@ By the end of this lesson you should be able to:
 
 - ADD EVAN'S OBJECTIVES
 
+### Terminology
+
+ADD terminology
+
 ## Setup
 
 1. Create a new local project directory called "js-dom-basics".
@@ -253,6 +257,38 @@ With the JavaScript Console open, follow these steps:
 
 ### Events
 
+Events are paramount to any web application. With events, we can define actions to take place based on something (the event) that happens. For example, let's say your HTML document has a button that when clicked (the event) an alert informs the user of something. Thus, you can add listeners to, well, listen for events to occur and then have something happen when the event fires.
+
+**What are some events?**
+
+Read about the different DOM events [here](http://www.w3schools.com/jsref/dom_obj_event.asp), taking note of the most common:
+
+Mouse events:
+
+- `mousedown`
+- `mouseup`
+- `click`
+- `mouseover`
+- `mouseout`
+- `mousemove`
+
+Keyboard events:
+
+- `keypress`
+- `keydown`
+- `keyup`
+
+Form events:
+
+- `select`
+- `change`
+- `submit`
+- `reset`
+
+
+
+
+
 ## Actives
 
 Now, you're on your own. Have some fun!
@@ -280,3 +316,5 @@ ADD STRETCH GOALS
 ## Further Reading
 
 ADD FURTHER READINGS
+
+http://callmenick.com/post/basics-javascript-dom-manipulation

@@ -2,6 +2,14 @@
 
 Let's look at the basics of using *vanilla* JavaScript to manipulate the DOM...
 
+1. [Overview](js-dom-basics#overview)
+1. [Setup](js-dom-basics#setup)
+1. [Discussion](js-dom-basics#discussion)
+1. [Activity](js-dom-basics#activity)
+1. [Stretch Goals](js-dom-basics#stretch-goals)
+1. [Reflect](js-dom-basics#reflect)
+1. [Further Reading](js-dom-basics#further-reading)
+
 ## Overview
 
 - Be sure to figure out the "what" and "why" by reading through the sections slowly, really trying to answer *each* question before looking at the solution.
@@ -354,7 +362,9 @@ Time to put some of that newfound knowledge into practice. Remember the card gam
 
 Continue to work with the app, either alone (as homework) or in the group, to add even more functionality. Need ideas? Ask an instructor.
 
-## Reflect: Self-Assessment
+## Reflect
+
+### Self-Assessment
 
 How’d you do? Go back to the "Objectives" section. Go through each one and ask yourself:
 
@@ -369,7 +379,7 @@ Go to the "Key Terms" section.  For each term, ask yourself:
 
 If you haven't completed an objective, or you can't define a term, take a few minutes to try to fill in any gaps.
 
-## Reflect: Ask new questions
+### Ask new questions
 
 What new questions do you have now that you've gone through this exercise?
 

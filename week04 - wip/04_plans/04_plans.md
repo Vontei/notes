@@ -1,4 +1,4 @@
-# Week 3, Day 2
+# Week 4, Day 4
 
 ## Today's Goals
 
@@ -10,18 +10,12 @@
 
 ## 9:30 - Lecture
 
-- DOM Redux
-
 ## 12pm Lunch
 
 Food.
 
-## 1pm CSS Architecture
-
-https://smacss.com/book
-
-## 3pm Code!
+## 1pm Code!
 
 ## Exercises/Homework
 
-- Tip Calc
+- Fill out ZPD

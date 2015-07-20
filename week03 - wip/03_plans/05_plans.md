@@ -14,7 +14,8 @@ Bootstrap
 
 ## 12pm Lunch
 
-Food.
+- Food.
+- Zach and Reyna and Mike: Ruby for JS Devolopers, Node/Express/Mongo app, Weekly schedule
 
 ## 1pm Code!
 
@@ -22,3 +23,4 @@ Food.
 
 - Bootstrap problem/responsiveness
 - Javascript problem
+- Fill out ZPD

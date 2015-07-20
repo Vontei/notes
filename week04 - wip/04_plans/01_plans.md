@@ -1,4 +1,4 @@
-# Week 3, Day 3
+# Week 4, Day 1
 
 ## Today's Goals
 
@@ -8,7 +8,7 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - CSS Centering
+## 9:30 - Lecture
 
 ## 12pm Lunch
 
@@ -18,5 +18,4 @@ Food.
 
 ## Exercises/Homework
 
-- HTML/CSS Problem
-- Tip Calculator
+- Fill out ZPD

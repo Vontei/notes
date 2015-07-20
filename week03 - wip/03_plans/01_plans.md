@@ -23,8 +23,9 @@
 
 - This Week - CSS (Layout, Architecture, Centering, Responsive Design), Bootstrap, the DOM Redux, and more JavaScript!
 - Homework Update
+- Structured weeks vs. Unstructed weeks - why?
 - [Sublime Text 3 Setup](http://mherman.org/blog/2015/02/05/sublime-text-for-web-developers/#.Vawuq5NViko) - tweet!
-- G11 Course Curriculum Repo
+- G11 Course Curriculum Repo - LMS
 
 ## 10am - CSS Layout
 
@@ -52,3 +53,4 @@ Food. Eat.
 - [JavaScript Deck of Cards](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/js-deck-of-cards)
 - [Building a Grid System with CSS](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/css-grid-system)
 - Read [Chapter 12](http://eloquentjavascript.net/12_browser.html) and [Chapter 13](http://eloquentjavascript.net/13_dom.html) in Eloquent JS and complete all exercises
+- Fill out ZPD

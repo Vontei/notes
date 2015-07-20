@@ -2,13 +2,13 @@
 
 Let's look at the basics of using *vanilla* JavaScript to manipulate the DOM...
 
-1. [Overview](js-dom-basics#overview)
-1. [Setup](js-dom-basics#setup)
-1. [Discussion](js-dom-basics#discussion)
-1. [Activity](js-dom-basics#activity)
-1. [Stretch Goals](js-dom-basics#stretch-goals)
-1. [Reflect](js-dom-basics#reflect)
-1. [Further Reading](js-dom-basics#further-reading)
+1. [Overview](#overview)
+1. [Setup](#setup)
+1. [Discussion](#discussion)
+1. [Activity](#activity)
+1. [Stretch Goals](#stretch-goals)
+1. [Reflect](#reflect)
+1. [Further Reading](#further-reading)
 
 ## Overview
 

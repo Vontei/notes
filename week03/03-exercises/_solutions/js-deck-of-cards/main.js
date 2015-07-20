@@ -4,7 +4,22 @@ showCards.onclick = function(){
   var cardContainer = document.getElementById('container');
   cardContainer.innerHTML = "";
   displayCards();
+  // check if reset button exists in dom
+  if (document.getElementById("clearCards") == null) {
+    createReset();
+  }
 };
+
+function createReset(){
+  var reset = document.createElement('button');
+  reset.innerHTML = 'Reset!';
+  reset.setAttribute("id", "clearCards");
+  reset.onclick = function() {
+    document.getElementById('container').innerHTML = "";
+    reset.parentNode.removeChild(reset);
+  }
+  document.body.appendChild(reset);
+}
 
 function displayCards(){
   var deck = newDeck();

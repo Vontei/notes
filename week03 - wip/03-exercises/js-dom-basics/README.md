@@ -340,7 +340,7 @@ Test it out!
 
 Try adding individual listeners to each list element so that when you click the `li`'s text, outputs the text via an `alert()`. Take a look at some of the other events from above, test some of them out.
 
-## Actives
+## Activity
 
 Time to put some of that newfound knowledge into practice. Remember the card game app from last week? Well, it's time to bring life to it via the power of JavaScript!
 

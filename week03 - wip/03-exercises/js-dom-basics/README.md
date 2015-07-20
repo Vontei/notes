@@ -329,6 +329,7 @@ button.onclick = buttonClick;
 
 Here, on the button click we're logging the text "You just clicked the button!" to the console. You can also write the code in a more concise manner using a nameless, or anonymous, function:
 
+```javascript
 // all in one - target, event handler
 document.getElementById("main-button").addEventListener("click", function(event){
   console.log('You just clicked the button!');

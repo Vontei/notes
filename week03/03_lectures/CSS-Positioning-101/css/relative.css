@@ -1,0 +1,23 @@
+.red_box {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background: #ee3e64;
+  left: 200px;  /* doesn't work */
+}
+
+.blue_box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #44accf;
+  left: 200px;  /* this moves box_2 because it is relativly positioned */
+}
+
+.green_box {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background: #b7d84b;
+  left: 200px;  /* doesn't work */
+}

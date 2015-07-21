@@ -26,6 +26,8 @@ Food.
 
 ## 3pm CSS Positioning Exercise
 
+- [CSS Positioning Primer](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03_exercises/css-positioning-primer)
+
 ## Exercises/Homework
 
 - Read: [4 ways to create CSS that's modular and scalable](http://www.creativebloq.com/css3/create-modular-and-scalable-css-9134351)

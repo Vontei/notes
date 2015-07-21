@@ -8,13 +8,22 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - CSS Centering
+- Quick check-in
+- Robbie Racer!
+
+## 9:30 - CSS Architecture (with Zach!)
+
+- [Front end Legos](https://vimeo.com/70115794)
 
 ## 12pm Lunch
 
 Food.
 
 ## 1pm Code!
+
+- DOM
+
+## 3pm Dom - Check for understanding
 
 ## Exercises/Homework
 

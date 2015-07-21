@@ -30,9 +30,7 @@ Food.
 
 ## Exercises/Homework
 
+- Read: [4 ways to create CSS that's modular and scalable](http://www.creativebloq.com/css3/create-modular-and-scalable-css-9134351)
 - Finish outstanding exercises!
+- Stretch - read: [Scalable and Modular Architecture for CSS](https://smacss.com/book)
 - Fill out ZPD
-
-
-
-

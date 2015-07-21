@@ -147,7 +147,7 @@ The first example outputs the *entire* collection while the second example outpu
 **Can you guess what the following code will do?**
 
 ```javascript
-allListItems = unorderedList.getElementsByTagName('li');
+allListItems = document.getElementsByTagName('li');
 ```
 
 Test it out. Assign it to a variable called `allListItems`, and then log the variable to the console. If all went well, you should see a collection that contains *all* `li`s.

@@ -1,0 +1,9 @@
+select[multiple].all-prices {
+  height: 25em;
+  width: 100%;
+}
+
+.all-names {
+  width: 100%;
+  height: 29em;
+}

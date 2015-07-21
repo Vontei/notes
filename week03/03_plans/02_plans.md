@@ -22,9 +22,7 @@ Food.
 
 ## 1pm JavaScript and the DOM!
 
-- Learning to learn?
-- Activity
-- [JavaScript and the DOM - a primer](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03_exercises/js-dom-basics)
+- [JavaScript and the DOM - a primer](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03_exercises/js-dom-basics) (activity will be done tomorrow)
 
 ## 3pm CSS Positioning Exercise
 

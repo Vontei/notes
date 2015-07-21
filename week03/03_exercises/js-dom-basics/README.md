@@ -249,14 +249,14 @@ Make sense? Prepend another element. Try removing an element with `removeChild()
 
 In the last section, you were introduced to DOM traversal, which is simply the action of traveling up and down through the DOM in order to target a specific Node.
 
-Read about traversing the DOM [here](http://javascript.info/tutorial/traversing-dom). Once done, make sure you understand, conceptually, what the following methods do:
+Read about traversing the DOM [here](http://javascript.info/tutorial/traversing-dom). Once done, make sure you understand, conceptually, what the following properties do:
 
-1. `childNodes()` - targets all child nodes, returning a collection
-1. `firstChild()` - targets the first child node
-1. `lastChild()` - targets the last child node
-1. `parentNode()` - targets the parent node from the current node
-1. `nextSibling()` - targets the next node at the same level as the current node
-1. `previousSibling()` - targets the previous node at the same level as the current node
+1. `childNodes` - targets all child nodes, returning a collection
+1. `firstChild` - targets the first child node
+1. `lastChild` - targets the last child node
+1. `parentNode` - targets the parent node from the current node
+1. `nextSibling` - targets the next node at the same level as the current node
+1. `previousSibling` - targets the previous node at the same level as the current node
 
 Now, go back and experiment with each first in the console before you update the *main.js* file.
 

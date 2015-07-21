@@ -1,0 +1,69 @@
+/*Your code here*/
+.row {
+  margin: 50px;
+  border: 1px dashed black;
+  height: 50px;
+}
+
+.row:nth-child(2) {
+  height: 300px;
+}
+
+.row p {
+  margin: 0px;
+  float: none;
+}
+
+.col-4, .col-8, .col-1 {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.row .row {
+  margin: 0;
+  display: inline-block;
+  width: 95%;
+  height: 50px;
+  overflow: auto;
+}
+
+.col-4 {
+  width: 30%;
+  height: 50%;
+  float: left;
+  margin: 15px;
+}
+
+.col-8 {
+  width: 65%;
+  float: right;
+  height: 80%;
+  margin: 15px;
+}
+
+.col-1 {
+  width: 7%;
+  display: inline-block;
+  height: 20px;
+}
+
+/* third section */
+.row:nth-child(3) {
+  height: 200px;
+}
+
+.col-6 {
+  border: 1px solid black;
+  width: 48%;
+  text-align: center;
+  height: 70%;
+  margin: 15px;
+}
+
+.col-6:first-child {
+  float: left;
+}
+
+.col-6:nth-child(2) {
+  float: right;
+}

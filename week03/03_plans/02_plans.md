@@ -4,32 +4,35 @@
 
 ## 9am Standup
 
-- Events, Helps, Happenings
+- Events, Helps, Happenings - you know the drill
 
 ## 9:15am Warm-up
 
-upstream
+Pseudocode 101
 
-## 9:30 - Lecture
+## 10am - Pairing or Stretch
 
-- https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/js-dom-basics
+- Check-in
+- Finish JS Deck of Cards Problem in Pairs
+- Done? Work with Mike on a Shuffle + Chunk problem.
 
 ## 12pm Lunch
 
 Food.
 
-## 1pm CSS Architecture
+## 1pm JavaScript and the DOM!
 
-https://smacss.com/book
+- Learning to learn?
+- Activity
+- [JavaScript and the DOM - a primer](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03_exercises/js-dom-basics)
 
-## 3pm Code!
+## 3pm CSS Positioning Exercise
 
 ## Exercises/Homework
 
-- Tip Calc
+- Finish outstanding exercises!
 - Fill out ZPD
 
-- Ask the students “hey, what was the first step in that learn-to-learn process?” and pull from them
-- While your machine is on the TVs, close out a bunch of stuff, ask a student to read you the first part of the instructions - maybe starting with the first “find” objective
-- Sort of demo going through the doc for that first story, and model “reflecting” back to see if you achieved that objective.  Intentionally leave something out, and ask them how you’ve done...
-- Group Shuffle
+
+
+

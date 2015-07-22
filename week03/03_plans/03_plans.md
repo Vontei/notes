@@ -9,11 +9,13 @@
 ## 9:15am Warm-up
 
 - Type (err, Robbie) Racer!
+- Refactor DOM Exercise
 
 ## 9:30 - CSS Architecture
 
-- Lecture with Zach
 - [Front end Legos](https://vimeo.com/70115794) ~ 30 mins.
+- Group Project - review css lego video
+- Exercise with Zach
 
 ## 12pm Lunch
 
@@ -21,12 +23,11 @@ Food. All of it.
 
 ## 1pm Code!
 
-- TBD
-- HTML/CSS Problem
-- Tip Calculator
+- TBD (JS problem, html css problem)
 
 ## 3pm Dom Review!
 
 ## Exercises/Homework
 
+- TBD
 - Fill out ZPD

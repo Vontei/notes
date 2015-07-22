@@ -15,15 +15,16 @@
 
 - [Front end Legos](https://vimeo.com/70115794) ~ 30 mins.
 - Group Project - review css lego video
-- https://gist.github.com/zbunde/0f186508a1faab37c07d
+- [Modular CSS](https://gist.github.com/zbunde/0f186508a1faab37c07d)
 
 ## 12pm Lunch
 
-Food. All of it.
+Food. Eat. All of it.
 
 ## 1pm Code!
 
-- TBD (JS problem, html css problem)
+- Check in
+- TBD (JS problem, html/css problem)
 
 ## 3pm Dom Review!
 

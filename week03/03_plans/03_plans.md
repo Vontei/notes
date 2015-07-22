@@ -8,12 +8,12 @@
 
 ## 9:15am Warm-up
 
-- Quick check-in
-- Robbie Racer!
+- Type (err, Robbie) Racer!
 
-## 9:30 - CSS Architecture (with Zach!)
+## 9:30 - CSS Architecture
 
-- [Front end Legos](https://vimeo.com/70115794)
+- Lecture with Zach
+- [Front end Legos](https://vimeo.com/70115794) ~ 30 mins.
 
 ## 12pm Lunch
 
@@ -21,12 +21,11 @@ Food.
 
 ## 1pm Code!
 
-- DOM
+- HTML/CSS Problem
+- Tip Calculator
 
-## 3pm Dom - Check for understanding
+## 3pm Dom - Review
 
 ## Exercises/Homework
 
-- HTML/CSS Problem
-- Tip Calculator
 - Fill out ZPD

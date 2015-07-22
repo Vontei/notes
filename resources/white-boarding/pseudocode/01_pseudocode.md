@@ -16,4 +16,4 @@ console.log(checkIfNumber("5"));
 1. Turn the pseudocode into comments.
 
 
-![]()
+[IMAGE](/images/isNumber.jpg)

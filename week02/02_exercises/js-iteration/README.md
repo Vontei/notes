@@ -1,4 +1,4 @@
-# Working with `while` and `for` loops
+# JavaScript Iteration and the DOM
 
 There's a common pattern with iteration where you:
 
@@ -25,9 +25,9 @@ By the end of the exercise you should have 1 event listener per button in `js/do
 
 ### `js/logic.js`
 
-In `js/logic.js` write only pure functions: functions that take inputs, make calculations and return a result.  An example of a pure function is:
+In `js/logic.js` write only [pure functions](http://www.sitepoint.com/functional-programming-pure-functions/): functions that take inputs, make calculations and return a result.  An example of a pure function is:
 
-```js
+```javascript
 var biggest = function (a, b) {
   if (a > b) {
     return a;
@@ -49,7 +49,7 @@ In `js/dom.js` write all of your code that will work with the DOM.  For example:
 
 **(bug) HTML Is Invalid**
 
-- On the index page, the HTML is invalid.  Find and fix it.
+- On the index page, the HTML is invalid.  Find the issues and fix it.
 
 **Prices (use `while` loops here)**
 
@@ -64,14 +64,14 @@ As part of this exercise, you'll need to append multiple DOM elements.
 
 Here's an example of how to add an `li` to a `ul`:
 
-```js
+```javascript
 var ul = document.querySelector('#my-ul');
 var li = document.createElement('li');
 li.innerHTML = "Hello";
 ul.body.appendChild(li);
 ```
 
-For this exercise, in `js/dom.js` you should find the textarea and get its `textContent`, then pass this string to functions in `js/logic.js`.
+For this exercise, in `js/dom.js` you should find the `textarea` and get its `textContent`, then pass this string to functions in `js/logic.js`.
 
 In `js/logic.js`, you should write functions that take in strings, and return arrays.
 

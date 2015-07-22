@@ -7,6 +7,6 @@ Hints for the first problem:
     - has one parameter named `options`
     - returns the calculated sum of all of the values of all of the options passed in
 
-NOTE: use a `for` loop to make this happen.
+NOTE: use a loop to make this happen.
 
 */

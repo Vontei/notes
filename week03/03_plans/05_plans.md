@@ -19,6 +19,10 @@ Bootstrap
 
 ## 1pm Code!
 
+## 4:30pm Lightining Talks
+
+- Dom, Pete, Charlie, Zoe
+
 ## Exercises/Homework
 
 - Bootstrap problem/responsiveness

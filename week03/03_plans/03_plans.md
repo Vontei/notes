@@ -17,14 +17,15 @@
 
 ## 12pm Lunch
 
-Food.
+Food. All of it.
 
 ## 1pm Code!
 
+- TBD
 - HTML/CSS Problem
 - Tip Calculator
 
-## 3pm Dom - Review
+## 3pm Dom Review!
 
 ## Exercises/Homework
 

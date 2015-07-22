@@ -1,1 +1,1 @@
-![]()
+![IMAGE](/images/cupoftea.jpg)

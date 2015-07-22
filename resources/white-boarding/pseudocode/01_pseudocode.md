@@ -16,4 +16,4 @@ console.log(checkIfNumber("5"));
 1. Turn the pseudocode into comments.
 
 
-[IMAGE](/images/isNumber.jpg)
+![IMAGE](https://github.com/gSchool/g11-course-curriculum/blob/master/resources/white-boarding/pseudocode/images/isNumber.jpg)

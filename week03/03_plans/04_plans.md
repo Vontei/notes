@@ -8,6 +8,10 @@
 
 ## 9:15am Warm-up
 
+- Code Review with Pete and Patrick (dom, modularity, refactoring, functions)
+- Eloquent JS Chp 13
+- JS Iteration Review
+
 ## 9:30 - Responsive Design
 
 ## 12pm Lunch

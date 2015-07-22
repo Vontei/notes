@@ -8,6 +8,8 @@
 
 ## 9:15am Warm-up
 
+- import this
+
 ## 9:30 - Lecture
 
 Bootstrap

@@ -24,11 +24,9 @@ Food. Eat. All of it.
 ## 1pm Code!
 
 - Check in
-- TBD (JS problem, html/css problem)
 
 ## 3pm Dom Review!
 
 ## Exercises/Homework
 
-- TBD
 - Fill out ZPD

@@ -2,6 +2,9 @@
 
 ## Today's Goals
 
+- review: dom, modularity, refactoring, functions
+- learn good css design practices
+
 ## 9am Standup
 
 - Events, Helps, Happenings

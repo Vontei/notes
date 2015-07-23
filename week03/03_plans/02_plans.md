@@ -2,6 +2,27 @@
 
 ## Today's Goals
 
+- JavaScript
+  - describe javascript’s role in manipulating the DOM
+  - explain that HTML attributes are default (initial) values for DOM properties
+  - explain that DOM properties can be altered after initial page load
+  - explain that the DOM provides a way for programs to change the structure, style, and content on a page dynamically
+  - explain the difference between a text node and an element
+  - find an element by id, tagname, classname, and more advanced CSS selectors
+  - set an element’s innerHTML and text
+  - construct and add simple elements to the DOM
+  - remove elements from the dom
+  - detach and reattach DOM elements
+  - access properties of DOM elements such as text, html, value
+  - create and access data-attributes on elements
+  - add syntactically valid event listeners using named and anonymous functions
+- CSS
+  - list and describe the characteristics of the different positions - absolute, static etc…
+  - list and describe the characteristics of floats
+  - list and describe the various display properties - none, block, inline-block etc…
+  - describe the difference between inline and block elements
+  - correctly identify which common HTML elements are inline, which are block
+
 ## 9am Standup
 
 - Events, Helps, Happenings - you know the drill

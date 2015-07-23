@@ -14,14 +14,13 @@
 
 ## Unit 3
 
-* HTML
-* CSS
+* HTML/CSS
 * DOM Manipulation Redux
+* Advanced Javascript
 * Responsive Design
 
 ## Unit 4
 
-* Advanced Javascript
 * Object Oriented Programming
 * DOM manipulations with jQuery
 * AJAX

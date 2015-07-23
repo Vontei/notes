@@ -24,9 +24,15 @@ Bootstrap
 
 - Dom, Pete, Charlie, Ashley
 
+## 4:15 End of Day
+
+- jQuery intro/dom creation
+- jQuery events
+- oop intro
+- opp inheritence
+
 ## Exercises/Homework
 
 - Bootstrap problem/responsiveness
 - Javascript problem
 - Fill out ZPD
-https://github.com/gSchool/css-exercises

@@ -31,6 +31,6 @@ Food.
 
 ## Exercises/Homework
 
-- TBD
 - Fill out ZPD
+- [CSS Exercises](https://github.com/gSchool/css-exercises)
 - Read: [Getting Started with Bootstrap 3](https://realpython.com/blog/python/getting-started-with-bootstrap-3/)

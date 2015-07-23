@@ -17,13 +17,12 @@ Bootstrap
 ## 12pm Lunch
 
 - Food.
-- Zach and Reyna and Mike: Ruby for JS Devolopers, Node/Express/Mongo app, Weekly schedule
 
 ## 1pm Code!
 
 ## 4:30pm Lightining Talks
 
-- Dom, Pete, Charlie, Zoe
+- Dom, Pete, Charlie, Ashley
 
 ## Exercises/Homework
 

@@ -2,6 +2,9 @@
 
 ## Today's Goals
 
+- learn how to center html elements, vertically and horizontally
+- review: dom, modularity, refactoring, functions
+
 ## 9am Standup
 
 - Events, Helps, Happenings

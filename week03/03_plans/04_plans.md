@@ -19,6 +19,9 @@ Food.
 
 ## 1pm CSS Centering
 
+- [Notes](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03_lectures/css-centering)
+- [CSS Centering Guide](https://css-tricks.com/centering-css-complete-guide/)
+
 ## 2pm Project!
 
 ## 4pm Get Happy

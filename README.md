@@ -21,6 +21,7 @@ Each Weekly folder contains the following folders:
 1. Cheat Sheets:
   - [JavaScript](https://github.com/gSchool/g11-course-curriculum/blob/master/js-cheat-sheet.md)
   - [CSS - Display and Positioning](https://github.com/gSchool/g11-course-curriculum/blob/master/week03/03_lectures/css-display-and-positioning.md)
+  - [CSS Centering](https://github.com/gSchool/g11-course-curriculum/blob/master/week03/03_lectures/css-centering/css-centering.md)
 
 ## Additional Resources
 

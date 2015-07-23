@@ -26,10 +26,12 @@ Bootstrap
 
 ## 4:15 End of Day
 
-- jQuery intro/dom creation
-- jQuery events
-- oop intro
-- opp inheritence
+- Wrap-up
+- Next Week
+  - jQuery intro/dom creation
+  - jQuery events
+  - functional programming (pure vs impure functions)
+  - underscore
 
 ## Exercises/Homework
 

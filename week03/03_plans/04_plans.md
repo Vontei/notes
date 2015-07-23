@@ -9,23 +9,22 @@
 ## 9:15am Warm-up
 
 - Code Review with Pete and Patrick (dom, modularity, refactoring, functions)
-- Eloquent JS Chp 13
 - JS Iteration Review
 
-## 9:30 - Responsive Design
+## 10am - Project!
 
 ## 12pm Lunch
 
 Food.
 
-## 1pm Code!
+## 1pm CSS Centering
 
-## 3pm Present Tip Calculator
+## 2pm Project!
 
-## 4pm Meet and Greet
+## 4pm Get Happy
 
 ## Exercises/Homework
 
-- HTML/CSS Problem
+- TBD
 - Fill out ZPD
-- RP blog post
+- Read: [Getting Started with Bootstrap 3](https://realpython.com/blog/python/getting-started-with-bootstrap-3/)

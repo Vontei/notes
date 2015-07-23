@@ -2,6 +2,15 @@
 
 ## Today's Goals
 
+CSS
+  - Explain what CSS frameworks are and why they’re useful.
+  - List and describe at least 3 modern, common css frameworks
+  - Install a css framework 2 ways: CDN, and copying code locally to the project without a package manager.
+  - Describe that CSS frameworks provide pre-defined classes and selectors, and that you must write markup that matches the framework’s expectations.
+  - Describe the difference between reset.css and normalize.css and list the pros and cons of each.
+  - Style a web page using Bootstrap.
+  - Style a web page using a framework other than Bootstrap.
+
 ## 9am Standup
 
 - Events, Helps, Happenings
@@ -19,6 +28,10 @@ Bootstrap
 - Food.
 
 ## 1pm Code!
+
+- Get caught up
+
+## Game!
 
 ## 4:30pm Lightining Talks
 

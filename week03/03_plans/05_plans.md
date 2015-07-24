@@ -18,15 +18,18 @@ CSS
 
 ## 9:15am Warm-up
 
+- Updated Schedule
 - `import this`
 
 ## 9:30am Week in Review
+
+Teach the class!
 
 - CSS Display Properties
 - CSS Positioning Properties
 - CSS Centering
 - DOM Targeting and Traversal
-- DOM Event Handling
+- DOM Event Handling and Manipulation
 
 ## 11am Code!
 
@@ -47,7 +50,7 @@ CSS
 ## 4:30pm
 
 - Lightning Talks - Dom, Pete, Charlie, Ashley
-- Weekly Wrap-up
+- Weekly Wrap-up with Mike
 - Next Week
   - jQuery intro/dom creation
   - jQuery events

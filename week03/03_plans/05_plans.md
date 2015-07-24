@@ -62,7 +62,8 @@ Teach the class!
 - [Bootstrap problems](https://github.com/lewagon/bootstrap-challenges)
 - Finish all exercises.
 - Finished?
-  - Stretch 1: [Read](https://learn.jquery.com/events/) about, then [try](https://github.com/gSchool/jquery-practice-01) jQuery
+  - Stretch 1: [Tip Calculator](https://github.com/gSchool/tip-calculator-html-js)
   - Stretch 2: [Media Queries/Responsive Design](https://github.com/gSchool/media-query-css-exercise)
+  - Stretch 3: [Read](https://learn.jquery.com/events/) about, then [try](https://github.com/gSchool/jquery-practice-01) jQuery
 - Be here on Sat from 10am to 1pm!
 - Fill out ZPD

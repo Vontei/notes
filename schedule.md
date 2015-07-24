@@ -21,7 +21,7 @@
 
 ## Unit 4
 
-* Unit Testing
+* Unit Testing - jasmine
 * DOM manipulations with jQuery
 * Functional Programming
 

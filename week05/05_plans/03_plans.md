@@ -1,4 +1,4 @@
-# Week 4, Day 5
+# Week 5, Day 3
 
 ## Today's Goals
 
@@ -6,9 +6,7 @@
 
 - Events, Helps, Happenings
 
-## 9:15am Assesments
-
-## 10am Week in Review
+## 9:15am Warm-up
 
 ## 9:30 - Lecture
 

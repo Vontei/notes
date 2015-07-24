@@ -1,0 +1,18 @@
+p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 8px rgba(888, 88, 88, 0.5);
+  background-color: purple;
+}
+
+/* Your Code Goes Under This Line */

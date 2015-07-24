@@ -2,7 +2,7 @@
 
 ## Today's Goals
 
-Get caught up!
+- Get caught up!
 
 ## 9am Standup
 
@@ -10,15 +10,19 @@ Get caught up!
 
 ## 9:15am Warm-up
 
--
+- Refactoring 101
 
-## 9:30 - Lecture
+## 10am - Code!
 
 ## 12pm Lunch
 
-Food.
+Eat. Unless you already ate.
 
 ## 1pm Code!
+
+- Stretch: Testing with Jasmine Lecture
+
+## 3pm Pair Programming!
 
 ## Exercises/Homework
 

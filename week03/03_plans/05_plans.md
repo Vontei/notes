@@ -18,7 +18,7 @@ CSS
 
 ## 9:15am Warm-up
 
-- import this
+- `import this`
 
 ## 9:30am Assesments
 
@@ -44,7 +44,7 @@ CSS
 
 ## 2pm Code!
 
-## 3pm Career Prep
+## 3:30pm Career Prep
 
 ## 4:30pm
 
@@ -59,5 +59,5 @@ CSS
 ## Exercises/Homework
 
 - [Bootstrap problems](https://github.com/lewagon/bootstrap-challenges)
-- Finish all exercies. Finished? [Read](https://learn.jquery.com/events/), then [try](https://github.com/gSchool/jquery-practice-01) jQuery
+- Finish all exercises. Finished? [Read](https://learn.jquery.com/events/) about, then [try](https://github.com/gSchool/jquery-practice-01) jQuery
 - Fill out ZPD

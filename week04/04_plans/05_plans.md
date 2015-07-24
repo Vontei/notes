@@ -6,7 +6,7 @@ Functional Programming and Underscore
 
 ## 9am Standup
 
-- Events, Helps, Happenings
+- Events, Helps, Interestings
 
 ## 9:15am Assesments
 
@@ -19,6 +19,13 @@ Functional Programming and Underscore
 Food.
 
 ## 1pm Code!
+
+## 4:30pm
+
+- Next Week
+  - OOP
+  - APIs
+  - AJAX
 
 ## Exercises/Homework
 

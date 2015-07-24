@@ -6,7 +6,7 @@ Get caught up!
 
 ## 9am Standup
 
-- Events, Helps, Happenings
+- Events, Helps, Interestings
 
 ## 9:15am Warm-up
 

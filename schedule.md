@@ -14,10 +14,11 @@
 
 ## Unit 3
 
-* HTML/CSS
+* Intermediate HTML and CSS
 * DOM Manipulation Redux
 * Advanced Javascript
 * Responsive Design
+* CSS Frameworks
 
 ## Unit 4
 

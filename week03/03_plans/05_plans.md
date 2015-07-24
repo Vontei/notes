@@ -40,6 +40,8 @@ CSS
 
 ## 2pm Code!
 
+- Weekly 1-on-1s during coding
+
 ## 3:30pm Career Prep
 
 ## 4:30pm

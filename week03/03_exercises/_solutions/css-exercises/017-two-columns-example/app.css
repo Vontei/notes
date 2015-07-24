@@ -1,0 +1,130 @@
+body {
+  background: yellow;
+}
+
+img {
+  max-width: 50%;
+}
+
+p {
+
+}
+
+nav a {
+  display: block;
+}
+
+header {
+  background: green;
+}
+
+main {
+  background: red;
+}
+
+aside {
+  background: purple;
+}
+
+main, aside {
+  width: 50%;
+  float: left;
+}
+
+footer {
+  background: green;
+  clear: both;
+  min-height: 500px;
+  padding: 50px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+  font-family: sans-serif;
+}
+
+div {
+  height: 50px;
+  color: #7BBADE;
+  background: #222;
+  border-left: 1px solid white;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #93DE7F;
+  border-bottom: 1px solid #93DE7F;
+  padding: 5px;
+  background: #222;
+}
+
+/* Code Under This Line */
+
+.container {
+  clear: both;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.columns {
+  clear: both;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+}
+
+.two.columns .column, .column-two {
+  width: 50%;
+}
+
+.three.columns .column, .column-three {
+  width: 33.33333%;
+}
+
+.four.columns .column, .column.column-four {
+  width: 25%;
+}
+
+.five.columns .column {
+  width: 20%;
+}
+
+.six.columns .column {
+  width: 16.666666666666668%;
+}
+
+.seven.columns .column {
+  width: 14.285714285714286%;
+}
+
+.eight.columns .column {
+  width: 12.5%;
+}
+
+.nine.columns .column {
+  width: 11.11111111111111%;
+}
+
+.ten.columns .column {
+  width: 10%;
+}
+
+.eleven.columns .column {
+  width: 9.090909090909092%;
+}
+
+.twelve.columns .column {
+  width: 8.333333333333334%;
+}

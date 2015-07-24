@@ -2,7 +2,8 @@
 
 ## Today's Goals
 
-Intro to jQuery
+- Intro to jQuery
+- `this`
 
 ## 9am Standup
 

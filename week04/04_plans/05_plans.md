@@ -25,7 +25,7 @@ Food.
 - Next Week
   - OOP
   - APIs
-  - AJAX
+  - AJAX and HTML Form Submission
 
 ## Exercises/Homework
 

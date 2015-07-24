@@ -10,6 +10,8 @@ Get caught up!
 
 ## 9:15am Warm-up
 
+-
+
 ## 9:30 - Lecture
 
 ## 12pm Lunch

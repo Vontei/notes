@@ -21,63 +21,67 @@
 
 ## Unit 4
 
-* Object Oriented Programming
+* Unit Testing
 * DOM manipulations with jQuery
-* AJAX
-* APIs
-* HTTP and Internet Basics
-* Linked Lists
-* Testing
-* Sorting Algorithms
+* Functional Programming
 
 ## Unit 5
 
-* React
-* JS Research Project
+* Object Oriented Programming
+* AJAX
+* APIs
+* HTTP and Internet Basics
 
 ## Unit 6
+
+* Rapid web development Workflow
+* Front-end Project
+
+# Tentative
+
+## Unit 7
 
 * Node
 * NPM, Servers, Express
 * RESTful Routing
 
-## Unit 7
+## Unit 8
 
 * CRUD with Express
 * Databases
 * MongoDB
-* Mongoose
-
-## Unit 8
-
-* Advanced Express Apps
-* Single Page Apps
-* Scraping
-* Trees
+* Mongoose/Monk
 
 ## Unit 9
 
-* Full Stack JS Project
+* Advanced Express Apps
+* Single Page Apps
+* Web Scraping
+* Trees, Linked Lists, Sorting Algorithms
 
 ## Unit 10
+
+* Full Stack JS Project
+
+## Unit 11
 
 * Ruby Basics
 * Rspec
 
-## Unit 11
+## Unit 12
 
 * Introduction to Rails
 * Rails Actionpack
 * MVC fundamentals
 * SQL Databases
 
-## Unit 12
+## Unit 13
 
 * Advanced SQL Queries
 * Model Associations
 * Validations
 
-## Unit 13
+## Unit 14
 
 * Advanced Rails
 * User Authentication
@@ -85,34 +89,30 @@
 * Mailers
 * Rake Tasks
 
-## Unit 14
+## Unit 15
 
 * Midterm Pair Rails Project
 
-## Unit 15
+## Unit 16
 
 * Midterm Pair Rails Project Continued
 
-## Unit 16
+## Unit 17
 
 * Angular Introduction
 * Built-In Directives
 * Controllers
 * Custom Directives
 
-## Unit 17
+## Unit 18
 
 * Advanced Angular
 * Angular + Rails
 * Angular + Express
 
-## Unit 18
-
-* TBA
-
 ## Unit 19
 
-* TBA Continued
+* TBA
 
 ## Unit 20
 

@@ -3,6 +3,7 @@
 ## Today's Goals
 
 CSS
+
   - Explain what CSS frameworks are and why they’re useful.
   - List and describe at least 3 modern, common css frameworks
   - Install a css framework 2 ways: CDN, and copying code locally to the project without a package manager.
@@ -19,27 +20,36 @@ CSS
 
 - import this
 
-## 9:30 - Lecture
+## 9:30am Assesments
 
-Bootstrap
+- CSS Assessment
+
+## 10am Week in Review
+
+- CSS Display Properties
+- CSS Positioning Properties
+- CSS Centering
+- DOM Targeting and Traversal
+- DOM Event Handling
+
+## 11am Code!
 
 ## 12pm Lunch
 
 - Food.
 
-## 1pm Code!
+## 1pm Bootstrap
 
-- Get caught up
+- With Reyna!
 
-## Game!
+## 2pm Code!
 
-## 4:30pm Lightining Talks
+## 3pm Career Prep
 
-- Dom, Pete, Charlie, Ashley
+## 4:30pm
 
-## 4:15 End of Day
-
-- Wrap-up
+- Lightning Talks Dom, Pete, Charlie, Ashley
+- Weekly Wrap-up
 - Next Week
   - jQuery intro/dom creation
   - jQuery events
@@ -48,6 +58,6 @@ Bootstrap
 
 ## Exercises/Homework
 
-- Bootstrap problem/responsiveness
-- Javascript problem
+- [Bootstrap problems](https://github.com/lewagon/bootstrap-challenges)
+- Finish all exercies. Finished? [Read](https://learn.jquery.com/events/), then [try](https://github.com/gSchool/jquery-practice-01) jQuery
 - Fill out ZPD

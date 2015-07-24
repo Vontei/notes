@@ -1,3 +1,10 @@
+/*
+Absolutely positioned elements do not follow the normal flow.
+Instead they stack over one another along the z-axis if their positioning is such that an overlap might occur.
+This is because absolute positioning puts the element absolutely in the specified area.
+Think of absolute like velcrow. Where ever you specifiy the element should stick it will stick.
+*/
+
 .red_box {
   position: absolute;
   top: 0;

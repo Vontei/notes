@@ -44,7 +44,7 @@ CSS
 
 ## 4:30pm
 
-- Lightning Talks Dom, Pete, Charlie, Ashley
+- Lightning Talks - Dom, Pete, Charlie, Ashley
 - Weekly Wrap-up
 - Next Week
   - jQuery intro/dom creation

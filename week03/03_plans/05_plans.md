@@ -20,11 +20,7 @@ CSS
 
 - `import this`
 
-## 9:30am Assesments
-
-- CSS Assessment
-
-## 10am Week in Review
+## 9:30am Week in Review
 
 - CSS Display Properties
 - CSS Positioning Properties

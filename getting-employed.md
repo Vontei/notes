@@ -15,8 +15,6 @@
 *  Join 10 computer programming groups
 *  Send out 5 to 25 requests connect per day to relevant people such as CTO’s, senior developers, or thought leaders in the computer programming world. Don’t bother sending it out to people that are not relevant connections
 
-
-
 ## AngelList
 
  *  Create a full profile listing your skills and contact information and what you’re working on

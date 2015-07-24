@@ -2,6 +2,8 @@
 
 ## Today's Goals
 
+Intro to jQuery
+
 ## 9am Standup
 
 - Events, Helps, Happenings

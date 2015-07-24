@@ -2,6 +2,8 @@
 
 ## Today's Goals
 
+Get caught up!
+
 ## 9am Standup
 
 - Events, Helps, Happenings
@@ -18,4 +20,5 @@ Food.
 
 ## Exercises/Homework
 
+- [jQuery with Madlibs](https://github.com/mjhea0/jquery-madlibs)
 - Fill out ZPD

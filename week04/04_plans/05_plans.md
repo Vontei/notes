@@ -2,6 +2,8 @@
 
 ## Today's Goals
 
+Functional Programming and Underscore
+
 ## 9am Standup
 
 - Events, Helps, Happenings

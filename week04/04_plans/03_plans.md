@@ -2,6 +2,8 @@
 
 ## Today's Goals
 
+jQuery Events
+
 ## 9am Standup
 
 - Events, Helps, Happenings

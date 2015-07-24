@@ -40,7 +40,6 @@
 Once done with the reading, start working on the Building a Grid System with CSS problem.
 - [Building a Grid System with CSS](https://github.com/gSchool/g11-course-curriculum/tree/master/week03/03-exercises/css-grid-system)
 
-
 ## 12pm Lunch
 
 Food. Eat.

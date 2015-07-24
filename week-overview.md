@@ -9,7 +9,7 @@
 
 ## Weekly
 
-1. Code Reviews - Thursday
+1. Code Reviews - Thursday (coming soon)
 1. Lighting Talks - Friday
 1. Interview/Career Prep - Friday
 1. Weekly re-cap - Friday
@@ -19,7 +19,7 @@
 1. Michael will stay late (~8pm) on Tuesday and Thursday
 1. There will be Saturday coverage (~10am to ~1pm)
 
-## Lecture Schedule
+## Lecture Schedule (the ideal)
 
 | N/A           | Monday  | Tuesday | Wednesday | Thursday | Friday     |
 |---------------|---------|---------|-----------|----------|------------|

@@ -22,7 +22,10 @@ Eat. Unless you already ate.
 
 ## 1pm Code!
 
-- Stretch: Testing with Jasmine Lecture
+- Pick a path:
+  - (1) Functions, Loops, and Conditionals
+  - (2) Code on your own
+  - (3) Stretch: Testing with Jasmine
 
 ## 3pm Pair Programming!
 

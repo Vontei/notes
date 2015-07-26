@@ -14,6 +14,8 @@
 
 ## 10am - Code!
 
+- Finish 1-on-1s during coding
+
 ## 12pm Lunch
 
 Eat. Unless you already ate.

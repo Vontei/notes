@@ -41,3 +41,4 @@
 1. Small pair programming exercises - refactor! refactor! refactor!
 1. More coding time
 1. Less large group exercises
+

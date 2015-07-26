@@ -10,7 +10,7 @@
 
 ## 9:15am Warm-up
 
-- Refactoring 101
+- Yo Generator!
 
 ## 10am - Code!
 

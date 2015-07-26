@@ -25,7 +25,9 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
+- Refactoring 101
+
+## 10am - Lecture
 
 ## 12pm Lunch
 

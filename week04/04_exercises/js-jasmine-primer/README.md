@@ -1,10 +1,9 @@
 # Testing with Jasmine - a primer
 
-Let's learn how to test your code with [Jasmine](http://jasmine.github.io/), an automated testing framework for JavaScript...
+Let's learn to test code with [Jasmine](http://jasmine.github.io/), an automated testing framework for JavaScript...
 
-<div style="text-align:center;">
-  <img src="https://raw.githubusercontent.com/gSchool/g11-course-curriculum/master/week04/04_exercises/js-jasmine-primer/jasmine.png?token=AB7Ld8Nv28BPBzFYCQEqdQ0CuWz_M37iks5Vv3MqwA%3D%3D" width="400px">
-</div>
+<img src="https://raw.githubusercontent.com/gSchool/g11-course-curriculum/master/week04/04_exercises/js-jasmine-primer/jasmine.png?token=AB7Ld8Nv28BPBzFYCQEqdQ0CuWz_M37iks5Vv3MqwA%3D%3D" width="400px">
+<br>
 
 1. [Overview](#overview)
 1. [Setup](#setup)
@@ -51,13 +50,13 @@ Read more [here](http://stackoverflow.com/questions/67299/is-unit-testing-worth-
 
 1. Install Jasmine globally via NPM:
 
-  ```javascript
+  ```sh
   $ npm install -g jasmine
   ```
 
 1. CD into the "js-jasmine-primer" directory, and then [initialize Jasmine](http://jasmine.github.io/2.0/node.html#section-Init_a_Project) to create a "spec" directive and a JSON configuration file:
 
-  ```javascript
+  ```sh
   $ jasmine init
   ```
 
@@ -85,7 +84,7 @@ Read more [here](http://stackoverflow.com/questions/67299/is-unit-testing-worth-
   });
   ```
 
-  **What are spec files?** Read about them from the [offical documentation](http://jasmine.github.io/2.0/introduction.html).
+  **What are spec files?** Read about them from the [official documentation](http://jasmine.github.io/2.0/introduction.html).
 
 1. Finally, add a *main.js* file to the root directory.
 
@@ -93,7 +92,7 @@ With the setup complete, we can now start writing some tests!
 
 ## Discussion
 
-All examples follow this three step process..
+All examples follow this four step process-
 
 1. Place the Jasmine tests inside of *spec/spec.js*.
 1. Add your code to test to *main.js*
@@ -108,7 +107,7 @@ Per tradition, let's start with a basic "Hello, World!"
 
 #### Function
 
-```javscript
+```javascript
 exports.outputHelloWorld = function () {
   return "Hello, world!";
 };
@@ -132,8 +131,8 @@ First off, we have a suite and a spec (which contains and expectation). Read mor
 
 Run the test. If all went well, you should see:
 
-```javascript
-jasmine
+```sh
+$ jasmine
 Started
 .
 
@@ -160,33 +159,65 @@ Add the following test suite to *spec.js*:
 
 ```javascript
 describe('Tax Calculator', function(){
+
   it('should tax 10% on the first $10', function() {
-    expect(code.calculate(1)).toEqual(.1)
-    expect(code.calculate(10)).toEqual(1)
-  })
+    expect(code.calculate(1)).toEqual(0.1);
+    expect(code.calculate(10)).toEqual(1);
+  });
 
   it('should tax 7% on the second $10', function(){
-    expect(code.calculate(15)).toEqual(1.35)
- });
+    expect(code.calculate(15)).toEqual(1.35);
+  });
 
 });
 ```
 
-####Exercise
+#### Function
 
-Write tests for a leap year calculator.  Write a function which takes a year as an argument and returns true if it's a leap year and false otherwise. Here are the rules we'll use:
+With the tests complete, run the test suite:
 
+```sh
+jasmine
+Started
+.FF
+
+Failures:
+1) Tax Calculator should tax 10% on the first $10
+  Message:
+    TypeError: undefined is not a function
+  Stack:
+    TypeError: undefined is not a function
+        at Object.<anonymous> (/js-jasmine-primer/spec/spec.js:12:17)
+
+2) Tax Calculator should tax 7% on the second $10
+  Message:
+    TypeError: undefined is not a function
+  Stack:
+    TypeError: undefined is not a function
+        at Object.<anonymous> (/js-jasmine-primer/spec/spec.js:17:17)
+
+3 specs, 2 failures
+Finished in 0.011 seconds
 ```
-every year whose number is perfectly divisible by four is a leap year,
-except for years which are both divisible by 100 and not divisible by 400.
-1600 and 2000 are leap years, but the century years 1700, 1800, and 1900 are not.
-```
+
+This is expected. **Why?** Because we need to write the functions to get the tests to pass. Do that now within *main.js*.
+
+## Exercise
+
+Directions: Read over the *entire* problem/requirements before starting. Write the tests first. Make sure they fail. Then write the necessary functions to get them to pass. Refactor, if necessary.
+
+<hr>
+
+Write a function which takes a year as an argument and returns `true` if it's a leap year and `false` otherwise. Here are the rules we'll use:
+
+- every year whose number is perfectly divisible by four is a leap year,
+- except for years which are both divisible by 100 and not divisible by 400.
+- 1600 and 2000 are leap years, but the century years 1700, 1800, and 1900 are not.
+
+Test first!
 
 * Start by identifying a bunch of test cases
 * Write a test
+* Watch it fail
 * Make it pass
-* Write a test
-* Make it pass
-* Repeat a bunch of times
-
-**Question** What is the difference between `toBe()` and `toEqual()`?
+* Rinse and repeat!

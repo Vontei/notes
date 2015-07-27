@@ -260,7 +260,7 @@ How’d you do? Go back to the "Objectives" section. Go through each one and ask
 - Have I completed this objective?
 - What concrete evidence do I have that I've completed the objective?
 
-*Rate yourself 1 through 4 for each objective in terms of competence (4 being the highest). **If you rate yourself a 2 or below, please notify an instructor for additional help.***
+Rate yourself 1 through 4 for each objective in terms of competence (4 being the highest). **If you rate yourself a 2 or below, please notify an instructor for additional help.**
 
 Go to the "Key Terms" section.  For each term, ask yourself:
 

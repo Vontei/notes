@@ -1,6 +1,8 @@
 # Testing with Jasmine - a primer
 
-Let's learn how to tests your code with [Jasmine](http://jasmine.github.io/)...
+Let's learn how to test your code with [Jasmine](http://jasmine.github.io/), an automated testing framework for JavaScript...
+
+![jasmine](jasmine.svg)
 
 1. [Overview](#overview)
 1. [Setup](#setup)
@@ -14,7 +16,16 @@ Let's learn how to tests your code with [Jasmine](http://jasmine.github.io/)...
 
 ### Why should you care?
 
-Why should you test your code? http://stackoverflow.com/questions/67299/is-unit-testing-worth-the-effort
+*Something that is untested is broken.*
+
+If your codebase is untested then it is **very** difficult to add new features as-
+
+- You don't know if that feature will work or not, and
+- The new feature could break your existing codebase.
+
+Automated tests help minimize these issues, allowing you to safely update your codebase and sleep at night. Unfortunately, many developers don't understand the importance of testing until their application breaks and s/he is up all night trying to fix things.
+
+Read more [here](http://stackoverflow.com/questions/67299/is-unit-testing-worth-the-effort).
 
 ### Objectives
 
@@ -22,7 +33,6 @@ Why should you test your code? http://stackoverflow.com/questions/67299/is-unit-
 - Write tests for existing code.
 - Write code to pass a given set of tests.
 - Write tests and code that passes those tests.
-
 
 ### Key terms
 

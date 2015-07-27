@@ -2,7 +2,7 @@
 
 Let's learn how to test your code with [Jasmine](http://jasmine.github.io/), an automated testing framework for JavaScript...
 
-<img src="jasmine.svg" width="400px" />
+<img src="https://raw.githubusercontent.com/gSchool/g11-course-curriculum/master/week04/04_exercises/js-jasmine-primer/jasmine.png?token=AB7Ld8Nv28BPBzFYCQEqdQ0CuWz_M37iks5Vv3MqwA%3D%3D" width="400px" />
 
 1. [Overview](#overview)
 1. [Setup](#setup)

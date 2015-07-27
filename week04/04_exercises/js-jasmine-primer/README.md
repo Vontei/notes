@@ -4,8 +4,6 @@ Let's learn how to test your code with [Jasmine](http://jasmine.github.io/), an 
 
 <img src="jasmine.svg" width="400px" />
 
-![jasmine](jasmine.svg)
-
 1. [Overview](#overview)
 1. [Setup](#setup)
 1. [Discussion](#discussion)

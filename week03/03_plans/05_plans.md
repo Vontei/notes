@@ -24,6 +24,12 @@
 
 ## 9:30am Week in Review
 
+- Updated Schedule
+- `import this`
+- [Weekly Review](https://docs.google.com/a/galvanize.com/forms/d/1SC7t8jqNEe9kyu7m-HZl3in9l6g3JIyhOVuGrJy64kY/viewform)
+
+## 9:45am Week in Review
+
 Teach the class!
 
 - CSS Display Properties
@@ -51,6 +57,8 @@ Teach the class!
 ## 4:30pm
 
 - Lightning Talks - Dom, Pete, Charlie, Ashley
+## 4:30pm
+- Lightning Talks - Dom and Ashley
 - Weekly Wrap-up with Mike
 - Next Week
   - jQuery intro/dom creation
@@ -61,6 +69,7 @@ Teach the class!
 ## Exercises/Homework
 
 - [Bootstrap problems](https://github.com/lewagon/bootstrap-challenges)
+- [Bootstrap problems](http://www.pairuptocode.com/exercises/bootstrap.html)
 - Finish all exercises.
 - Finished?
   - Stretch 1: [Tip Calculator](https://github.com/gSchool/tip-calculator-html-js)

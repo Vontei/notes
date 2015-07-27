@@ -14,6 +14,12 @@
 
 ## 10am - Code!
 
+- Yo Generator!
+
+## 10am - Code!
+
+- Finish 1-on-1s during coding
+
 ## 12pm Lunch
 
 Eat. Unless you already ate.
@@ -21,6 +27,10 @@ Eat. Unless you already ate.
 ## 1pm Code!
 
 - Stretch: Testing with Jasmine Lecture
+- Pick a path:
+  - (1) Functions, Loops, and Conditionals
+  - (2) Code on your own
+  - (3) Stretch: [Testing with Jasmine](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_exercises/js-jasmine-primer)
 
 ## 3pm Pair Programming!
 

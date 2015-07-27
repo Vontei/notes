@@ -28,4 +28,4 @@ Each Weekly folder contains the following folders:
 1. [JavaScript For Cats](http://jsforcats.com/)
 1. [A Smarter Way to Learn JavaScript](http://www.amazon.com/Smarter-Way-Learn-JavaScript-technology/dp/1497408180/ref=zg_bs_3617_4)
 1. [Coderbyte](http://coderbyte.com/)
-
+1. [Learn JavaScript - Free Interactive JavaScript Tutorial](http://www.learn-js.org/)

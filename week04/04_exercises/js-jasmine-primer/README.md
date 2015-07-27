@@ -143,7 +143,6 @@ Finished in 0.004 seconds
 
 **What happens if you change the output of the function to `return "Hello!";`?** Run the test again to see. Pay attention to the output in the terminal.
 
-
 ### Second Test: Taxes
 
 Give the following tax system, what kind(s) of tests can we write?
@@ -202,11 +201,13 @@ Finished in 0.011 seconds
 
 This is expected. **Why?** Because we need to write the functions to get the tests to pass. Do that now within *main.js*.
 
+> Writing tests first, before your code, is known as Test Driven Development (or TDD). Read more about [TDD](https://github.com/mjhea0/flaskr-tdd#test-driven-development) here.
+
 ## Activity
 
-Directions: Read over the *entire* problem/requirements before starting. Write the tests first. Make sure they fail. Then write the necessary functions to get them to pass. Refactor, if necessary.
+Directions: For each activity, read over the *entire* problem/requirements before starting. Write the tests first. Make sure they fail. Then write the necessary functions to get them to pass. Refactor, if necessary. TDD in action!
 
-<hr>
+### First Activity
 
 Write a function which takes a year as an argument and returns `true` if it's a leap year and `false` otherwise. Here are the rules we'll use:
 
@@ -222,10 +223,55 @@ Test first!
 * Make it pass
 * Rinse and repeat!
 
+### Second Activity
+
+Write the following functions:
+
+1. `changeToUpper()` transforms an array of strings into an array of uppercase strings.
+
+  ```
+  var list = ['red', 'green', 'blue'];
+
+  changeToUpper(list);
+  // => ['RED', 'GREEN', 'BLUE'];
+  ```
+
+2. `findGreatestStrength()` takes in an array of objects and returns the object with the greatest strength attribute.
+
+  ```
+  var list = [{strength: 20, name: 'A'}, {strength: 10, name: 'B'}];
+
+  findGreatestStrength(list);
+  //=> {strength: 20, name: 'A'}
+  ```
+
+Test first! Write tests. Make sure they fail. Write just enough code to get them to pass. Refactor.
+
 ## Stretch Goals
 
 - Test your underscore library!
 
 ## Reflect
 
+### Self-Assessment
+
+How’d you do? Go back to the "Objectives" section. Go through each one and ask yourself:
+
+- Have I completed this objective?
+- What concrete evidence do I have that I've completed the objective?
+
+*Rate yourself 1 through 4 for each objective in terms of competence (4 being the highest). **If you rate yourself a 2 or below, please notify an instructor for additional help.***
+
+Go to the "Key Terms" section.  For each term, ask yourself:
+
+- What is my explanation for this term?
+
+If you haven't completed an objective, or you can't define a term, take a few minutes to try to fill in any gaps.
+
+### Ask new questions
+
+What new questions do you have now that you've gone through this exercise?
+
 ## Further Reading
+
+- [Using Jasmine for JavaScript Testing](https://blog.codeship.com/jasmine-testing-javascript/)

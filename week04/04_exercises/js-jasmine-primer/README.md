@@ -2,6 +2,8 @@
 
 Let's learn how to test your code with [Jasmine](http://jasmine.github.io/), an automated testing framework for JavaScript...
 
+<img src="jasmine.svg" width="400px" />
+
 ![jasmine](jasmine.svg)
 
 1. [Overview](#overview)

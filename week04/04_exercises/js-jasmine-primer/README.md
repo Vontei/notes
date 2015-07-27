@@ -177,7 +177,7 @@ describe('Tax Calculator', function(){
 With the tests complete, run the test suite:
 
 ```sh
-jasmine
+$ jasmine
 Started
 .FF
 
@@ -202,7 +202,7 @@ Finished in 0.011 seconds
 
 This is expected. **Why?** Because we need to write the functions to get the tests to pass. Do that now within *main.js*.
 
-## Exercise
+## Activity
 
 Directions: Read over the *entire* problem/requirements before starting. Write the tests first. Make sure they fail. Then write the necessary functions to get them to pass. Refactor, if necessary.
 
@@ -221,3 +221,11 @@ Test first!
 * Watch it fail
 * Make it pass
 * Rinse and repeat!
+
+## Stretch Goals
+
+- Test your underscore library!
+
+## Reflect
+
+## Further Reading

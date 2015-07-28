@@ -45,8 +45,8 @@ Code for food.
 
 ## Exercises/Homework
 
-- [jQuery Playground](https://github.com/gSchool/boxes-jQuery-playground)
-- [jQuery Calculator]( https://github.com/gSchool/jquery-calculator)
+- Exercise: [jQuery Playground](https://github.com/gSchool/boxes-jQuery-playground)
+- Exercise: [jQuery Calculator]( https://github.com/gSchool/jquery-calculator)
 - STRETCH:
 - Need more jQuery help? Try this tutorial: [Learning jQuery with Street Fighter and Hadoukens](https://www.thinkful.com/learn/intro-to-jquery)
 - Fill out ZPD

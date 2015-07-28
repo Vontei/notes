@@ -51,6 +51,8 @@ Create, read and alter DOM w/ jQuery
 
 ## 9:15am Warm-up
 
+- Debugging 101
+
 ## 9:30 - Lecture
 
 ## 12pm Lunch

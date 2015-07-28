@@ -1,0 +1,8 @@
+/* add custom styles */
+
+form {
+  padding: 40px;
+  max-width: 400px;
+  display: inline-block;
+  text-align: center;
+}

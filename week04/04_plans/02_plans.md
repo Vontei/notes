@@ -23,18 +23,26 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
+- jQuery refactor
 
-- Refactoring 101
+## 10am Lecture
 
-## 10am - Lecture
+- jQuery Intro (with Reyna)
+
+## 11am Code
 
 ## 12pm Lunch
 
-Food.
+Code for food.
 
 ## 1pm Code!
 
+## 3pm Pair!
+
+- [Learning jQuery with Street Fighter and Hadoukens](https://www.thinkful.com/learn/intro-to-jquery)
+
 ## Exercises/Homework
 
+- [jQuery Calculator]( https://github.com/gSchool/jquery-calculator)
 - Fill out ZPD
+

@@ -13,10 +13,8 @@
   - describe the arguments for and against using jQuery on a project
   - wrap a DOM element in jQuery
   - describe the difference between a raw DOM element and a jQuery-wrapped element
-  - unwrap a jQuery object with `.get()` and `[]`
   - write syntactically valid document ready statements
   - explain what $(fn) / $(document).ready(fn) does and why it’s useful
-  - describe that jQuery is an expensive function call, and that care should be taken to minimize how many times you “re-jQueryify” the same element
 
 
 ## 9am Standup

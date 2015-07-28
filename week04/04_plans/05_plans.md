@@ -20,8 +20,9 @@ Food.
 
 ## 1pm Code!
 
-## 4:30pm
+## 4:30pm EOD
 
+- Lightining Talks - Zoe
 - Next Week
   - OOP
   - APIs

@@ -39,7 +39,9 @@ Code for food.
 
 ## 1pm Code!
 
-## 3pm Group Exercise
+## 3pm Pair!
+
+- [Learning jQuery with Street Fighter and Hadoukens](https://www.thinkful.com/learn/intro-to-jquery)
 
 ## Exercises/Homework
 

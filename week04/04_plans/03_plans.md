@@ -20,13 +20,19 @@
 
 - Quiz-o-thon w/ Robbie, Ben, and Charlie
 
-## 9:30 - Lecture
+## 10am Code!
 
 ## 12pm Lunch
 
 Food.
 
-## 1pm Code!
+## 1pm Lecture
+
+- Creating and removing elements
+- Event Delegation
+- Bubbling
+- DOM Traversal
+- `this`
 
 ## Exercises/Homework
 

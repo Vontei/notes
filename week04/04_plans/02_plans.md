@@ -23,6 +23,7 @@
 
 ## 9:15am Warm-up
 
+- Shuffle and Chunk!
 - jQuery refactor
 
 ## 10am Lecture

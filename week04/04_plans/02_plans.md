@@ -25,18 +25,23 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
+- Quiz-o-thon w/ Robbie, Ben, and Charlie
 
-- Refactoring 101
+## 10am Lecture
 
-## 10am - Lecture
+- jQuery Intro (with Reyna)
+
+## 11am Code
 
 ## 12pm Lunch
 
-Food.
+Code for food.
 
 ## 1pm Code!
 
+## 3pm Group Exercise
+
 ## Exercises/Homework
 
+- [jQuery Calculator]( https://github.com/gSchool/jquery-calculator)
 - Fill out ZPD

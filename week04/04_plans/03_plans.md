@@ -32,7 +32,7 @@ Food.
 - Event Delegation
 - Bubbling
 - DOM Traversal
-- `this`
+- `this` (`this` is a reference to the DOM element of invocation)
 
 ## Exercises/Homework
 

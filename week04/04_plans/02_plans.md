@@ -47,6 +47,7 @@ Code for food.
 - Exercise: [jQuery Playground](https://github.com/gSchool/boxes-jQuery-playground)
 - Exercise: [jQuery Calculator]( https://github.com/gSchool/jquery-calculator)
 - STRETCH: [JavaScript Page Analytics](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_exercises/js-page-analytics)
+- **READ FOR TOMORROW**: [jQuery Events](http://jqfundamentals.com/chapter/events) and [`this`](http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_sel_this)
 - Need more jQuery help? Try this tutorial: [Learning jQuery with Street Fighter and Hadoukens](https://www.thinkful.com/learn/intro-to-jquery)
 - Fill out ZPD
 

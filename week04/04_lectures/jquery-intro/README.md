@@ -61,7 +61,7 @@ You can prefix a variable name with '$' to semantically denote a variable to rep
 
 ### Polymorphic Methods
 
-Polymorphic methods change functionality based on # of arguments passed to it.
+[Polymorphic methods](http://stackoverflow.com/questions/27642239/what-is-polymorphism-in-javascript) change functionality based on # of arguments passed to it.
 
 #### Example 1
 

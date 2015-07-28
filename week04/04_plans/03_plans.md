@@ -30,4 +30,5 @@ Food.
 
 ## Exercises/Homework
 
+- STRETCH: [Testing!](https://github.com/gSchool/js-conditional-and-loop-fundamentals)
 - Fill out ZPD

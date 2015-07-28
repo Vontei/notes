@@ -25,7 +25,7 @@
 
 ## 9:15am Warm-up
 
-- Quiz-o-thon w/ Robbie, Ben, and Charlie
+- jQuery refactor
 
 ## 10am Lecture
 
@@ -47,3 +47,4 @@ Code for food.
 
 - [jQuery Calculator]( https://github.com/gSchool/jquery-calculator)
 - Fill out ZPD
+

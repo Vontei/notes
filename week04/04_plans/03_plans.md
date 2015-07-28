@@ -18,6 +18,8 @@
 
 ## 9:15am Warm-up
 
+- Quiz-o-thon w/ Robbie, Ben, and Charlie
+
 ## 9:30 - Lecture
 
 ## 12pm Lunch

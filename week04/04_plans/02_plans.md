@@ -41,10 +41,13 @@ Code for food.
 
 ## 3pm Pair!
 
-- [Learning jQuery with Street Fighter and Hadoukens](https://www.thinkful.com/learn/intro-to-jquery)
+- [jQuery Filtering && Pagination](https://github.com/gSchool/jquery-image-filtering)
 
 ## Exercises/Homework
 
+- [jQuery Playground](https://github.com/gSchool/boxes-jQuery-playground)
 - [jQuery Calculator]( https://github.com/gSchool/jquery-calculator)
+- STRETCH:
+- Need more jQuery help? Try this tutorial: [Learning jQuery with Street Fighter and Hadoukens](https://www.thinkful.com/learn/intro-to-jquery)
 - Fill out ZPD
 

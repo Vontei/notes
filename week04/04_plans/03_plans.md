@@ -28,9 +28,9 @@ Food.
 
 ## 1pm Lecture
 
-- Creating and removing elements (`.append()`, `.clone()`, `.remove()` `.empty()`)
+- Creating and removing elements (`.append()`, `.clone()`, `,remove()` `.empty()`)
 - Event Delegation (context! context! context!)
-- Bubbling (stop propogation)
+- Bubbling (stop propagation)
 - DOM Traversal
 - `this` (`this` is a reference to the DOM element of invocation/object at hand)
 
@@ -38,6 +38,6 @@ Food.
 
 ## Exercises/Homework
 
-- Add Exercise
+- [Event Delegation](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_exercises/js-event-delegation)
 - STRETCH: [Testing!](https://github.com/gSchool/js-conditional-and-loop-fundamentals)
 - Fill out ZPD

@@ -34,7 +34,10 @@ Food.
 - DOM Traversal
 - `this` (`this` is a reference to the DOM element of invocation)
 
+## 2pm Code!
+
 ## Exercises/Homework
 
+- Add Exercise
 - STRETCH: [Testing!](https://github.com/gSchool/js-conditional-and-loop-fundamentals)
 - Fill out ZPD

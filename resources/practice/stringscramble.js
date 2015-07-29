@@ -1,8 +1,12 @@
 /*
 
-Create function called `stringScramble` that takes two strings, `str1` and `str1`, as arguments and returns `true` if a portion of the first string's characters can be rearranged to match the second string, otherwise return `false`.
+Create function called `stringScramble` that takes two strings, `str1` and `str1`, as arguments
+and returns `true` if a portion of the first string's characters can be rearranged to match
+the second string, otherwise return `false`.
 
-For example - if `str1` is "rkqodlw" and `str2` is "world" the output should return true. Punctuation and symbols should not be part of the strings.
+For example - if `str1` is "rkqodlw" and `str2` is "world" the output should return true.
+
+Punctuation and symbols should not be part of the strings.
 
 */
 

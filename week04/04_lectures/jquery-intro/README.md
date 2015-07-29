@@ -45,7 +45,8 @@ Remember `document.getElementById( "target" )`? You can simplify it to `$('#targ
 
 Use CSS-like syntax to target elements:
 
-* `$('h1')`
+* `$('h1')` - select all H1s
+* `$('h1, a')` - select all H1s and anchor tags
 * `$('body')`
 * `$('.alert') // class selector`
 * `$('#killer') // id selector`
@@ -60,7 +61,7 @@ You can prefix a variable name with '$' to semantically denote a variable to rep
 
 ### Polymorphic Methods
 
-Polymorphic methods change functionality based on # of arguments passed to it.
+[Polymorphic methods](http://stackoverflow.com/questions/27642239/what-is-polymorphism-in-javascript) change functionality based on # of arguments passed to it.
 
 #### Example 1
 
@@ -90,3 +91,42 @@ Other useful methods:
 * `.prepend()`
 * `.attr()`
 * `.each()`
+
+## Questions
+
+1. Why would you want to cache a jQuery query/selector? For example = `var unorderedList = $('ul')`
+
+1. What does the following code do?
+
+  ```javascript
+  $('li').css('color', 'red').text('yo!').width(50);
+  ```
+
+  Is the following code more readable?
+
+  ```javascript
+  $('li')
+    .css('color', 'red')
+    .text('yo!')
+    .width(50);
+  ```
+
+  This is called "chaining".
+
+1. What should be returned here `$('li').css('color')`?
+
+1. What's polymorphism in jQuery?
+
+1. What's the difference between `.append()`, `.prepend()`, and `.html()`?
+
+1. What's happening here? Describe it in English.
+
+  ```javascript
+  var props = {color: "red", fontSize:"12px"};
+  $("h1").css(props);
+  ```
+
+1. What do these methods do? What's the difference between a "getter" and a "setter"?
+  - `.attr()`
+  - `.toggleClass()`
+  - `.text()`

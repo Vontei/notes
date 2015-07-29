@@ -20,14 +20,24 @@
 
 - Quiz-o-thon w/ Robbie, Ben, and Charlie
 
-## 9:30 - Lecture
+## 10am Code!
 
 ## 12pm Lunch
 
 Food.
 
-## 1pm Code!
+## 1pm Lecture
+
+- Creating and removing elements
+- Event Delegation
+- Bubbling
+- DOM Traversal
+- `this` (`this` is a reference to the DOM element of invocation)
+
+## 2pm Code!
 
 ## Exercises/Homework
 
+- Add Exercise
+- STRETCH: [Testing!](https://github.com/gSchool/js-conditional-and-loop-fundamentals)
 - Fill out ZPD

@@ -10,6 +10,8 @@ Functional Programming and Underscore
 
 ## 9:15am Assesments
 
+Quiz-o-thon w/ Robbie, Ben, and Charlie
+
 ## 10am Week in Review
 
 ## 9:30 - Lecture

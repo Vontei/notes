@@ -24,3 +24,4 @@ function stringScramble(str1, str2) {
   }
   return true;
 }
+

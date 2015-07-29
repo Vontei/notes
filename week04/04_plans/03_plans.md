@@ -18,7 +18,7 @@
 
 ## 9:15am Warm-up
 
-- Quiz-o-thon w/ Robbie, Ben, and Charlie
+- Riffle cards
 
 ## 10am Code!
 
@@ -28,11 +28,11 @@ Food.
 
 ## 1pm Lecture
 
-- Creating and removing elements
-- Event Delegation
-- Bubbling
+- Creating and removing elements (`.append()`, `.clone()`, `,remove()` `.empty()`)
+- Event Delegation (context! context! context!)
+- Bubbling (stop propogation)
 - DOM Traversal
-- `this` (`this` is a reference to the DOM element of invocation)
+- `this` (`this` is a reference to the DOM element of invocation/object at hand)
 
 ## 2pm Code!
 

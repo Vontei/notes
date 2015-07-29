@@ -4,8 +4,12 @@ What if you only wanted to remove ONE `p` tag?
 
 
 ```javascript
-$('p').on('click', function(event) {
-  $('p').remove();
+$('#add-btn').on('click', function(event) {
+  $('#paragraphs').append('<p>new<p>');
+});
+
+$(document).on('click', 'p', function(event) {
+  $(this).remove();
   event.stopPropagation();
 });
 ```

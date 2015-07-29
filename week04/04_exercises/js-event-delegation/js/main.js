@@ -9,6 +9,5 @@ $(document).on('ready', function() {
       '&nbsp;<button class="btn btn-danger btn-sm">X</button></h2></li>');
   });
 
-  // add event handler (delegated) to remove a single todo when the remove button is clicked
 
 });

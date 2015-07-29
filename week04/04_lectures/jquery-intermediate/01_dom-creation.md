@@ -11,9 +11,9 @@ Let's create some DOM...
 1. Prepend some HTML
 1. Experiment with `.before()`
 1. Experiment with `.after()`
-1. Remove an element
-1. Empty an element
-1. Clone an element
+1. Remove an element with `.remove()`
+1. Empty an element with `.empty()`
+1. Clone an element with `.clone()`
 
 ## JavaScript!
 

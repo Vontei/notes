@@ -10,11 +10,47 @@
   </head>
   <body>
 
-    <div class="container">
-      <h1>Yo Galvanize!</h1>
-      <button class="btn btn-success btn-lg" id="main-btn">Click me!</button>
-      <p>Sibling</p>
+    <div class="row">
+
+      <div class="col-xs-4">
+
+        <!-- DOM creation/traversal example -->
+        <div class="container">
+          <h1>DOM CREATION</h1>
+          <button class="btn btn-success btn-lg" id="main-btn">Click me!</button>
+          <br><br>
+          <p>Sibling</p>
+        </div>
+
+      </div>
+
+      <div class="col-xs-4">
+
+        <!-- event delegation example -->
+        <div class="container" id="delegate">
+          <h1>EVENT DELEGATION</h1>
+          <button class="btn btn-primary btn-lg" id="minor-btn">Click me!</button>
+        </div>
+
+      </div>
+
+      <div class="col-xs-4">
+
+        <!-- bubbling example -->
+        <div class="container">
+          <h1>EVENT BUBBLING</h1>
+          <p>One</p>
+          <p>Two</p>
+          <p>Three</p>
+          <p>Four</p>
+          <p>Five</p>
+          <p>Six</p>
+        </div>
+
+      </div>
+
     </div>
+
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>

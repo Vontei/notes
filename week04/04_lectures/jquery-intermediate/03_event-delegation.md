@@ -2,11 +2,6 @@
 
 Let's create some DOM...
 
-## Steps
-
-1. ?
-1. ?
-
 ## JavaScript!
 
 ```javascript
@@ -17,8 +12,8 @@ Let's create some DOM...
 // Allows a parent container to watch its descendents for a specific event
 // if an element matching the target selector is the origin for the event, the callback fires
 
-$('#delegate').on('click', '.my-button', function(){
-  $('#delegate').append('<button class="my-button">This a new button!!</button>')
+$('#delegate').on('click', '#minor-btn', function(){
+  $('#delegate').append('<p>text</p>')
 });
 ```
 

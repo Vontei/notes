@@ -28,7 +28,7 @@ Food.
 
 ## 1pm Lecture
 
-- Creating and removing elements (`.append()`, `.clone()`, `,remove()` `.empty()`)
+- Creating and removing elements (`.append()`, `.clone()`, `.remove()` `.empty()`)
 - Event Delegation (context! context! context!)
 - Bubbling (stop propogation)
 - DOM Traversal

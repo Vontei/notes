@@ -2,7 +2,7 @@
 
 ## Today's Goals
 
-Select elements and traverse the DOM using jQuery.
+- Select elements and traverse the DOM using jQuery.
   - select elements by CSS selector
   - use jQuery’s each method to iterate over a selection
   - describe jQuery’s implicit iteration and the equivalent vanilla JS code.
@@ -19,7 +19,7 @@ Select elements and traverse the DOM using jQuery.
   - write chained jQuery methods
   - filter jQuery objects with `filter`
 
-Create, read and alter DOM w/ jQuery
+- Create, read and alter DOM w/ jQuery
   - create in-memory DOM elements from strings with `$(‘<div class=”foo”>’)`
   - append jQuery objects, strings and raw DOM elements to the DOM with `append`, `appendTo`, `insertAfter`, `after`, `before` etc…
   - remove elements with `remove()`
@@ -53,7 +53,7 @@ Create, read and alter DOM w/ jQuery
 
 - Debugging 101
 
-## 9:30 - Lecture
+## 10am Code!
 
 ## 12pm Lunch
 

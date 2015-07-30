@@ -61,6 +61,10 @@ Food.
 
 ## 1pm Code!
 
+## 2pm Lecture!
+
+## 2:30 Code!
+
 ## Exercises/Homework
 
 - Fill out ZPD

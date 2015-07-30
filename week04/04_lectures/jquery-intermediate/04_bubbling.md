@@ -57,7 +57,3 @@ $("#inner-div").on('click', function(event) {
   event.stopPropagation();
 });
 ```
-
-ryan orbin
-follow up with jeff - 1 on 1
-

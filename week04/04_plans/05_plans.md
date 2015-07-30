@@ -24,7 +24,7 @@ Food.
 
 ## 4:30pm EOD
 
-- Lightining Talks - Zoe
+- Lightining Talks - Zoe, Peter
 - Next Week
   - OOP
   - APIs

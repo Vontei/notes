@@ -10,7 +10,15 @@ Functional Programming and Underscore
 
 ## 9:15am Warm-up
 
-- Updates with Mike - quiz-o-thon, guest speaker, functional programming/oop, more functions?
+- Updates with Mike:
+  - quiz-o-thon
+  - guest speaker today!
+  - functional programming/oop
+  - more functions exercises?
+  - how to turn in group projects
+  - develop denver
+  - monitors?
+
 - Assessments
 
 ## 9:45am Week in Review
@@ -28,16 +36,21 @@ Food.
 - [Simplify your JavaScript with Underscore.js](http://singlebrook.com/blog/simplify-your-javascript-with-underscorejs)
 - Weekly 1-on-1s during coding
 
-## 3pm Guest Speaker!
+## 2pm Breakout Groups
+
+- Code alone with Mike
+- Fundamentals with Zach
+- Pair or free code with Reyna
+
+## 3:30pm Guest Speaker!
 
 ## 4:30pm EOD
 
 - Lightning Talks - Zoe and Pete
 - End of Week with Mike
 - Next Week
+  - Develop Denver (6th and 7th)
   - OOP
-  - APIs
-  - AJAX and HTML Form Submission
 
 ## Exercises/Homework
 

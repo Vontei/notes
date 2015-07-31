@@ -2,20 +2,31 @@
 <html>
 <head>
   <title>Event Bubbling</title>
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <div id="outer-div">
-    outer
-    <div id="middle-div">
-      middle
-      <div id="inner-div">
-        inner
-      </div>
-      <div id="inner2-div">
-        inner2
+
+  <div class="container text-center">
+
+    <div id="outer-div">
+      <p>Outer Divider</p>
+      <div id="middle-div">
+        <p>Middle Divider</p>
+        <div id="inner-div">
+          <p>Inner Divider</p>
+        </div>
+        <br>
+        <div id="inner2-div">
+          <p>Inner 2 Divider</p>
+        </div>
       </div>
     </div>
+
   </div>
+
+  <!-- scripts -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
 </body>

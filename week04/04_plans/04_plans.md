@@ -63,6 +63,8 @@ Food.
 
 ## 2pm Lecture!
 
+- Event Bubbling!
+
 ## 2:30 Code!
 
 ## Exercises/Homework

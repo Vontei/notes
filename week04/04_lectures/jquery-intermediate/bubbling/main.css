@@ -1,0 +1,37 @@
+body {
+  padding-top: 20px;
+  color: white;
+}
+
+#outer-div {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  padding-top: 10px;
+}
+
+#middle-div {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  margin: auto;
+  padding-top: 10px;
+}
+
+#inner-div {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin: auto;
+  padding-top: 10px;
+}
+
+#inner2-div {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  margin: auto;
+  padding-top: 10px;
+}
+
+

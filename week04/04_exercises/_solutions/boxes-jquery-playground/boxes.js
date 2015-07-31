@@ -20,7 +20,7 @@ $(document).ready(function() {
 
     // Get all divs inside the container that are not row divs and are not the secret box div.  Set the width of the divs to 2 pixels.
 
-    $("div").not("#container, .row, #secretBox").css("width", "2px");
+    $(".box").not("#secretBox").css("width", "2px");
 
     // 1. Add an on click handler to the container div. Console log the x and y position of the click.
     $('#container').on('click', function (event) {
@@ -28,19 +28,29 @@ $(document).ready(function() {
     });
 
     // Add links inside all red box divs that take the user to galvanize.  Then add an on click handler that alerts the user that you can never leave the page.  Make sure the user won't leave the page after the alert!
-    $(".boxType1").append('<a href="http://www.galvanize.com">Galvanize</a>').on("click", function(event) {
+    $(".boxType1").wrap('<a href="http://www.galvanize.com"></a>').on("click", function(event) {
       event.preventDefault();
       alert("you can never leave this page");
     });
 
   // For all box divs, add a click handler that adds an image of a cute puppy to the box.  If the image is clicked again, remove the cute puppy.
   $(".box").on('click', function () {
-    if (!$(this).attr('data-toggled') || $(this).attr('data-toggled') == 'off'){
-      $(this).attr('data-toggled','on');
-      $(this).append('<img src= "http://www.ugodog.net/blog/wp-content/uploads/2008/08/golden-retriever-dog.thumbnail.jpg">');
-    } else if ($(this).attr('data-toggled') == 'on'){
-      $(this).attr('data-toggled','off');
+    if (!$(this).has('img').length){
       $(this).find('img').remove();
+    } else {
+      $(this).append('<img src= "http://www.ugodog.net/blog/wp-content/uploads/2008/08/golden-retriever-dog.thumbnail.jpg">');
+    }
+  });
+
+  $('#container').on("click", function(e){
+      $('.box').removeAttr('style');
+      $('#container').removeAttr("style")
+    if($(e.target).hasClass('box') === true){
+      $("#container").css("background", "black");
+      $(e.target).css("background", "white");
+    }
+    else if ($(this).is('#container') === true){
+      $(this).css("background", "limegreen");
     }
   });
 

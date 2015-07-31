@@ -4,6 +4,8 @@ Bursting the bubble..
 
 ## Example!
 
+[Link](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_lectures/jquery-intermediate/bubbling)
+
 ### HTML
 
 ```html
@@ -42,7 +44,7 @@ Bursting the bubble..
 </html>
 ```
 
-![]()
+![](https://raw.githubusercontent.com/gSchool/g11-course-curriculum/master/week04/04_lectures/jquery-intermediate/bubbling/bubbling.png?token=AB7Ld0z_HLnmrj0DuFr14FO8M6HsM73Gks5VxII5wA%3D%3D)
 
 ### JavaScript
 

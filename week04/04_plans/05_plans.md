@@ -10,7 +10,7 @@ Functional Programming and Underscore
 
 ## 9:15am Warm-up
 
-- Updates with Mike - quiz-o-thon, guest speaker
+- Updates with Mike - quiz-o-thon, guest speaker, functional programming
 - Assessments
 
 ## 9:45am Week in Review
@@ -24,6 +24,7 @@ Food.
 ## 1pm Code!
 
 - [Functional Programming with JavaScript](http://jhusain.github.io/learnrx/)
+- [JS Functional Programming Notes](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_lectures/js-functional-programming)
 - Weekly 1-on-1s during coding
 
 ## 3pm Guest Speaker!

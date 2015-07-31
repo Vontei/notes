@@ -41,7 +41,7 @@ Food.
 
 ## Exercises/Homework
 
-- Exercise: Loop Practice
+- Exercise: Need additional loop practice? [Loop Practice Part 2](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_exercises/js-loops-part2).
 - Exercise: Functional Loop Practice
 - Finish Exercises!
 - Fill out ZPD

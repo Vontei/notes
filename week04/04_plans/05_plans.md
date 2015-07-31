@@ -25,6 +25,7 @@ Food.
 
 - [Functional Programming with JavaScript](http://jhusain.github.io/learnrx/)
 - [JS Functional Programming Notes](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_lectures/js-functional-programming)
+- [Simplify your JavaScript with Underscore.js](http://singlebrook.com/blog/simplify-your-javascript-with-underscorejs)
 - Weekly 1-on-1s during coding
 
 ## 3pm Guest Speaker!

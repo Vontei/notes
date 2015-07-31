@@ -18,10 +18,12 @@ Functional Programming and Underscore
   - how to turn in group projects
   - develop denver
   - monitors?
+- Feedback with Reyna
+- Assesments (jQuery)
 
-- Assessments
+## 10am Week in Review
 
-## 9:45am Week in Review
+- Groups!
 
 ## 11am Code!
 

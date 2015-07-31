@@ -121,5 +121,3 @@ if (riflledDeck[2] !==  cardArray[2]) {
 } else {
   console.log("Not Shuffled!");
 }
-
-

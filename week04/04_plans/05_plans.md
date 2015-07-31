@@ -10,7 +10,7 @@ Functional Programming and Underscore
 
 ## 9:15am Warm-up
 
-- Updates with Mike - quiz-o-thon, guest speaker, functional programming
+- Updates with Mike - quiz-o-thon, guest speaker, functional programming/oop, more functions?
 - Assessments
 
 ## 9:45am Week in Review

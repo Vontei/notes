@@ -50,6 +50,7 @@ function shuffleCards(arr) {
 }
 
 function createHalves(arr) {
+
   // *** Given an array of cards, shuffled or unshuffled, return two halves *** //
 
   var halfArray = [];
@@ -68,6 +69,7 @@ function createHalves(arr) {
 }
 
 function riffleCards(arrOfArrays) {
+
   // *** Given halves of cards, return an array of "riffled" cards *** //
 
   var riffledCardArray = [];
@@ -83,9 +85,7 @@ function riffleCards(arrOfArrays) {
       deckChoice = 1;
 
       // needs refactoring
-        // not DRY (function, modular)
-        // concatenating instead of using a for loop
-        // more realistic
+        // not DRY (functional, modular)
       var tempArray1 = half1.splice(0, Math.floor(Math.random()*26));
       for (var i = 0; i < tempArray1.length; i++) {
         riffledCardArray.push(tempArray1[i]);
@@ -111,5 +111,15 @@ function riffleCards(arrOfArrays) {
 
 var intialShuffled = shuffleCards(cardArray);
 var splitDeckArray = createHalves(intialShuffled);
-riffleCards(splitDeckArray); // what's a quick and dirty way to test this?
+var riflledDeck = riffleCards(splitDeckArray);
+
+console.log(riflledDeck);
+
+// what's a quick and dirty way to test this?
+if (riflledDeck[2] !==  cardArray[2]) {
+  console.log("Shuffled!");
+} else {
+  console.log("Not Shuffled!");
+}
+
 

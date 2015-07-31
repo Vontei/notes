@@ -19,3 +19,9 @@ Food.
 ## Exercises/Homework
 
 - Fill out ZPD
+
+## 2pm Breakout Groups
+
+- [Code along](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_lectures/jquery-calc) with Mike
+- Fundamentals with Zach
+- Pair or free code with Reyna

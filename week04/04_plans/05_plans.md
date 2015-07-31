@@ -38,12 +38,6 @@ Food.
 - [Simplify your JavaScript with Underscore.js](http://singlebrook.com/blog/simplify-your-javascript-with-underscorejs)
 - Weekly 1-on-1s during coding
 
-## 2pm Breakout Groups
-
-- [Code along](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_lectures/jquery-calc) with Mike
-- Fundamentals with Zach
-- Pair or free code with Reyna
-
 ## 3:30pm Guest Speaker!
 
 ## 4:30pm EOD

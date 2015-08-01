@@ -52,7 +52,7 @@ Food.
 
 - Exercise: [Functional Loop Practice](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_exercises/js-loops-part3) - yay!
 - Exercise: Need additional loop practice? [Loop Practice Part 2](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_exercises/js-loops-part2).
-- Exericse: Need more function practice? [Functions Part 3](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_exercises/js-functions-part3)
+- Exercise: Need more function practice? [Functions Part 3](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_exercises/js-functions-part3)
 - Finish Exercises!
 - Fill out ZPD
 - STRETCH: Read Chapter 6 in Eloquent JavaScript.

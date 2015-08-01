@@ -40,6 +40,8 @@ Food.
 
 ## 3:30pm Guest Speaker!
 
+- Kyle Purdon
+
 ## 4:30pm EOD
 
 - Lightning Talks - Zoe and Pete

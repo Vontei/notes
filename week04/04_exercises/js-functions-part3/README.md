@@ -82,5 +82,5 @@ console.log(test("ing"))
 
   ```javascript
   getUniqueValues(['m', 'n', 'm', 'r', 'r', 's']) // => ['m', 'n', 'r', 's']
-  getUniqueValues(['michael', 'ben', 'kerry', 'ben']) // => ['michael', 'dan', 'kerry']
+  getUniqueValues(['michael', 'ben', 'kerry', 'ben']) // => ['michael', 'ben', 'kerry']
   ```

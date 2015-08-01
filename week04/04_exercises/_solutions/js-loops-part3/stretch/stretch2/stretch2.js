@@ -53,27 +53,30 @@ _.each(students, function(obj){
 //   console.log(item.name +', '+ item.city);
 // });
 
+// how can you make this more concise?
 console.log('\nproblem 3 - underscore');
 var test = _.chain(students)
   .filter(function(obj){return obj.city === 'Boulder';})
+  .map(function(obj){return obj.name + ' is from ' + obj.city;})
+  .each(function(obj){console.log(obj);})
   .value();
-console.log(JSON.stringify(test));
 
-console.log('\nproblem 3 - forEach loop');
-students.forEach(function(item) {
-  if (item.city === 'Boulder') {
-    console.log(item.name +' is from '+ item.city);
-  }
-});
-
-// console.log('\nproblem 4 - vanilla js');
-// for(var i = 0; i < students.length; i++) {
-//   if (students[i].age > 25) {
-//       console.log(students[i].name +' is older than 25');
+// console.log('\nproblem 3 - lodash');
+// students.forEach(function(item) {
+//   if (item.city === 'Boulder') {
+//     console.log(item.name +' is from '+ item.city);
 //   }
-// }
+// });
 
-// console.log('\nproblem 4 - forEach loop');
+// how can you make this more concise?
+console.log('\nproblem 4 - underscore');
+var test = _.chain(students)
+  .filter(function(obj){return obj.age  > 25;})
+  .map(function(obj){return obj.name + ' is older than 25';})
+  .each(function(obj){console.log(obj);})
+  .value();
+
+// console.log('\nproblem 4 - lodash');
 // students.forEach(function(item) {
 //   if (item.age > 25) {
 //     console.log(item.name +' is older than 25');

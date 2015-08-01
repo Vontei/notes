@@ -4,7 +4,7 @@ var students = ['joe', 'carl', 'rachel', 'derek', 'lily'];
 
 
 
-// LOOPS
+// *** LOOPS *** //
 
 console.log("\njoe carl rachel derek");
 for(var i = 0; i < students.length-1; i++) {

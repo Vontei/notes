@@ -40,17 +40,21 @@
 
         <div class="row">
 
-          <div class="col-xs-4">
+          <div class="col-xs-4 col-xs-offset-1">
+
             <h2>Operands</h2>
             <div id="operands">
               <button class="btn btn-sm btn-primary">1</button>
               <button class="btn btn-sm btn-primary">2</button>
               <button class="btn btn-sm btn-primary">3</button>
               <button class="btn btn-sm btn-primary">4</button>
+              <button class="btn btn-sm btn-primary">6</button>
+              <button class="btn btn-sm btn-primary">7</button>
+              <button class="btn btn-sm btn-primary">8</button>
+              <button class="btn btn-sm btn-primary">9</button>
+              <button class="btn btn-sm btn-primary">0</button>
             </div>
-          </div>
 
-          <div class="col-xs-4">
             <h2>Operators</h2>
             <div id="operators">
               <button class="btn btn-sm btn-danger">+</button>
@@ -58,12 +62,16 @@
               <button class="btn btn-sm btn-danger">x</button>
               <button class="btn btn-sm btn-danger">%</button>
             </div>
+
           </div>
 
-          <div class="col-xs-4">
+          <div class="col-xs-4 col-xs-offset-1">
+
+            <h2>Screen</h2>
+            <div id="screen" class="well"></div>
             <h2>Solution</h2>
-            <div id="solution" class="well">
-            </div>
+            <div id="solution" class="well"></div>
+
           </div>
 
         </div>
@@ -79,3 +87,17 @@
   ```
 
 ## Code Along with Mike!
+
+Steps..
+
+### Housekeeping
+
+### Structure
+
+### Pseudocode
+
+### Test
+
+### Code
+
+### Refactor

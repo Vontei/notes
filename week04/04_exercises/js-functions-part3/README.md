@@ -55,7 +55,7 @@ console.log(test("ing"))
 
   ```javascript
   var ages = {john: 10, jerry: 11, jenny: 12 };
-  outputObject(ages); // => john is 10, jerry is 20, and jenny is 30
+  outputObject(ages); // => john is 10, jerry is 11, jenny is 12
   ```
 
 1. Define a function called `getVowels` that takes a string as an argument and returns an array of all the vowels in the string. Do not include duplicates.

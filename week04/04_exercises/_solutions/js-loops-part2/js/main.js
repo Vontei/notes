@@ -21,17 +21,17 @@ console.log("\nlily derek rachel carl joe");
 var copiedArray = students.slice();
 var studentsReversed = copiedArray.reverse();
 for(var i = 0; i < students.length-1; i++) {
-    console.log(studentsReversed[i]);
+  console.log(studentsReversed[i]);
 }
 
 console.log("\njoe carl carl rachel rachel derek derek lily");
 for(var i = 0; i < students.length; i++) {
-    if(i === 0 || i === students.length-1) {
-        console.log(students[i]);
-    } else {
-        for(var j = 0; j < 2; j++) {
-            console.log( students[i] );
-        }
+  if(i === 0 || i === students.length-1) {
+    console.log(students[i]);
+  } else {
+    for(var j = 0; j < 2; j++) {
+      console.log( students[i] );
     }
+  }
 }
 

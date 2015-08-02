@@ -51,11 +51,11 @@ console.log(test("ing"))
   removeCharacter('12345', '2'); // => 1345
   ```
 
-1. Define a function called `ouputObject` that takes an object as an argument and returns each key-value pair in the following format 'key .
+1. Define a function called `outputObject` that takes an object as an argument and returns each key-value pair in the following format 'key .
 
   ```javascript
   var ages = {john: 10, jerry: 11, jenny: 12 };
-  ouputObject(ages); // => john is 10, jerry is 20, and jenny is 30
+  outputObject(ages); // => john is 10, jerry is 20, and jenny is 30
   ```
 
 1. Define a function called `getVowels` that takes a string as an argument and returns an array of all the vowels in the string. Do not include duplicates.

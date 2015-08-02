@@ -33,22 +33,22 @@ console.log(test("ing"))
 1. Define a function called 'createObject' that takes two arguments and returns a new object with a key of the first argument and the value of the second argument.
 
   ```javascript
-  createObject('city', 'Boulder'); // => {city: "Boulder"}
+  createObject('city', 'Boulder'); // => {city: 'Boulder'}
   ```
 
 1. Define a function called `getNegativeIndex` that takes an array and a negative number as arguments and returns the value from the array at the given negative index.
 
   ```javascript
   var letterArray = ['a', 'b', 'c', 'd', 'e'];
-  getNegativeIndex(, -3); // => c
+  getNegativeIndex(letterArray, -3); // => c
   ```
 
 1. Define a function called `removeCharacter` that takes a string and a single character (string or integer) as arguments and returns the string with the characters removed. Do not modify the original string. STRETCH: Write a test case for this last requirement.
 
   ```javascript
   removeCharacter('javascript', 'a'); // => jvscript
-  removeCharacter('javascript', 1); // => javascript
-  removeCharacter('12345', 2); // => 1345
+  removeCharacter('javascript', '1'); // => javascript
+  removeCharacter('12345', '2'); // => 1345
   ```
 
 1. Define a function called `ouputObject` that takes an object as an argument and returns each key-value pair in the following format 'key .

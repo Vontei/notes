@@ -43,23 +43,18 @@ _.forEach(students, function(item) {
   console.log(item.name +', '+ item.city);
 });
 
-// console.log('\nproblem 3 - lodash');
-// students.forEach(function(item) {
-//   if (item.city === 'Boulder') {
-//     console.log(item.name +' is from '+ item.city);
-//   }
-// });
+// how can you make this more concise?
+console.log('\nproblem 3 - lodash');
+var test = _.chain(students)
+  .filter(function(obj){return obj.city === 'Boulder';})
+  .map(function(obj){return obj.name + ' is from ' + obj.city;})
+  .each(function(obj){console.log(obj);})
+  .value();
 
-// console.log('\nproblem 3 - lodash');
-// students.forEach(function(item) {
-//   if (item.city === 'Boulder') {
-//     console.log(item.name +' is from '+ item.city);
-//   }
-// });
-
-// console.log('\nproblem 4 - lodash');
-// students.forEach(function(item) {
-//   if (item.age > 25) {
-//     console.log(item.name +' is older than 25');
-//   }
-// });
+// how can you make this more concise?
+console.log('\nproblem 4 - lodash');
+var test = _.chain(students)
+  .filter(function(obj){return obj.age  > 25;})
+  .map(function(obj){return obj.name + ' is older than 25';})
+  .each(function(obj){console.log(obj);})
+  .value();

@@ -19,68 +19,68 @@ console.log(test("ing"))
 1. Define a function called `getStudentName` that takes a single object as an argument and returns the value of the `name` property/key.
 
   ```javascript
-  var name = {name: 'Michael', age: 27 }
-  getStudentName(name) // => Michael
+  var name = {name: 'Michael', age: 27 };
+  getStudentName(name); // => Michael
   ```
 
 1. Define a function called `getTotalLetters` that takes an array of strings as an argument and returns the total number of letters in all strings.
 
   ```javascript
-  var stringArray = ['javascript', 'is', 'not', 'python']
-  getTotalLetters(stringArray) // => 19
+  var stringArray = ['javascript', 'is', 'not', 'python'];
+  getTotalLetters(stringArray); // => 21
   ```
 
 1. Define a function called 'createObject' that takes two arguments and returns a new object with a key of the first argument and the value of the second argument.
 
   ```javascript
-  createObject('city', 'Boulder') // => {city: "Boulder"}
+  createObject('city', 'Boulder'); // => {city: "Boulder"}
   ```
 
 1. Define a function called `getNegativeIndex` that takes an array and a negative number as arguments and returns the value from the array at the given negative index.
 
   ```javascript
-  var letterArray = ['a', 'b', 'c', 'd', 'e']
-  getNegativeIndex(, -3) // => return c
+  var letterArray = ['a', 'b', 'c', 'd', 'e'];
+  getNegativeIndex(, -3); // => c
   ```
 
 1. Define a function called `removeCharacter` that takes a string and a single character (string or integer) as arguments and returns the string with the characters removed. Do not modify the original string. STRETCH: Write a test case for this last requirement.
 
   ```javascript
-  removeCharacter('javascript', 'a') // => jvscript
-  removeCharacter('javascript', 1) // => javascript
-  removeCharacter('12345', 2) // => 1345
+  removeCharacter('javascript', 'a'); // => jvscript
+  removeCharacter('javascript', 1); // => javascript
+  removeCharacter('12345', 2); // => 1345
   ```
 
 1. Define a function called `ouputObject` that takes an object as an argument and returns each key-value pair in the following format 'key .
 
   ```javascript
-  var ages = {john: 10, jerry: 11, jenny: 12 }
-  ouputObject(ages) // => john is 10, jerry is 20, and jenny is 30
+  var ages = {john: 10, jerry: 11, jenny: 12 };
+  ouputObject(ages); // => john is 10, jerry is 20, and jenny is 30
   ```
 
 1. Define a function called `getVowels` that takes a string as an argument and returns an array of all the vowels in the string. Do not include duplicates.
 
   ```javascript
-  getVowels('javascripting') // => ['a', 'i']
+  getVowels('javascripting'); // => ['a', 'i']
   ```
 
 1. Define a function called `captureTwins` that takes an array as an argument and returns true if every adjacent pair of items in the array is the same, otherwise return false.
 
   ```javascript
-  captureTwins(['m', 'm', 'n', 'n', 's', 's']) // => true
-  captureTwins(['m', 'm', 'm', 'n', 's', 's']) // => false
+  captureTwins(['m', 'm', 'n', 'n', 's', 's']); // => true
+  captureTwins(['m', 'm', 'm', 'n', 's', 's']); // => false
   ```
 
 1. Define a function called `testBooleanLogic` that takes an array of boolean values and returns true if any value is true.
 
   ```javascript
-  testBooleanLogic([false, true, false, false]) // => true
-  testBooleanLogic([false, false, false]) // =>  false
+  testBooleanLogic([false, true, false, false]); // => true
+  testBooleanLogic([false, false, false]); // =>  false
   ```
 
 1. Define a function called `getUniqueValues` that takes an array of strings, and returns a new array consisting of the unique values.
 
   ```javascript
-  getUniqueValues(['m', 'n', 'm', 'r', 'r', 's']) // => ['m', 'n', 'r', 's']
-  getUniqueValues(['michael', 'ben', 'kerry', 'ben']) // => ['michael', 'ben', 'kerry']
+  getUniqueValues(['m', 'n', 'm', 'r', 'r', 's']); // => ['m', 'n', 'r', 's']
+  getUniqueValues(['michael', 'ben', 'kerry', 'ben']); // => ['michael', 'ben', 'kerry']
   ```

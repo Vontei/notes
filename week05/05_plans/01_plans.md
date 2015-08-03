@@ -18,7 +18,7 @@
 
 Food. Pair with Mike during lunch!
 
-## 1pm Pair Check-In
+## 1pm Pair Check-Ins
 
 ## 2pm Guest!
 

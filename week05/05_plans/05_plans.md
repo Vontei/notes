@@ -20,4 +20,5 @@ Food.
 
 ## Exercises/Homework
 
+- Frontend Project Proposal
 - Fill out ZPD

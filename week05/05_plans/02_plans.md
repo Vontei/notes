@@ -8,7 +8,11 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
+- Riffle, continued...
+
+## 10am Lecture
+
+- Intro to OOP
 
 ## 12pm Lunch
 
@@ -18,4 +22,5 @@ Food.
 
 ## Exercises/Homework
 
+- OOP Homework
 - Fill out ZPD

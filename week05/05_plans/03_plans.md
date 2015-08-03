@@ -8,14 +8,17 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
+## 10am Code
 
 ## 12pm Lunch
 
 Food.
 
-## 1pm Code!
+## 1pm Lecture
+
+- OOP Inherience
 
 ## Exercises/Homework
 
+- OOP Homework
 - Fill out ZPD

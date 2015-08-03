@@ -18,4 +18,5 @@ Food.
 
 ## Exercises/Homework
 
+- OOP Demo!
 - Fill out ZPD

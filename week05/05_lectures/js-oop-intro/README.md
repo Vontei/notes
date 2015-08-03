@@ -2,12 +2,11 @@
 
 Object-oriented Programming (OOP) is a type of programming paradigm that uses abstractions to model real-world models, called Classes. In essence, OOP organizes code into numerous pieces of code that all work together.
 
-One the main benefits of OOP is modularity. You do *not* have to understand every single line of code in your code base.
+One the main benefits of OOP is modularity. You do *not* have to understand every single line of code in your code base. In other
 
-## Key Terms
+## Key terms
 
 - Constructor function
-- Methods
 
 
 

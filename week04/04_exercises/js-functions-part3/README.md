@@ -19,8 +19,8 @@ console.log(test("ing"))
 1. Define a function called `getStudentName` that takes a single object as an argument and returns the value of the `name` property/key.
 
   ```javascript
-  var name = {name: 'Michael', age: 27 };
-  getStudentName(name); // => Michael
+  var studentName = {name: 'Michael', age: 27 };
+  getStudentName(studentName); // => Michael
   ```
 
 1. Define a function called `getTotalLetters` that takes an array of strings as an argument and returns the total number of letters in all strings.

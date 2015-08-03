@@ -4,9 +4,9 @@ function getStudentName(obj) {
   return obj.name;
 }
 
-var name = {name: 'Michael', age: 27 };
-console.log(getStudentName(name));
-console.log(getStudentName(name) === 'Michael');
+var studentName = {name: 'Michael', age: 27 };
+console.log(getStudentName(studentName));
+console.log(getStudentName(studentName) === 'Michael');
 
 
 // Define a function called `getTotalLetters` that takes an array of strings as

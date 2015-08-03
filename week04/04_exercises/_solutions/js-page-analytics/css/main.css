@@ -1,0 +1,22 @@
+/* add custom styles */
+
+body {
+  padding-top: 70px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.btn-primary {
+  margin: 10px;
+}
+
+#heatmap{
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  background-image: url(http://codeflow.org/entries/2013/feb/04/high-performance-js-heatmaps/heatmap.png);
+  background-size: contain;
+  color: white;
+}

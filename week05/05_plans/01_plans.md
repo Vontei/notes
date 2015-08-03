@@ -26,12 +26,10 @@ Food. Pair with Mike during lunch!
 
 ## 3pm Breakout Groups
 
-- [Code along](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_lectures/jquery-calc) with Mike
+- Code along with Reyna
 - Fundamentals with Zach
-- Pair or free code with Reyna
 
-## 4pm Pairing
-
+## 4pm Code
 ## Exercises/Homework
 
 - **FOR TOMORROW**: Read [Eloquent JavaScript: The Secret Life of Objects](http://eloquentjavascript.net/06_object.html)

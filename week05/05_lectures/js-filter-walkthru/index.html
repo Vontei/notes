@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Range and FIlter</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <button class="btn btn-danger" data-val='10'>0-10</button>
+    <button class="btn btn-warning" data-val='20'>10-20</button>
+    <button class="btn btn-success" data-val='30'>20-30</button>
+    <button class="btn btn-alert" data-val='40'>30-40</button>
+
+    <div class="row">
+
+      <div class="col-xs-6">
+        <h2>Original Values</h2>
+        <ul id="original-values">
+          <li>40</li>
+          <li>2</li>
+          <li>6</li>
+          <li>13</li>
+          <li>29</li>
+          <li>71</li>
+          <li>8</li>
+          <li>9</li>
+          <li>36</li>
+          <li>12</li>
+          <li>15</li>
+        </ul>
+      </div>
+
+      <div class="col-xs-6">
+        <h2>Filter Values</h2>
+        <ul id="filtered-values"></ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- scripts -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="utility.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

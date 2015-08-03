@@ -15,6 +15,32 @@ vs.
 
 **It has to become second nature, for a programmer, to notice when a concept is begging to be abstracted into a new word.**
 
+## Functional vs Procedural Approaches
+
+Functional programming manipulates values, while procedural executes commands.
+
+### Example
+
+```javascript
+// *** procedural approach *** //
+var numbers = [1, 2, 3, 4, 5];
+for (var i = 0; i < numbers.length; i++) {
+  numbers[i] = numbers[i] * 10;
+}
+console.log('Procedural', numbers.join(', '));
+
+// *** functional approach *** //
+var numbers = [1, 2, 3, 4, 5];
+var numberTimesTen = function(numArray) {
+  var outputNumbers = [];
+  for (var i = 0; i < numArray.length; i++) {
+    outputNumbers.push(numArray[i] * 10);
+  }
+  return outputNumbers;
+};
+console.log('Functional', numberTimesTen(numbers).join(', '));
+```
+
 ## Array Traversal
 
 We've been doing a lot of array traversal, and so far it's looked something like this:

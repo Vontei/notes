@@ -8,20 +8,27 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
+- Quiz-o-thon
+
+## 10am Pair
 
 ## 12pm Lunch
 
-Food.
+Food. Pair with Mike during lunch!
 
 ## 1pm Code!
 
-## Exercises/Homework
+## 2pm Guest!
 
-- Fill out ZPD
+## 3pm Breakout Groups
 
-## 2pm Breakout Groups
-
-- [Code along](https://github.com/gSchool/g11-course-curriculum/tree/master/week04/04_lectures/jquery-calc) with Mike
+- [Code along](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_lectures/jquery-calc) with Mike
 - Fundamentals with Zach
 - Pair or free code with Reyna
+
+## 4pm Pairing
+
+## Exercises/Homework
+
+- **FOR TOMORROW**: Read [Eloquent JavaScript: The Secret Life of Objects](http://eloquentjavascript.net/06_object.html)
+- Fill out ZPD

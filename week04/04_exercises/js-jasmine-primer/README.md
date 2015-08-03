@@ -2,9 +2,6 @@
 
 Let's learn to test code with [Jasmine](http://jasmine.github.io/), an automated testing framework for JavaScript...
 
-<img src="https://raw.githubusercontent.com/gSchool/g11-course-curriculum/master/week04/04_exercises/js-jasmine-primer/jasmine.png?token=AB7Ld8Nv28BPBzFYCQEqdQ0CuWz_M37iks5Vv3MqwA%3D%3D" width="400px">
-<br>
-
 1. [Overview](#overview)
 1. [Setup](#setup)
 1. [Discussion](#discussion)
@@ -54,7 +51,7 @@ Read more [here](http://stackoverflow.com/questions/67299/is-unit-testing-worth-
   $ npm install -g jasmine
   ```
 
-1. CD into the "js-jasmine-primer" directory, and then [initialize Jasmine](http://jasmine.github.io/2.0/node.html#section-Init_a_Project) to create a "spec" directive and a JSON configuration file:
+1. Create a new directory called "js-jasmine-primer". CD into it, and then [initialize Jasmine](http://jasmine.github.io/2.0/node.html#section-Init_a_Project) to create a "spec" directive and a JSON configuration file:
 
   ```sh
   $ jasmine init

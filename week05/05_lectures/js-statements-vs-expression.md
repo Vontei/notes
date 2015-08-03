@@ -1,6 +1,6 @@
 # Statements vs Expression
 
-In JavaScript an **expression** produces at least *one* value, while a **statement** performs an action.
+In JavaScript an **expression** *produces at least one value*, while a **statement** *performs an action*.
 
 ## Example
 
@@ -35,6 +35,8 @@ console.log(
 // expression
 console.log(num === 10 ? num += 10 : num += 0);
 ```
+
+The statement will throw an error.
 
 ## Additional Resource
 

@@ -2,6 +2,8 @@
 
 ## Today's Goals
 
+- Get caught up!
+
 ## 9am Standup
 
 - Events, Helps, Interestings

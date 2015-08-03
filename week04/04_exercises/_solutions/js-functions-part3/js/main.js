@@ -89,7 +89,16 @@ console.log(outputObject(ages));
 // Define a function called `getVowels` that takes a string as an argument and
 // returns an array of all the vowels in the string. Do not include duplicates.
 function getVowels(str) {
-  var theVowels = ['a', 'e', 'i', 'o', 'u'];
+
+  // var theVowels = null;
+  // if (Math.round(Math.random()) === 1) {
+  //   theVowels = ['a', 'e', 'i', 'o', 'u'];
+  // } else {
+  //   theVowels = ['a', 'e', 'i', 'o', 'u', 'y'];
+  // }
+
+  theVowels = ['a', 'e', 'i', 'o', 'u'];
+
   return str.split('').filter(function(letter) {
     if(theVowels.indexOf(letter) >= 0 ) {
       return true;

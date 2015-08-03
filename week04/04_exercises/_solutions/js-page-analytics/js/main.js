@@ -57,7 +57,7 @@ $(document).on('ready', function() {
     $('#cta-time').html('<p>It took ' + $minutesSpent + ' seconds to click');
   });
 
-  // Track time in blogpost1
+  // Track time in NavBar
   $(".navbar").on("mouseenter", function(){
     var mastEnter = new Date();
     // Save the mouseenter

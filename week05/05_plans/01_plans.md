@@ -9,14 +9,16 @@
 ## 9:15am Warm-up
 
 - Quiz-o-thon
+- ABCs = Always Be Coding!
+- Refactoring with Mike
 
-## 10am Pair
+## 10am Code!
 
 ## 12pm Lunch
 
 Food. Pair with Mike during lunch!
 
-## 1pm Code!
+## 1pm Pair Check-In
 
 ## 2pm Guest!
 

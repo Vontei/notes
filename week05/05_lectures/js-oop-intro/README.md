@@ -30,7 +30,7 @@ One of the main benefits of OOP is modularity. Because of this, you do *not* hav
 - The `this` keyword
 - Prototype object
 - Encapsulation (creation)
-- Inheritence (reuse)
+- Inheritance (reuse)
 
 ## Constructor Function
 
@@ -141,6 +141,10 @@ console.log(redCar);
 console.log(redCar.honk());
 console.log(redCar.toString());
 ```
+
+**How about built-in methods?**
+
+Open up Dev Tools, and type in `String.prototype.` into the console. You should see all the built-in methods associated with the `String` class.
 
 ## Quick Challenges
 

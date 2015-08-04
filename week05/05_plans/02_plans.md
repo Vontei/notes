@@ -40,5 +40,4 @@ Food. Pair with Mike during lunch!
 - OOP Exercise 1: [functions-objects-js-homework](https://github.com/gSchool/functions-objects-js-homework)
 - OOP Exercise 2: [js-methods-this-constructors](https://github.com/gSchool/js-methods-this-constructors)
 - OOP Stretch 1: [Rock Paper Scissors](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-rock-paper-scissors)
-- OOP Stretch 2: [Tic Tac Toe]()
 - Fill out ZPD

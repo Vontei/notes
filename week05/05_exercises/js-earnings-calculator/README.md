@@ -120,8 +120,8 @@
     font-weight: bold;
   }
   ```
-1. Push code to Github
-1. Wait for instructions
+1. Initialize a local git repo. Add/Commit your code locally. Create a remote project/repo on Github. Push code to Github.
+1. Wait for instructions...
 
 ## Steps
 

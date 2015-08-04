@@ -2,7 +2,7 @@
 
 Object-oriented Programming (OOP) is a type of programming paradigm that uses abstractions to model real-world models, called Classes. In essence, OOP organizes code into numerous pieces that all work together.
 
-One of the main benefits of OOP is modularity. Because of this, you do *not* have to understand every single line of code in your code base. If you define a Class in one file, you just need to know how to create an instance of that class. In other words, you just need to know the Class name and its associated properties and paremeters - not all of the code in the class. I can create a `Car()` class, and you can utilize it just by knowing the available properties and methods.
+One of the main benefits of OOP is modularity. Because of this, you do *not* have to understand every single line of code in your code base. If you define a Class in one file, you just need to know how to create an instance of that class. In other words, you just need to know the Class name and its associated properties and parameters - not all of the code in the class. I can create a `Car()` class, and you can utilize it just by knowing the available properties and methods.
 
 - [Objectives]
 
@@ -27,7 +27,7 @@ One of the main benefits of OOP is modularity. Because of this, you do *not* hav
 - Encapsulation (creation)
 - Inheritence (reuse)
 
-## Steps
+## Part 1
 
 Scaffold out a new project from the generator and follow along with the examples...
 
@@ -50,7 +50,7 @@ var blackCar = new Vehicle();
 console.log(blackCar);
 ```
 
-> What is `this`? It's an arbitrary object that lives in the scope. Every scope has a `this` object!
+> What is `this`? It's an arbitrary object that lives in the scope. Every scope has a `this` object! It's simply a placeholder that points to the current object.
 
 **How do we make this dynamic?**
 
@@ -69,6 +69,8 @@ var Vehicle = function(wheels, color){
 var car = new Vehicle(4, 'red');
 console.log(car);
 ```
+
+> `new`? The `new` keyword informs alerts the JavaScript interpreter that we want to use the function as a constructor in order to create an object.
 
 **So...**
 
@@ -147,7 +149,9 @@ console.log(redCar.toString());
 1. Create an instance
 1. Append the instance to the DOM.
 
-### Read
+### Read and Watch
 
-Read [Objects and classes by example](http://book.mixu.net/node/ch6.html)
+- Read [Objects and classes by example](http://book.mixu.net/node/ch6.html)
+- [Watch](https://www.youtube.com/watch?v=xVnW7ZMqBus)
 
+## Part 2 (coming soon!)

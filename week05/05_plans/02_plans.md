@@ -19,7 +19,7 @@
 
 ## 9:15am Warm-up
 
-- Riffle, continued...
+- Riffle, continued... TDD!
 
 ## 10am Lecture
 
@@ -33,5 +33,6 @@ Food. Pair with Mike during lunch!
 
 ## Exercises/Homework
 
-- OOP Homework
+- Exercise: [js-methods-this-constructors](https://github.com/gSchool/js-methods-this-constructors)
+- Exercise: [functions-objects-js-homework](https://github.com/gSchool/functions-objects-js-homework)
 - Fill out ZPD

@@ -6,7 +6,8 @@ One of the main benefits of OOP is modularity. Because of this, you do *not* hav
 
 - [Objectives](#objectives)
 - [Key terms](#key-terms)
-- [Tutorial - part 1](#tutorial---part-1)
+- [Constructor Function](#constructor-function)
+- [Methods](#methods)
 - [Quick Challenges](#quick-challenges)
 - [Read and Watch](#read-and-watch)
 

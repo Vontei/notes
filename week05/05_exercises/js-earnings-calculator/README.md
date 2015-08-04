@@ -5,6 +5,7 @@
 1. Create a new project folder called "js-earnings-calculator".
 1. CD into the project folder.
 1. Generate a project boilerplate:
+
   ```sh
   yo galvanize-html
   Welcome to Galvanize's HTML Generator

@@ -11,7 +11,6 @@
 ## 9:15am Warm-up
 
 - Quiz-o-thon
-- ABCs = Always Be Coding!
 - Refactoring with Mike
 
 ## 10am Code!

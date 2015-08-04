@@ -23,13 +23,15 @@
 
 ## 10am Lecture
 
-- Intro to OOP
+- [Intro to OOP](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_lectures/js-oop-intro)
 
 ## 12pm Lunch
 
 Food. Pair with Mike during lunch!
 
 ## 1pm Code!
+
+## 3pm jQuery review
 
 ## Exercises/Homework
 

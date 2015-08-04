@@ -31,11 +31,9 @@ One of the main benefits of OOP is modularity. Because of this, you do *not* hav
 - Encapsulation (creation)
 - Inheritence (reuse)
 
-## Tutorial - part 1
+## Constructor Function
 
-Scaffold out a new project from the generator and follow along with the examples...
-
-### Constructor Function
+> Scaffold out a new project from the generator and follow along with the examples...
 
 Let's start by creating our first Class.
 
@@ -82,7 +80,7 @@ console.log(car);
 1. The constructor is a blueprint used to create multiple
 
 
-### Methods
+## Methods
 
 We can also assign methods to the prototype object:
 

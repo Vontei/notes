@@ -54,7 +54,7 @@ table {
   font-size: 30px;
 }
 
-.currentTurn,.turn {
+.current-turn,.turn {
   text-align: center;
   margin: 10px;
   margin-bottom: 15px;

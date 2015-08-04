@@ -4,7 +4,8 @@ Object-oriented Programming (OOP) is a type of programming paradigm that uses ab
 
 One of the main benefits of OOP is modularity. Because of this, you do *not* have to understand every single line of code in your code base. If you define a Class in one file, you just need to know how to create an instance of that class. In other words, you just need to know the Class name and its associated properties and parameters - not all of the code in the class. I can create a `Car()` class, and you can utilize it just by knowing the available properties and methods.
 
-- [Objectives]
+- [Objectives](#objectives)
+- [Key terms](#key-terms)
 
 ## Objectives
 
@@ -27,7 +28,7 @@ One of the main benefits of OOP is modularity. Because of this, you do *not* hav
 - Encapsulation (creation)
 - Inheritence (reuse)
 
-## Part 1
+## Tutorial - part 1
 
 Scaffold out a new project from the generator and follow along with the examples...
 
@@ -137,7 +138,7 @@ console.log(redCar.honk());
 console.log(redCar.toString());
 ```
 
-### Quick Challenges
+## Quick Challenges
 
 1. Create a class called `Song()` with two properties:
   - `songName` - i.e., 'A day in the Life'
@@ -149,7 +150,7 @@ console.log(redCar.toString());
 1. Create an instance
 1. Append the instance to the DOM.
 
-### Read and Watch
+## Read and Watch
 
 - Read [Objects and classes by example](http://book.mixu.net/node/ch6.html)
 - [Watch](https://www.youtube.com/watch?v=xVnW7ZMqBus)

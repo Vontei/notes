@@ -53,7 +53,9 @@ var blackCar = new Vehicle();
 console.log(blackCar);
 ```
 
-> What is `this`? It's an arbitrary object that lives in the scope. Every scope has a `this` object! It's simply a placeholder that points to the current object.
+1. Unlike many other OO languages such as Ruby, Java, and Python, JavaScript does not have a `class` keyword (prior to EcmaScript 6).
+1. Notice how the function name for the class starts with a capital letter. This is convention; it helps to distinguish between a regular function and a class.
+1. **What is `this`?** It's an arbitrary placeholder object that lives in the scope. Every scope has a `this` object! It's simply a placeholder that points to the current object.
 
 **How do we make this dynamic?**
 

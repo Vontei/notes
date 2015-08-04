@@ -1,6 +1,6 @@
 # Objecting-oriented Programming - intro
 
-Object-oriented Programming (OOP) is a type of programming paradigm that uses abstractions to model real-world models, called Classes. In essence, OOP organizes code into numerous pieces that all work together.
+Object-oriented Programming (OOP) is a type of programming [paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) that uses abstractions to model real-world models, called Classes. In essence, OOP organizes code into numerous pieces that all work together.
 
 One of the main benefits of OOP is modularity. Because of this, you do *not* have to understand every single line of code in your code base. If you define a Class in one file, you just need to know how to create an instance of that class. In other words, you just need to know the Class name and its associated properties and parameters - not all of the code in the class. I can create a `Car()` class, and you can utilize it just by knowing the available properties and methods.
 

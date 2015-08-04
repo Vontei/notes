@@ -151,11 +151,10 @@ Open up Dev Tools, and type in `String.prototype.` into the console. You should 
 1. Create a class called `Song()` with two properties:
   - `songName` - i.e., 'A day in the Life'
   - `bandName` - i.e., 'The Beatles'
-1. create a new instance of the class, storing it in a variable
+1. Create a new instance of the class with the `new` keyword, storing it in a variable
 1. Add two methods to the prototype:
   - `countName` - return the total number of words in the song name
   - `createElement` - create a new DOM element with jQuery
-1. Create an instance with the `new` keyword
 1. Append the instance to the DOM
 
 ## Read and Watch

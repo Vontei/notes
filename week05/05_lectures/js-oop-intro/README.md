@@ -73,17 +73,17 @@ var car = new Vehicle(4, 'red');
 console.log(car);
 ```
 
-> `new`? The `new` keyword informs alerts the JavaScript interpreter that we want to use the function as a constructor in order to create an object.
+> `new`? The `new` keyword alerts the JavaScript interpreter that we want to use the function as a constructor in order to create an object.
 
 **So...**
 
 1. The instance properties are nouns, describing the object
-1. The constructor is a blueprint used to create multiple
+1. The constructor is a blueprint used to create multiple objects
 
 
 ## Methods
 
-We can also assign methods to the prototype object:
+We can also assign methods to the prototype object, which *act* upon the object:
 
 ```javascript
 // *** Intro to OOP *** //
@@ -147,14 +147,14 @@ console.log(redCar.toString());
   - `bandName` - i.e., 'The Beatles'
 1. create a new instance of the class, storing it in a variable
 1. Add two methods to the prototype:
-  - countnName - return the total number of words in the song name
-  - createElement - create a new DOM element with jQuery
-1. Create an instance
-1. Append the instance to the DOM.
+  - `countName` - return the total number of words in the song name
+  - `createElement` - create a new DOM element with jQuery
+1. Create an instance with the `new` keyword
+1. Append the instance to the DOM
 
 ## Read and Watch
 
 - Read [Objects and classes by example](http://book.mixu.net/node/ch6.html)
-- [Watch](https://www.youtube.com/watch?v=xVnW7ZMqBus)
+- [Watch this video](https://www.youtube.com/watch?v=xVnW7ZMqBus)
 
 ## Part 2 (coming soon!)

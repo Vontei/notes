@@ -19,7 +19,8 @@
 
 ## 9:15am Warm-up
 
-- Riffle, continued... TDD!
+- Install `npm install -g generator-galvanize-html` (what does the `-g` flag do?)
+- Riffle, continued... Testing!
 
 ## 10am Lecture
 
@@ -35,6 +36,7 @@ Food. Pair with Mike during lunch!
 
 ## Exercises/Homework
 
-- Exercise: [js-methods-this-constructors](https://github.com/gSchool/js-methods-this-constructors)
-- Exercise: [functions-objects-js-homework](https://github.com/gSchool/functions-objects-js-homework)
+- OOP Exercise 1: [functions-objects-js-homework](https://github.com/gSchool/functions-objects-js-homework)
+- OOP Exercise 2: [js-methods-this-constructors](https://github.com/gSchool/js-methods-this-constructors)
+- Stretch: js-oop-dungeon-master
 - Fill out ZPD

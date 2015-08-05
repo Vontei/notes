@@ -218,8 +218,7 @@ for (var i = 0; i < cars.length; i++) {
 // Filter callback function
 
 var domesticManufacturer = function(car) {
-  console.log(cars.madeInUnitedStates)
-  return cars.madeInUnitedStates
+  return car.madeInUnitedStates
 }
 
 var singleCar = function(car){

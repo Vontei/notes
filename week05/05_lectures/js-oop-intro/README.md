@@ -11,7 +11,7 @@ One of the main benefits of OOP is modularity. Because of this, you do *not* hav
 - [Quick Challenges](#quick-challenges)
 - [Read and Watch](#read-and-watch)
 - [Inheritance](#inheritance)
-- [Another Challenge](#another-challenges)
+- [Another Challenge](#another-challenge)
 
 ## Objectives
 

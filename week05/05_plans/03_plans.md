@@ -32,5 +32,5 @@ Food.
 
 ## Exercises/Homework
 
-- OOP Homework
+- Want more help with OOP basics? [JavaScript Autoshop](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-auto-shop)
 - Fill out ZPD

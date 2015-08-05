@@ -18,7 +18,7 @@ Food.
 
 ## 1pm Lecture
 
-- OOP Inherience
+- [OOP Inherience](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_lectures/js-oop-intro#inheritance)
 
 ## 3pm OOP Demo
 

@@ -1,7 +1,7 @@
 var BookReader = require('../book_reader');
 
-var exampleBook = ['any', 'array', 'of', 'text', 'is', 'a', 'book', 'to', 'us'],
-    shortExampleBook = ['this', 'is', 'short'];
+var exampleBook = ['any', 'array', 'of', 'text', 'is', 'a', 'book', 'to', 'us'];
+var shortExampleBook = ['this', 'is', 'short'];
 
 
 describe('properties', function() {

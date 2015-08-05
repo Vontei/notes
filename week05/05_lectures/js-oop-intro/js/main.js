@@ -54,7 +54,6 @@ var Song = function(songName, bandName){
   this.bandName = bandName;
 };
 
-
 Song.prototype.countName = function(){
   return this.songName.split(' ').length;
 };
@@ -72,3 +71,85 @@ console.log(newSong.countName());
 $(document).ready(function(){
   $('body').append(newSong.create());
 });
+
+
+// *** Inheritence *** //
+
+// Base Class - constructor
+var Vehicle = function(wheels, color){
+  // properties
+  this.wheels = wheels;
+  this.color = color;
+};
+
+// Methods
+Vehicle.prototype.honk = function() {
+  return 'honk!';
+};
+Vehicle.prototype.toString = function() {
+  return 'The vehicle has ' + this.wheels + ' wheels and is ' +
+    this.color + '.';
+};
+
+// Car Class
+var Car = function(color){
+  this.wheels = 4;
+  this.color = color;
+};
+
+Car.prototype = new Vehicle();
+Car.prototype.drive = function(distance) {
+  return "The car moved " + distance + ' miles!';
+};
+Car.prototype.honk = function(){
+  return 'car honk!';
+};
+
+// Instance of the Car sub-class
+var redCar = new Car('red');
+console.log(redCar);
+console.log(redCar.honk());
+console.log(redCar.drive(10));
+console.log(redCar.toString());
+
+// Instance of the Vehicle base class
+var smallMotorcycle = new Vehicle(2, 'black');
+console.log(smallMotorcycle);
+console.log(smallMotorcycle.honk());
+console.log(smallMotorcycle.toString());
+
+
+// *** Another Challenge ** //
+
+var Person = function(firstAndLastName) {
+  this.firstAndLastName = firstAndLastName;
+  this.isInstructor = true;
+};
+
+Person.prototype.getFullName = function(distance) {
+  return this.firstAndLastName;
+};
+
+Person.prototype.getFirstName = function(distance) {
+  return this.firstAndLastName.split(' ')[0];
+};
+
+Person.prototype.getLastName = function(distance) {
+  return this.firstAndLastName.split(' ')[1];
+};
+
+var Student = function(firstAndLastName){
+  this.firstAndLastName = firstAndLastName;
+  this.isInstructor = false;
+};
+Student.prototype = new Person();
+
+var michael = new Person('Michael Herman');
+console.log(michael);
+console.log(michael.getFullName());
+console.log(michael.getFirstName());
+console.log(michael.getLastName());
+
+var notMichael = new Student('John Doe');
+console.log(notMichael);
+console.log(notMichael.getFullName());

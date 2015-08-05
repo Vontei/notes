@@ -10,6 +10,8 @@ One of the main benefits of OOP is modularity. Because of this, you do *not* hav
 - [Methods](#methods)
 - [Quick Challenges](#quick-challenges)
 - [Read and Watch](#read-and-watch)
+- [Inheritance](#inheritence)
+- [Another Challenge](#another-challenges)
 
 ## Objectives
 
@@ -58,7 +60,6 @@ console.log(blackCar);
 1. **What is `this`?** It's an arbitrary placeholder object that lives in the scope. Every scope has a `this` object! It's simply a placeholder that points to the current object.
 
 **How do we make this dynamic?**
-
 
 ```javascript
 // *** Intro to OOP *** //
@@ -162,4 +163,132 @@ Open up Dev Tools, and type in `String.prototype.` into the console. You should 
 - Read [Objects and classes by example](http://book.mixu.net/node/ch6.html)
 - [Watch this video](https://www.youtube.com/watch?v=xVnW7ZMqBus)
 
-## Part 2 (coming soon!)
+## Inheritance
+
+With inheritence, you can define multiple classes that contain the same base class. This helps to prvent code duplication. Keep it DRY!
+
+```javascript
+// *** Inheritence *** //
+
+// Base Class - constructor
+var Vehicle = function(wheels, color){
+  // properties
+  this.wheels = wheels;
+  this.color = color;
+};
+
+// Methods
+Vehicle.prototype.honk = function() {
+  return 'honk!';
+};
+Vehicle.prototype.toString = function() {
+  return 'The vehicle has ' + this.wheels + ' wheels and is ' +
+    this.color + '.';
+};
+
+// Car Class
+var Car = function(color){
+  this.wheels = 4;
+  this.color = color;
+};
+
+Car.prototype = new Vehicle();
+Car.prototype.drive = function(distance) {
+  return "The car moved " + distance + ' miles!';
+};
+
+// Instance of the Car sub-class
+var redCar = new Car('red');
+console.log(redCar);
+console.log(redCar.honk());
+console.log(redCar.drive(10));
+console.log(redCar.toString());
+
+// Instance of the Vehicle base class
+var smallMotorcycle = new Vehicle(2, 'black');
+console.log(smallMotorcycle);
+console.log(smallMotorcycle.honk());
+console.log(smallMotorcycle.toString());
+```
+
+1. Since we know that cars have four wheels we can just have the class take a color.
+1. To *extend* all of our methods associated with the Vehicle class we need to take advantage of inheritence - `Car.prototype = new Vehicle();`.
+1. Now the car is an instance of the `Car()` sub-class, which inherits from the `Vehicle()` base class.
+1. Finally, there is new method, `drive()`, on the `Car()` prototype.
+
+**What if we want to override a method in a sub-class?**
+
+```javascript
+// *** Inheritence *** //
+
+// Base Class - constructor
+var Vehicle = function(wheels, color){
+  // properties
+  this.wheels = wheels;
+  this.color = color;
+};
+
+// Methods
+Vehicle.prototype.honk = function() {
+  return 'honk!';
+};
+Vehicle.prototype.toString = function() {
+  return 'The vehicle has ' + this.wheels + ' wheels and is ' +
+    this.color + '.';
+};
+
+// Car Class
+var Car = function(color){
+  this.wheels = 4;
+  this.color = color;
+};
+
+Car.prototype = new Vehicle();
+Car.prototype.drive = function(distance) {
+  return "The car moved " + distance + ' miles!';
+};
+Car.prototype.honk = function(){
+  return 'car honk!';
+};
+
+// Instance of the Car sub-class
+var redCar = new Car('red');
+console.log(redCar);
+console.log(redCar.honk());
+console.log(redCar.drive(10));
+console.log(redCar.toString());
+
+// Instance of the Vehicle base class
+var smallMotorcycle = new Vehicle(2, 'black');
+console.log(smallMotorcycle);
+console.log(smallMotorcycle.honk());
+console.log(smallMotorcycle.toString());
+```
+
+Here, there is a `honk()` method applied to the `Car()` class that overrides the same method from the `Vehicle()` class.
+
+> When you are thinking about creating a sub-class, think "is a". For example, a red car "is a" car and a car "is a" vehicle.
+
+![](vehicle-inheritence.JPG)
+
+## Another Challenge
+
+Given the following constructor and object...
+
+```javascript
+var Person = function(firstAndLastName) {
+  this.firstAndLastName = firstAndLastName;
+  this.isInstructor = true;
+};
+
+var michael = new Person('Michael Herman');
+```
+
+...create these methods:
+
+- `getFullName()`
+- `getFirstName()`
+- `getLastName()`
+
+Next, add a `Student()` sub-class that overrides the `isInstructor` property. Make sure you inheriet all the methods associated with the base-class. Then create an instance of the sub-class.
+

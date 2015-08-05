@@ -41,5 +41,4 @@ Food. Pair with Mike during lunch!
 - OOP Exercise 2: [JS Methods This Constructors](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-methods-this-constructors)
 - OOP Stretch 1: [Rock Paper Scissors](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-rock-paper-scissors)
 - OOP Stretch 2: [JavaScript-Playlist](https://github.com/gSchool/js-playlist)
-- Need more OOP practice? [JS-Jasmine](https://github.com/gSchool/js-jasmine)
 - Fill out ZPD

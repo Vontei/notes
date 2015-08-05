@@ -1,63 +1,37 @@
 # JavaScript Autoshop
 
-This exericse covers the following OOP concepts:
-
-- Constructor
-- Prototypes
-- Ineritence
+Create a boilerplate using the Galvanize HTMl generator and then create some cars...
 
 ## Part I
 
-The `Car()` class should have the following properties:
+The `Car()` class should have the following properties (state):
 
-- make
-- model
-- year
-- state
-- color
-- previous_owners
-- current_owner
+- `make`
+- `model`
+- `year`
+- `state`
+- `color`
+- `previous_owners`
+- `current_owner`
 
 As a default a `Car` constructor should have the following values:
 
-- previous_owners should be an empty array, `[]`.
-- current_owner: should be `manufacturer`.
+- `previous_owners` should be an empty array, `[]`.
+- `current_owner` should be `manufacturer`.
 - `state` should be `off`.
 
-We should also be able to do the following with our car.
+The `Car()` class should have the following methods (behavior):
 
-*  `Car#sale`, we should be able to sale a car to someone, which should update the `current_owner` and `previous_owners` array.
+- `sale()` - a car can be sold. This will updte the `current_owner` and `previous_owners` array
+- `paint()` - a car can be painted. This will upddate the color of the car.
+- `start()` - changes the state of the car to `on`
+- `off()` - changes the state to `off`
+- `driveTo()` - takes a destination and logs "Driving to <destination>" to the console" if the car state is `on`. Otherwise, it will log "Sorry, this car is off".
+- `park()` - parks the car and logs 'Parked!' to the console only if the car state is `off`. Otherwise, it logs `Sorry, the cat is still on.`
 
-* `Car#paint`, which should take a new color and update the color of the car to be new color.
+## Part 2
 
+Add the following property to the constructor, which defaults to an empty array. Then add the following methods:
 
-## Phase II
-
-Implement and test the following methods:
-
-* `Car#start` should change the state of the car to `on`.
-* `Car#off` should change the state to `off`.
-* `Car#driveTo`, it should `console.log` `"driving to <destination>"`, but only if the car `state` is `on`. *Note: this method needs to take a `destination` param.*
-* `Car#park` only if the car is `off` and if it's off console.log `parked!!`.
-
-
-## Phase III
-
-Add the following property to the constructor:
-
-* `passengers`
-
-it should default to an empty array.
-
-Implement the following methods:
-
-* `Car#pick_up` should take a `name` and `console.log` that you are `"driving to 'pick up <friend>'"`, but only if the `car` is `on`. It should also update the `passangers` array to include the new passanger.
-* `Car#dropOff` it should take a `name` and remove them from the `passangers` array, but only if they are in the array. It should also only drop them off if the car is `on`.
-
-
-
-
-
-
-
-
+- `pickUp()` - takes a `name` and logs "Driving to pick up <friend's name>" to the console, but only if the `car` is `on`. This also updates the `passengers` array.
+- `dropOff() - takes a `name` and removes them from the passenger array if they are in the array, but only if the `car` is on.

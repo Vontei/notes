@@ -21,11 +21,14 @@
 
 Food.
 
-## 1pm Lecture
+## 1pm OOP Demo
 
-- [OOP Inherience](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_lectures/js-oop-intro#inheritance)
+- With Zach!
+- [State vs Behavior vs Identity](https://github.com/gSchool/g11-course-curriculum/blob/master/week05/05_lectures/state-behavior-identity.md)
 
-## 3pm OOP Demo
+## 2pm Inheritance
+
+- [OOP Inherence](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_lectures/js-oop-intro#inheritance)
 
 ## Exercises/Homework
 

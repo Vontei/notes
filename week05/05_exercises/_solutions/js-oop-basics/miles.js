@@ -1,7 +1,3 @@
-//## Miles
-// 1. Write a function that takes in a `car` object and a `route` object.
-// 2. Determine if the car has enough gas to make the entire route (return true or false).
-
 function Car(milesPerGallon, gallonsInTank) {
   this.milesPerGallon = milesPerGallon;
   this.gallonsInTank = gallonsInTank;

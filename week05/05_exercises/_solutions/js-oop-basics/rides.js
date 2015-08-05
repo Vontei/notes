@@ -1,7 +1,3 @@
-// ## Rides
-// 1. Write a function that takes a ride object and a child object as arguments
-// 2. Determine if the child is tall enough for the ride (the function should return true or false)
-
 function Child(height, name, age) {
   this.height = height;
   this.name = name;

@@ -73,7 +73,7 @@ $(document).ready(function(){
 });
 
 
-// *** Inheritence *** //
+// *** Inheritance *** //
 
 // Base Class - constructor
 var Vehicle = function(wheels, color){

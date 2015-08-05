@@ -10,7 +10,7 @@ One of the main benefits of OOP is modularity. Because of this, you do *not* hav
 - [Methods](#methods)
 - [Quick Challenges](#quick-challenges)
 - [Read and Watch](#read-and-watch)
-- [Inheritance](#inheritence)
+- [Inheritance](#inheritance)
 - [Another Challenge](#another-challenges)
 
 ## Objectives
@@ -55,7 +55,7 @@ var blackCar = new Vehicle();
 console.log(blackCar);
 ```
 
-1. Unlike many other OO languages such as Ruby, Java, and Python, JavaScript does not have a `class` keyword (prior to EcmaScript 6).
+1. Unlike many other OO languages such as Ruby, Java, and Python, JavaScript does not have a `class` keyword (prior to ECMAScript 6).
 1. Notice how the function name for the class starts with a capital letter. This is convention; it helps to distinguish between a regular function and a class.
 1. **What is `this`?** It's an arbitrary placeholder object that lives in the scope. Every scope has a `this` object! It's simply a placeholder that points to the current object.
 
@@ -165,10 +165,10 @@ Open up Dev Tools, and type in `String.prototype.` into the console. You should 
 
 ## Inheritance
 
-With inheritence, you can define multiple classes that contain the same base class. This helps to prvent code duplication. Keep it DRY!
+Using inheritance, you can define multiple sub-classes that contain the same base-class. This helps to prevent code duplication. Keep it DRY!
 
 ```javascript
-// *** Inheritence *** //
+// *** Inheritance *** //
 
 // Base Class - constructor
 var Vehicle = function(wheels, color){
@@ -212,14 +212,14 @@ console.log(smallMotorcycle.toString());
 ```
 
 1. Since we know that cars have four wheels we can just have the class take a color.
-1. To *extend* all of our methods associated with the Vehicle class we need to take advantage of inheritence - `Car.prototype = new Vehicle();`.
+1. To *extend* all of our methods associated with the Vehicle class we need to take advantage of inheritance - `Car.prototype = new Vehicle();`.
 1. Now the car is an instance of the `Car()` sub-class, which inherits from the `Vehicle()` base class.
 1. Finally, there is new method, `drive()`, on the `Car()` prototype.
 
 **What if we want to override a method in a sub-class?**
 
 ```javascript
-// *** Inheritence *** //
+// *** Inheritance *** //
 
 // Base Class - constructor
 var Vehicle = function(wheels, color){
@@ -273,7 +273,7 @@ Here, there is a `honk()` method applied to the `Car()` class that overrides the
 
 ## Another Challenge
 
-Given the following constructor and object...
+Given the following constructor and object (instance)...
 
 ```javascript
 var Person = function(firstAndLastName) {
@@ -290,5 +290,4 @@ var michael = new Person('Michael Herman');
 - `getFirstName()`
 - `getLastName()`
 
-Next, add a `Student()` sub-class that overrides the `isInstructor` property. Make sure you inheriet all the methods associated with the base-class. Then create an instance of the sub-class.
-
+Next, add a `Student()` sub-class that overrides the `isInstructor` property. Make sure you inherit all the methods associated with the base-class. Then create an instance of the sub-class.

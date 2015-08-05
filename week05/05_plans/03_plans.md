@@ -8,7 +8,7 @@
 
 ## 9:15am Warm-up
 
-- Develop Denver
+- Develop Denver Updates
 
 ## 9:30am Finish jQuery review
 

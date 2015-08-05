@@ -8,7 +8,9 @@
 
 ## 9:15am Warm-up
 
-## 10am Code
+- Develop Denver
+
+## 9:30am Finish jQuery review
 
 ## 12pm Lunch
 
@@ -17,6 +19,8 @@ Food.
 ## 1pm Lecture
 
 - OOP Inherience
+
+## 3pm OOP Demo
 
 ## Exercises/Homework
 

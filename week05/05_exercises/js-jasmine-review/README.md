@@ -10,7 +10,7 @@
 1. Write just enough code to get the test to pass.
 1. Refactor the code, if necessary.
 
-## Problems.
+## Problems
 
 1. Write a function that takes three random numbers from 0 to 100 and returns the largest one.
 1. Write a function that takes a random number from 0 to 100 and returns all the odd numbers from 40 to that random number in an array. If the number is smaller than output the number.

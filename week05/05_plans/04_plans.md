@@ -3,7 +3,7 @@
 ## Today's Goals
 
 - Develop Denver
-- Review Jasmine testing, OOP Constructors and Prototypes, and OOP Inheritance
+- Review Jasmine testing
 
 ## Develop Denver Info
 

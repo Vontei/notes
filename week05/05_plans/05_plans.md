@@ -1,24 +1,35 @@
-# Week 5, Day 5
+# Week 5, Day 4
 
 ## Today's Goals
 
-## 9am Standup
+- Develop Denver
+- Review OOP Constructors, Prototypes, Inheritance
 
-- Events, Helps, Interestings
+## Develop Denver Info
 
-## 9:15am Assesments
+- Develop Denver [Schedule](https://docs.google.com/a/galvanize.com/spreadsheets/d/1pCgT8TxKH-265IPpWVXhAA1blT4yL3-QQ0dbpq9f3us/edit?usp=sharing) (based on the voting results)
+- Meet at Platte at 9am.
+- I (Mike) am NOT attending any talks so I will be in the classroom most of the day. *If you are behind, I recommend getting caught up rather than attending talks.* Class is not mandatory; we will be reviewing OOP, jQuery, and Jasmine testing. We're moving on to new material next week, so if you don't attend class, you need to catch up on your own over the weekend.
 
-## 10am Week in Review
+## 9am to 11am Class
 
-## 9:30 - Lecture
+- Weekly Feedback
+- OOP Constructors and Prototypes
 
-## 12pm Lunch
+## 1pm to 2:30pm Class
 
-Food.
-
-## 1pm Code!
+- OOP Inheritance
 
 ## Exercises/Homework
 
-- Frontend Project Proposal
+- Make sure you finish the [JavaScript OOP Zoo](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-oop-zoo) problem as we will be doing a group code review on it on Wednesday next week.
+- Get caught up. Where are your weaknesses? Focus on exercises to strengthen your weaknesses. What have we covered thus far?
+  - HTML
+  - CSS
+  - Vanilla JavaScript (primitives, data structures, loops, conditionals, functions)
+  - DOM Manipulation/Traversal with vanilla JS
+  - DOM Manipulation/Traversal with jQuery
+  - Functional Programming
+  - Object Oriented Programming - constructors, prototypes, inheritance
+  - Jasmine Testing
 - Fill out ZPD

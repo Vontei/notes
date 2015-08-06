@@ -2,7 +2,6 @@
 
 ### Getting started
 
--  Create project
 -  Run `jasmine` to invoke the specs
 -  Make the tests pass
 -  Submit a pull request with your solutions

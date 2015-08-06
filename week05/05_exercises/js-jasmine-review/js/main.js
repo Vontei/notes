@@ -1,3 +1,13 @@
-// add scripts
+function largestNumber(arr){
+  var largest = arr[0];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] > largest) {
+      largest = arr[i];
+    }
+  }
+  return largest;
+}
 
-console.log("sanity check!");
+module.exports = {
+  largestNumber: largestNumber
+};

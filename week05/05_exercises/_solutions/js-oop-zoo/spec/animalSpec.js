@@ -20,26 +20,28 @@ describe('Animal', function(){
 
   describe('#growUp', function(){
     it('should increment the age by one', function(){
-      var age = animal.age + 1;
-      expect(animal.growUp()).toEqual(age);
+      animal.growUp()
+      expect(animal.age).toEqual(28);
     });
   });
 
   describe('#awake', function(){
     it('should initially be off', function(){
-      expect(animal.awake).toEqual(false);
+      expect(animal.awake).toBeFalsy();
     });
   });
 
    describe('#wakeUp', function(){
     it('should change state to awake', function(){
-      expect(animal.wakeUp()).toEqual(true);
+      animal.wakeUp();
+      expect(animal.awake).toBeTruthy();
     });
   });
 
   describe('#sleep', function(){
     it('should initially be sleeping', function(){
-      expect(animal.sleep()).toEqual(false);
+      animal.sleep();
+      expect(animal.awake).toBeFalsy();
     });
   });
 

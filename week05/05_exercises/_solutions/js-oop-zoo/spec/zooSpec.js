@@ -26,9 +26,9 @@ describe('Zoo', function(){
     });
   });
 
-  describe('#closed', function(){
+  describe('#close', function(){
     it('should see if the zoo is closed', function(){
-      zoo.closed();
+      zoo.close();
       expect(zoo.status).toEqual("Closed");
     });
   });

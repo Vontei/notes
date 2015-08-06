@@ -26,6 +26,12 @@ describe('Zoo', function(){
     });
   });
 
+  describe('#closed', function(){
+    it('should see if the zoo is closed', function(){
+      zoo.closed();
+      expect(zoo.status).toEqual("Closed");
+    });
+  });
 
   describe('#isOpen', function(){
     it('should see if the zoo is open', function(){
@@ -43,7 +49,6 @@ describe('Zoo', function(){
     });
   });
 
-
   describe('#addAnimal', function(){
     it('should only add an animal to the animals array when the zoo is open', function(){
       zoo.addAnimal("pig");
@@ -54,14 +59,12 @@ describe('Zoo', function(){
       zoo.addAnimal(pig);
       expect(zoo.animals).toEqual([pig]);
     });
-
     it('should only add instances of animals', function(){
       var notAnAnimal = new Zoo("DenZoo","Denver");
       zoo.open();
       zoo.addAnimal(notAnAnimal);
       expect(zoo.animals).toEqual([]);
     });
-
     it('should not add duplicates', function(){
       zoo.open();
       zoo.addAnimal(pig);

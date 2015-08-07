@@ -23,6 +23,7 @@
 ## Exercises/Homework
 
 - **Make sure you finish the [JavaScript OOP Zoo](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-oop-zoo) problem as we will be doing a group code review on it on Wednesday next week.**
+- **Begin thinking about the front-end project (completed individually) - [Front-end Project Proposal](https://github.com/gSchool/g11-course-curriculum/blob/master/resources/front-end-project-proposal.md)**
 - STRETCH Exercise: [JavaScript Game Library](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-game-library)
 - Get caught up. Where are your weaknesses? Focus on exercises to strengthen your weaknesses. What have we covered thus far?
   - HTML

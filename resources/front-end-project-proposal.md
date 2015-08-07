@@ -13,7 +13,12 @@ Typically, projects fit under these categories:
 
 > This is a great opportunity to build something for your portfolio to show to potential employers!
 
-## Requirements
+**Your Proposal Must Include:**
+
+1. A project description
+1. A well-defined and written-out feature list
+
+## Project Requirements
 
 ### CSS Framework
 
@@ -30,6 +35,10 @@ You must use use either an *Object-Oriented* or *Functional* programming paradig
 ### Seperation of Concerns
 
 You must seperate the logic from your DOM manipulation code. In other words, keep your jQuery DOM code is a *dom.js* file and your JavaScript logic in a *utility.js* file.
+
+### Clean Code
+
+Your code must be commented and contain proper indentation.
 
 ## Examples
 

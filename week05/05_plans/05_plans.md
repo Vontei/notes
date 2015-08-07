@@ -13,16 +13,17 @@
 
 ## 9am to 11am Class
 
-- Weekly Feedback
+- [Weekly Feedback](https://docs.google.com/a/galvanize.com/forms/d/1kL57qsZMNCvI0cexTntO2ftDddYtLGiWGik_JXJW9hY/viewform)
 - [OOP Constructors, Prototypes, and Inheritance - review](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_lectures/js-oop-basics-review)
 
 ## 1pm to 2:30pm Class
 
-- OOP Inheritance
+- [OOP Intermediate Review](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_lectures/js-oop-intermediate-review)
 
 ## Exercises/Homework
 
-- Make sure you finish the [JavaScript OOP Zoo](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-oop-zoo) problem as we will be doing a group code review on it on Wednesday next week.
+- **Make sure you finish the [JavaScript OOP Zoo](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-oop-zoo) problem as we will be doing a group code review on it on Wednesday next week.**
+- STRETCH Exercise: [JavaScript Game Library](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-game-library)
 - Get caught up. Where are your weaknesses? Focus on exercises to strengthen your weaknesses. What have we covered thus far?
   - HTML
   - CSS
@@ -32,4 +33,5 @@
   - Functional Programming
   - Object Oriented Programming - constructors, prototypes, inheritance
   - Jasmine Testing
+- Next week: `call()` vs `apply()`, AJAX, web APIs, front-end project
 - Fill out ZPD

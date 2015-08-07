@@ -16,6 +16,7 @@ Typically, projects fit under these categories:
 **Your Proposal Must Include:**
 
 1. A project description
+1. A list of technologies that you plan to use
 1. A well-defined and written-out feature list
 
 ## Project Requirements

@@ -7,3 +7,15 @@
   This file shows how to create a simple Cat class
   as well as defining instances of that class.
 */
+
+// Constructor
+var Cat = function(color, age){
+  this.color = color;
+  this.age = age;
+};
+
+// Instances
+var blackCat = new Cat('black', 15);
+console.log(blackCat);
+var orangeCat = new Cat('orange', 39);
+console.log(orangeCat);

@@ -12,3 +12,28 @@
   utilize the same function in memory. Much more
   efficient.
 */
+
+// Constructor - bad practice for creating a method!
+// var Cat = function(color, age){
+//   this.color = color;
+//   this.age = age;
+//   this.meow = function(){
+//     console.log(this.color + 'cat says, "Meow Meow Meow!"');
+//   };
+// };
+
+// Constructor
+var Cat = function(color, age){
+  this.color = color;
+  this.age = age;
+};
+
+// Method
+// anything attached to the prototype is shared across all instances
+Cat.prototype.meow = function() {
+  console.log(this.color + 'cat says, "Meow Meow Meow!"');
+};
+
+var blackCat = new Cat('black', 15);
+blackCat.meow();
+

@@ -43,13 +43,12 @@ $(document).ready(function() {
   });
 
   $('#container').on("click", function(e){
-      $('.box').removeAttr('style');
-      $('#container').removeAttr("style")
-    if($(e.target).hasClass('box') === true){
+    $('.box').removeAttr('style');
+    $('#container').removeAttr("style");
+    if($(e.target).hasClass('box') === true) {
       $("#container").css("background", "black");
       $(e.target).css("background", "white");
-    }
-    else if ($(this).is('#container') === true){
+    } else if ($(this).is('#container') === true){
       $(this).css("background", "limegreen");
     }
   });

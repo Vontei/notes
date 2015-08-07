@@ -23,7 +23,7 @@ Typically, projects fit under these categories:
 
 ### CSS Framework
 
-You must use Bootstrap to save time with common layout and styleing patterns.
+You must use Bootstrap to save time with common layout and styling patterns.
 
 ### Interactivity
 
@@ -33,9 +33,9 @@ You must utilize DOM manipulation, adding/removing elements, event handlers, and
 
 You must use use either an *Object-Oriented* or *Functional* programming paradigm. Do not use a *Procedural* approach.
 
-### Seperation of Concerns
+### Separation of Concerns
 
-You must seperate the logic from your DOM manipulation code. In other words, keep your jQuery DOM code is a *dom.js* file and your JavaScript logic in a *utility.js* file.
+You must separate the logic from your DOM manipulation code. In other words, keep your jQuery DOM code is a *dom.js* file and your JavaScript logic in a *utility.js* file.
 
 ### Clean Code
 

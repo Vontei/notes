@@ -14,7 +14,7 @@
 ## 9am to 11am Class
 
 - Weekly Feedback
-- OOP Constructors and Prototypes
+- [OOP Constructors, Prototypes, and Inheritance - review](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_lectures/js-oop-basics-review)
 
 ## 1pm to 2:30pm Class
 

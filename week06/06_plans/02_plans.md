@@ -19,5 +19,3 @@ Food.
 ## 1pm Code!
 
 ## Exercises/Homework
-
-- Fill out ZPD

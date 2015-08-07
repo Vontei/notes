@@ -22,4 +22,3 @@ Food.
 
 ## Exercises/Homework
 
-- Fill out ZPD

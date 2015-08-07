@@ -1,14 +1,14 @@
-# Week 6, Day 2
+# Week 7, Day 5
 
 ## Today's Goals
-
-- Call vs Apply
 
 ## 9am Standup
 
 - Events, Helps, Interestings
 
-## 9:15am Warm-up
+## 9:15am Assesments
+
+## 10am Week in Review
 
 ## 9:30 - Lecture
 

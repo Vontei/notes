@@ -2,6 +2,9 @@
 
 ## Today's Goals
 
+- Code Review
+- Project Proposals
+
 ## 9am Standup
 
 - Events, Helps, Interestings

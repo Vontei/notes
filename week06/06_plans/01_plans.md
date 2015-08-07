@@ -2,13 +2,18 @@
 
 ## Today's Goals
 
+- AJAX
+- Web APIs
+
 ## 9am Standup
 
 - Events, Helps, Interestings
 
-## 9:15am Warm-up
+## 9:15am - Week in Review
 
-## 9:30 - Lecture
+- OOP - Constructors, Prototypes, Inheritence
+
+## 10am - Code!
 
 ## 12pm Lunch
 

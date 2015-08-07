@@ -2,6 +2,8 @@
 
 ## Today's Goals
 
+- Work on Project
+
 ## 9am Standup
 
 - Events, Helps, Interestings

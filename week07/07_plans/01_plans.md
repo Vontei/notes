@@ -1,8 +1,6 @@
-# Week 6, Day 2
+# Week 7, Day 1
 
 ## Today's Goals
-
-- Call vs Apply
 
 ## 9am Standup
 
@@ -21,3 +19,5 @@ Food.
 ## Exercises/Homework
 
 - Fill out ZPD
+
+## 2pm Breakout Groups

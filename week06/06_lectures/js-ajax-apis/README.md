@@ -33,7 +33,8 @@ By the end of this lesson you should be able to...
 
 1. AJAX
 1. JSON
-1. API/web API
+1. API
+1. Web Service
 
 ## Setup
 
@@ -45,6 +46,14 @@ By the end of this lesson you should be able to...
 1. Finally, add/commit to your local git repo, and then push your changes to Github.
 
 ## Introduction to APIs
+
+An [API](https://en.wikipedia.org/wiki/Application_programming_interface) is an Application Programming Interface. It provides a means for external, third parties to write code that interacts with the API provider. A [web service](https://en.wikipedia.org/wiki/Web_API) (or web API) is a type of API that generally operates over HTTP, allowing web developers to access third party data for use on their own websites. For example, you could utilize real estate data from the API provided by the New York Tomes to generate charts and graphs for your local real estate market.
+
+Let's look at an example...
+
+### IMDB
+
+
 
 ## Utilizing API Data
 

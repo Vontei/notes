@@ -15,15 +15,15 @@ Animal.prototype.oink = function(){
 
 Animal.prototype.growUp = function(){
   this.age += 1;
-}
+};
 
 Animal.prototype.wakeUp = function(){
   this.awake = true;
-}
+};
 
 Animal.prototype.sleep = function(){
   this.awake = false;
-}
+};
 
 Animal.prototype.feed = function(){
   if (this.awake === false) {
@@ -31,6 +31,6 @@ Animal.prototype.feed = function(){
   } else {
     return "NOM NOM NOM";
   }
-}
+};
 
 module.exports = Animal;

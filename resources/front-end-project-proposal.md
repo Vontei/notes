@@ -49,3 +49,4 @@ Your code must be commented and contain proper indentation.
 1. A documentation aggregator that allows developers to easily search through documentation.
 1. A flash card style interview prep tool.
 1. Ping-pong scoring system.
+1. [Sudoku Solver](http://mherman.org/sudoku-solver/)

@@ -34,7 +34,7 @@ By the end of this lesson you should be able to...
 1. AJAX
 1. JSON
 1. API
-1. Web Service
+1. Web Service/Web API
 
 ## Setup
 
@@ -52,8 +52,6 @@ An [API](https://en.wikipedia.org/wiki/Application_programming_interface) is an 
 Let's look at an example...
 
 ### IMDB
-
-
 
 ## Utilizing API Data
 

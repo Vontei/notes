@@ -22,3 +22,5 @@ Food.
 
 ## Exercises/Homework
 
+talks - patrick
+

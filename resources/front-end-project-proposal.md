@@ -39,7 +39,7 @@ You must separate the logic from your DOM manipulation code. In other words, kee
 
 ### Clean Code
 
-Your code must be commented and contain proper indentation. *We (the instructors) reserve the right to refuse to engage in a code review if these basic requirements are not met.
+Your code must be commented and contain proper indentation. *We (the instructors) reserve the right to refuse reviewing your code if you do not follow these basic requirements.*
 
 ### TDD (bonus!)
 

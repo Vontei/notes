@@ -44,9 +44,9 @@ Your code must be commented and contain proper indentation.
 ## Examples
 
 1. A Tetris Game, a blackjack game, a battleship game, etc.
-1. A quiz to test your JavaScript knowledge
-1. A food library, similar to the [Game Library](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-game-library), to keep track of your daily caloric/nutrition intake
+1. A quiz to test your JavaScript knowledge.
+1. A food library, similar to the [Game Library](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-game-library), to keep track of your daily caloric/nutrition intake.
 1. A documentation aggregator that allows developers to easily search through documentation.
 1. A flash card style interview prep tool.
 1. Ping-pong scoring system.
-1. [Sudoku Solver](http://mherman.org/sudoku-solver/)
+1. A [Sudoku Solver](http://mherman.org/sudoku-solver/).

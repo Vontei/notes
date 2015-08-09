@@ -35,6 +35,7 @@ By the end of this lesson you should be able to...
 1. JSON
 1. API
 1. Web Service/Web API
+1. Endpoint
 
 ## Setup
 
@@ -58,6 +59,8 @@ Have you heard of [IMDB](http://www.imdb.com/). Well, even though they do not of
 1. [http://www.omdbapi.com/?t=Star+Wars&r=json](http://www.omdbapi.com/?t=Star+Wars&r=json)
 1. [http://www.omdbapi.com/?t=Godfather&y=&plot=full&r=json](http://www.omdbapi.com/?t=Godfather&y=&plot=full&r=json)
 1. [http://www.omdbapi.com/?t=Citizen+Kane&y=&plot=full&r=json](http://www.omdbapi.com/?t=Citizen+Kane&y=&plot=full&r=json)
+
+> The above URLs are often referred to as endpoints. Make a mental note of this, as you will hear this term used often when working with web services.
 
 **What do you see?**
 

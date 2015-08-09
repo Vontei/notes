@@ -35,7 +35,7 @@ You must use use either an *Object-Oriented* or *Functional* programming paradig
 
 ### Separation of Concerns
 
-You must separate the logic from your DOM manipulation code. In other words, keep your jQuery DOM code is a *dom.js* file and your JavaScript logic in a *utility.js* file.
+You must separate the logic from your DOM manipulation code. In other words, keep your jQuery DOM code in a *dom.js* file and your JavaScript logic in a *utility.js* file.
 
 ### Clean Code
 

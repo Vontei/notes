@@ -5,9 +5,9 @@ This article looks at how to utilize AJAX (asynchronous JavaScript and XML) to r
 1. [Objectives](#objectives)
 1. [Key terms](#key-terms)
 1. [Introduction to APIs](#introduction-to-apis)
+1. [API Restrictions and Workarounds](#api-restrictions-and-workarounds)
 1. [Utilizing API Data](#utilizing-api-data)
 1. [Working with API Data](#working-with-api-data)
-1. [API Restrictions and Workarounds](#api-restrictions-and-workarounds)
 1. [Further Reading](#further-reading)
 
 ## Objectives

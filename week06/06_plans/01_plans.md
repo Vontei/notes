@@ -42,7 +42,6 @@ Food.
 ## 1pm - Lecture
 
 - Intro to AJAX and Web APIs
-- [Watch JS and AJAX Tutorial](https://www.youtube.com/watch?v=RDo3hBL1rfA)
 
 ## 2pm - Pair Programming
 

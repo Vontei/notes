@@ -48,9 +48,11 @@ By the end of this lesson you should be able to...
 
 ## Introduction to APIs
 
+Start by watching this basic overview of AJAX -> [What is AJAX?](https://www.youtube.com/watch?v=RDo3hBL1rfA)
+
 An [API](https://en.wikipedia.org/wiki/Application_programming_interface) is an Application Programming Interface. It provides a means for external, third parties to write code that interacts with the API provider. A [web service](https://en.wikipedia.org/wiki/Web_API) (or web API) is a type of API that generally operates over HTTP, allowing web developers to access third party data for use on their own websites. For example, you could utilize real estate data from the API provided by the New York Tomes to generate charts and graphs for your local real estate market.
 
-Let's look at an example...
+Let's look at a quick example...
 
 ### IMDB (err, OMDB)
 
@@ -104,6 +106,8 @@ You should see something like:
 Look familiar? It should. It's simply an object with key/value pairs. Keep in mind that, there are subtle differences between JSON and a regular JavaScript object. Watch the following video, [What is JSON?](https://www.youtube.com/watch?v=40aKlrL-2V8), to learn more.
 
 ## Utilizing API Data
+
+Now, let's build an example...
 
 ## Working with API Data
 

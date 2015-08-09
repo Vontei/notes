@@ -33,6 +33,7 @@ By the end of this lesson you should be able to...
 
 1. AJAX
 1. JSON
+1. JSONP
 1. API
 1. Web Service/Web API
 1. Endpoint
@@ -42,9 +43,11 @@ By the end of this lesson you should be able to...
 1. Create a new local project directory called "js-ajax-instagram".
 1. Add a local git repository.
 1. Create a remote repository on Github.
-1. Create a project boilerplate with the [Galvanize HTML Gernerator](https://github.com/gSchool/generator-galvanize-html).
+1. Create a project boilerplate with the [Galvanize HTML Generator](https://github.com/gSchool/generator-galvanize-html).
 1. Update your *index.html* and *main.css* files from the code found [here](https://github.com/gSchool/g11-course-curriculum/tree/master/week06/06_lectures/js-ajax-instagram).
 1. Finally, add/commit to your local git repo, and then push your changes to Github.
+
+> Remember to commit your code early and often!
 
 ## Introduction to APIs
 
@@ -105,12 +108,15 @@ You should see something like:
 
 Look familiar? It should. It's simply an object with key/value pairs. Keep in mind that, there are subtle differences between JSON and a regular JavaScript object. Watch the following video, [What is JSON?](https://www.youtube.com/watch?v=40aKlrL-2V8), to learn more.
 
+## API Restrictions and Workarounds
+
+1. CORS
+1. JSONP
+
 ## Utilizing API Data
 
-Now, let's build an example...
+Now, let's build a fully working example using the...
 
 ## Working with API Data
-
-## API Restrictions and Workarounds
 
 ## Further Reading

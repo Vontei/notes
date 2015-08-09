@@ -44,7 +44,7 @@ By the end of this lesson you should be able to...
 1. Add a local git repository.
 1. Create a remote repository on Github.
 1. Create a project boilerplate with the [Galvanize HTML Generator](https://github.com/gSchool/generator-galvanize-html).
-1. Update your *index.html* and *main.css* files from the code found [here](https://github.com/gSchool/g11-course-curriculum/tree/master/week06/06_lectures/js-ajax-instagram).
+1. Update your *index.html* and *main.css* files from the code found [here](https://github.com/gSchool/g11-course-curriculum/tree/master/week06/06_exercises/js-ajax-instagram).
 1. Finally, add/commit to your local git repo, and then push your changes to Github.
 
 > Remember to commit your code early and often!
@@ -115,7 +115,162 @@ Look familiar? It should. It's simply an object with key/value pairs. Keep in mi
 
 ## Utilizing API Data
 
-Now, let's build a fully working example using the...
+Now, let's build a fully working example using the [Instagram API](https://instagram.com/developer/). The finished app will allows us to enter an string and return Instagram images based on that string.
+
+Open up the *index.html* file from "js-ajax-instagram" within Chrome and you should see:
+
+![](instagram-v1.png)
+
+Before we jump into AJAX, hide the search again form:
+
+```javascript
+$(document).on('ready', function() {
+
+  // hide search again form
+  $('#search-again').hide();
+
+});
+```
+
+We also need to grab the user input:
+
+```javascript
+$(document).on('ready', function() {
+
+  // hide search again form
+  $('#search-again').hide();
+
+  // event handler for search form submission
+  $('#tag-search').on('submit', function(event){
+
+    // prevent browser default behavior
+    event.preventDefault();
+
+    // container for image urls
+    var imageURLs = [];
+    // grab tag from input
+    var $searchString = $('#tag_query').val();
+
+    console.log($searchString);
+
+  });
+
+});
+```
+
+Test this out in your browser.
+
+### Making an AJAX Request
+
+So, now we're ready to make the external API request to Instagram using `$.ajax`. Take a look at the documentation for this jQuery method [here](http://www.w3schools.com/jquery/ajax_ajax.asp). Now let's look at the code for requesting data from the Instagram API:
+
+```javascript
+var searchUrl = "https://api.instagram.com/v1/tags/" + $searchString + "/media/recent";
+
+// ajax request
+$.ajax({
+  url: searchUrl,
+  type: 'GET',
+  data: {client_id:'61f8b631abd34732a3bcd8c73d0d73a9'},
+  dataType:'jsonp',
+  success:function(data){
+    // assign returned data to output variable
+    var output = data.data;
+    // clearn image container
+    $("#image-container").html('');
+    // iterate through the returned data, appending the images to the dom
+    for(var i = 0; i < output.length; i++) {
+      imageURLs[i] = output[i].images.low_resolution.url;
+      $("#image-container").append('<img src="' + imageURLs[i] + '"/>');
+    }
+    // clear form input
+    $('#tag_query').val('');
+    // hide the search form
+    $('#search').hide();
+    // add search term to the dom
+    $('#search-term').html($searchString);
+    // show the search again form
+    $('#search-again').show();
+  },
+  error:function(data){
+    alert("Sorry we're experiencing technical difficulties. Please try again later.");
+  }
+});
+```
+
+**What's happening?**
+
+1. First, we defined the endpoint that we want to request data from, `searchUrl` by passing the `$searchString` to it.
+1. Then utilizing the `url`, `type`, `data`, and `dataType` properties, we make the actual request. Essentially, we are asking Instagram for JSONP data, based on our search parameters -
+  - `url` - endpoint that we're requesting data from
+  - `type` - a GET request is simply a request asking for data; anytime you vistit a website you are making a GET request (more on this in a future tutorial)
+  - `data` - here we are adding an ID required by the API (again, more on this in a future tutorial)
+  - `dataType` - since we're grabbing JSONP data, we can specificy JSONP data as the data type and then convert it to JSON.
+1. Next, we're handling a `success` - meaning that we get a 200 response back - by iterating through the returned data (e.g., JSON), grabbing the image URL (by parsing the JSON data), and then appending the data to the DOM.
+
+The remaining steps should be fairly straightforward. If you have questions, check the inline code comments.
+
+The final JavaScript file should look like:
+
+```javascript
+$(document).on('ready', function() {
+
+  // hide search again form
+  $('#search-again').hide();
+
+  // event handler for search form submission
+  $('#tag-search').on('submit', function(event){
+
+    // prevent browser default behavior
+    event.preventDefault();
+
+    // container for image urls
+    var imageURLs = [];
+    // grab tag from input
+    var $searchString = $('#tag_query').val();
+    // create search URL for hitting the instagram
+    var searchUrl = "https://api.instagram.com/v1/tags/" + $searchString + "/media/recent";
+
+    // ajax request
+    $.ajax({
+      url: searchUrl,
+      type: 'GET',
+      data: {client_id:'61f8b631abd34732a3bcd8c73d0d73a9'},
+      dataType:'jsonp',
+      success:function(data){
+        // assign returned data to output variable
+        var output = data.data;
+        // clearn image container
+        $("#image-container").html('');
+        // iterate through the returned data, appending the images to the dom
+        for(var i = 0; i < output.length; i++) {
+          imageURLs[i] = output[i].images.low_resolution.url;
+          $("#image-container").append('<img src="' + imageURLs[i] + '"/>');
+        }
+        // clear form input
+        $('#tag_query').val('');
+        // hide the search form
+        $('#search').hide();
+        // add search term to the dom
+        $('#search-term').html($searchString);
+        // show the search again form
+        $('#search-again').show();
+      },
+      error:function(data){
+        alert("Sorry we're experiencing technical difficulties. Please try again later.");
+      }
+    });
+
+  });
+
+});
+
+function convertToJSON(data) {
+  var datastring = JSON.stringify(data);
+}
+```
+
+Next, let's take a closer look at how to parse the JSON data...
 
 ## Working with API Data
 

@@ -124,3 +124,14 @@
 1. Wait for instructions...
 
 ## Steps
+
+1. Grab user-submitted values from the form with jQuery, making sure you clear the values after form submission
+1. Calculate total charges, from the user-submitted values, and then append to the DOM. **Make sure you create utility/helper functions in the *utility.js* file, that you pass the values to for calculation. Append the totals back to the *main.js* file for appending to the DOM.**
+1. Update running totals, and then append to the DOM
+1. The "reset" button should clear both the total charges and running totals sections
+1. The "clear" button should clear the form input
+
+## Refactor
+
+1. Add Jasmine Tests
+1. Utilize OOP - create a `Bill` class and add properties for each value, then create methods on the prototype for all your calculations.

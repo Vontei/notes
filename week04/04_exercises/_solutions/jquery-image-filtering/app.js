@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	// Add three new cabins to the listing
-	var article = '<article class="home" data-price="20000"><img src="img/one.jpg" /><h4>$20,000</h4></article>'
+	var article = '<article class="home" data-price="20000"><img src="img/one.jpg" /><h4>$20,000</h4></article>';
 
 	$('.image-container').append(article).append(article).append(article);
 

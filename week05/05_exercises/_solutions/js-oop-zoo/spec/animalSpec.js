@@ -48,11 +48,11 @@ describe('Animal', function(){
   describe('#feed', function(){
     it('should get fed if awake', function(){
       animal.wakeUp();
-      expect(animal.feed()).toEqual("NOM NOM NOM")
+      expect(animal.feed()).toEqual("NOM NOM NOM");
     });
     it('not should get fed if sleeping', function(){
       animal.sleep();
-      expect(animal.feed()).toEqual("Animal is not awake")
+      expect(animal.feed()).toEqual("Animal is not awake");
     });
   });
 

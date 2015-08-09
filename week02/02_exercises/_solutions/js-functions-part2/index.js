@@ -5,7 +5,7 @@
 function oldestPerson(obj) {
   var oldest = 0;
   var name;
-  for (key in obj) {
+  for (var key in obj) {
     if (obj[key] > oldest) {
       oldest = obj[key];
       name = key;
@@ -15,7 +15,7 @@ function oldestPerson(obj) {
 }
 
 var people = {'Chuck': 22, 'Brian': 46};
-console.log(oldestPerson(people))
+console.log(oldestPerson(people));
 
 /* Define a function called `longestWord` that takes a string and returns the
  longest word in the string. */
@@ -28,7 +28,7 @@ function longestWord(string) {
   // longest word logic
   var words = string.split(' ');
   var longest = "";
-  for (i in words) {
+  for (var i in words) {
     if (words[i].length > longest.length) {
       longest = words[i];
     }
@@ -53,7 +53,7 @@ function factorial(num) {
   return sum;
 }
 
-console.log(factorial(9))
+console.log(factorial(9));
 
 /* **Bonus**: Write a function called `palindrome` that takes a string as an
  argument and returns the string in reversed order. Return true if the string is

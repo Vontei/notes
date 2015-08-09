@@ -15,9 +15,9 @@ function enoughGas(car, route) {
   var carMiles = gal*mpg;
   console.log(carMiles, route.miles);
   if (carMiles >= route.miles) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 

@@ -47,6 +47,8 @@ Food.
 
 ## 2pm - Pair Programming
 
+- JS Calculator or Stretch!
+
 ## 4pm - Code!
 
 ## Exercises/Homework

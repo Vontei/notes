@@ -9,7 +9,7 @@ function Zoo(name, location){
 
 Zoo.prototype.changeLocation = function(location) {
   this.location = location;
-}
+};
 
 Zoo.prototype.open = function() {
   this.status = "Open";

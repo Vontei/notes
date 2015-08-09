@@ -67,17 +67,17 @@ var _ = {
   // random elements from the list. Otherwise a single random item will be returned.
   sample : function (array, num) {
     var shuffleArr = _.shuffle(array);
-    if (num == null) {
+    if (num === null) {
       num = 1;
     }
-    return shuffleArr.slice(0, num)
+    return shuffleArr.slice(0, num);
   },
 
   //difference - returns the values from array that are not present in the other array.
   difference : function (array1, array2) {
     var diffArr = [];
     for (var i = 0; i < array1.length; i++) {
-      if (_.contains(array2, array1[i]) == false) {
+      if (_.contains(array2, array1[i]) === false) {
         diffArr.push(array1[i]);
       }
     }
@@ -94,15 +94,15 @@ var _ = {
         return i;
       }
     }
-    if (present != true) {
+    if (present !== true) {
       return -1;
     }
   },
 
   indexOf2 : function (array, num) {
     var present = false;
-    if (_.contains(array,num) == false) {
-      return -1
+    if (_.contains(array,num) === false) {
+      return -1;
     } else {
       for (var i = 0; i < array.length; i++) {
         if (num == array[i]) {
@@ -124,8 +124,8 @@ var _ = {
 
   //each - iterates over an array and calls a given function with each element
   each : function (array, func) {
-  var house = []
-    for (i in array) {
+  var house = [];
+    for (var i in array) {
     house.push(func(array[i]));
     }
     return house;
@@ -133,18 +133,18 @@ var _ = {
 
   // compact - returns a new array with all provided undefined values removed
   compact : function (array) {
-    for (i in array) {
-      if (array[i] == undefined) {
+    for (var i = 0; i < array.length; i++) {
+      if (array[i] === undefined) {
         array.splice(i, 1);
       }
     }
-    return array
+    return array;
   },
 
    // map - returns a new array of values produced by running each element of an array through a given function
    map : function (array, func) {
-     var newHome = []
-     for (i in array) {
+     var newHome = [];
+     for (var i = 0; i < array.length; i++) {
        newHome.push(func(array[i]));
      }
      return newHome;
@@ -153,12 +153,12 @@ var _ = {
    // filter - Looks through each value in the list, returning an array of all the values that pass a truth test
    filter : function (array, func){
      var newHome = [];
-     for (i in array) {
-       if (func(array[i]) == true) {
+     for (var i = 0; i < array.length; i++) {
+       if (func(array[i]) === true) {
          newHome.push(array[i]);
        }
      }
-     return newHome
+     return newHome;
    }
 
 };
@@ -182,4 +182,4 @@ console.log(_.each([[1,2,3],[1,2,3],[1,2,3]], _.shuffle));
 console.log(_.compact([1, "hello", undefined, 3, undefined]));
 console.log(_.map([1, 2, 3], function(num){ return num * 3; }));
 console.log(_.map(["dogs", "before", "cats"], function(str){ return str.toUpperCase(); }));
-console.log(_.filter([1, 2, 3, 4, 5, 6], function(num){ return num % 2 == 0; }));
+console.log(_.filter([1, 2, 3, 4, 5, 6], function(num){ return num % 2 === 0; }));

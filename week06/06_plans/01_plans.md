@@ -27,6 +27,11 @@ Use jQuery AJAX methods to perform asynchronous HTTP requests and interact with 
 ## 9:15am - Week in Review
 
 - OOP - Constructors, Prototypes, Inheritance
+ - Person > Student
+ - Vehicle > Car
+ - Animal > Mammal
+ - Bicycle > Road Bike
+ - Food > Corn
 
 ## 10am - Code!
 

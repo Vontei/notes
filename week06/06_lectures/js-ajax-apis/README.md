@@ -51,7 +51,54 @@ An [API](https://en.wikipedia.org/wiki/Application_programming_interface) is an 
 
 Let's look at an example...
 
-### IMDB
+### IMDB (err, OMDB)
+
+Have you heard of [IMDB](http://www.imdb.com/). Well, even though they do not officially offer an API, a developer built an API using IMDB Data called [OMDB](http://omdbapi.com/). Let's test it out. Try out these requests in your browser:
+
+1. [http://www.omdbapi.com/?t=Star+Wars&r=json](http://www.omdbapi.com/?t=Star+Wars&r=json)
+1. [http://www.omdbapi.com/?t=Godfather&y=&plot=full&r=json](http://www.omdbapi.com/?t=Godfather&y=&plot=full&r=json)
+1. [http://www.omdbapi.com/?t=Citizen+Kane&y=&plot=full&r=json](http://www.omdbapi.com/?t=Citizen+Kane&y=&plot=full&r=json)
+
+**What do you see?**
+
+Put simply, you should see data pertaining to each movie in a format called JSON.
+
+### JSON
+
+JSON, which stands for JavaScript Object Notation, organizes data in a manner that's easy to read, by both humans and computers, and share.
+
+Go back to the Star Wars request in your browser.
+
+> Is this a garbled mess? Download the chrome extension [JSON View](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en-US) to make JSON data viewable in the browser.
+
+You should see something like:
+
+```json
+{
+  Title: "Star Wars",
+  Year: "1983",
+  Rated: "N/A",
+  Released: "01 May 1983",
+  Runtime: "N/A",
+  Genre: "Action, Adventure, Sci-Fi",
+  Director: "N/A",
+  Writer: "N/A",
+  Actors: "Harrison Ford, Alec Guinness, Mark Hamill, James Earl Jones",
+  Plot: "N/A",
+  Language: "English",
+  Country: "USA",
+  Awards: "N/A",
+  Poster: "N/A",
+  Metascore: "N/A",
+  imdbRating: "7.8",
+  imdbVotes: "316",
+  imdbID: "tt0251413",
+  Type: "game",
+  Response: "True"
+}
+```
+
+Look familiar? It should. It's simply an object with key/value pairs. Keep in mind that, there are subtle differences between JSON and a regular JavaScript object. Watch the following video, [What is JSON?](https://www.youtube.com/watch?v=40aKlrL-2V8), to learn more.
 
 ## Utilizing API Data
 

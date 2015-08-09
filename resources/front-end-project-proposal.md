@@ -48,5 +48,5 @@ Your code must be commented and contain proper indentation.
 1. A food library, similar to the [Game Library](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-game-library), to keep track of your daily caloric/nutrition intake.
 1. A documentation aggregator that allows developers to easily search through documentation.
 1. A flash card style interview prep tool.
-1. Ping-pong scoring system.
+1. A ping-pong scheudling/scoring system.
 1. A [Sudoku Solver](http://mherman.org/sudoku-solver/).

@@ -312,6 +312,60 @@ How did we know how to do this? Practice. Plus a litle help from our old friend,
 
 Start by looking at what `data` returns by adding a `console.log(data)` just below the `success:function(data){` line. Test this out in the browser and open the console. You should see something like:
 
+![](json-parse-v1.png)
+
+So, you can see that the returned data is an object. Take a look at the following key/value pair:
+
+```javascript
+data: Array[20]
+```
+
+The value associated with this key is an array of twenty objects.
+
+Let's dig a bit deeper.
+
+### Step 2: `data.data`
+
+Just like before, go ahead and add another `console.log`, right after the last one:
+
+
+```javascript
+// *** JSON Parsing *** //
+// console.log(data);
+console.log(data.data);
+```
+
+Again, look at this in the console:
+
+![](json-parse-v2.png)
+
+Each object now contains a plethora of *useful* data that you could use in an app. If you jump back to our code, we looped through the array of objects and pulled out the small image:
+
+```javascript
+for(var i = 0; i < output.length; i++) {
+  imageURLs[i] = output[i].images.low_resolution.url;
+  $("#image-container").append('<img src="' + imageURLs[i] + '"/>');
+}
+```
+
+What else can we get from the `image` object?
+
+### Step 3: `image` object
+
+Simple. Let's break the object down even further:
+
+```javascript
+console.log(data.data[0].images);
+```
+
+![](json-parse-v3.png)
+
+Now we can get the image we want - `low_resolution`, `standard_resolution`, or `thumbnail`.
+
+### Parsing Summarized
+
+Need to break apart (parse) an object? Start console logging it. See if you can break it apart with a single `console.log` and then updating it live in the console. This will save time. Or try it in the browser (for GET requests). We'll go over this as a class.
+
 ## Stretch
 
 - Stretch Goal!

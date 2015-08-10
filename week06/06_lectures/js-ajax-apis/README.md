@@ -368,7 +368,7 @@ Need to break apart (parse) an object? Start console logging it. See if you can 
 
 ## Stretch
 
-- Stretch Goal!
+- Stretch Goal! Coming soon!
 
 ## Further Reading
 

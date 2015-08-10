@@ -286,7 +286,7 @@ function convertToJSON(data) {
 
 Go back and look at the actual AJAX request. Identify the parts of the code that are used for exchanging data with an API? Which parts are for updating the your application? Test this out in the browser. Did you notice how this all happens without a page refresh!
 
-![](instagram-v1.png)
+![](instagram-v2.png)
 
 Next, let's take a closer look at how to parse the JSON data...
 

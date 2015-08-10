@@ -288,7 +288,7 @@ Go back and look at the actual AJAX request. Identify the parts of the code that
 
 ![](instagram-v2.png)
 
-Next, let's take a closer look at how to parse the JSON data...
+Next, let's take a closer look at how the JSON data was parsed...
 
 ## Working with API Data
 
@@ -301,3 +301,4 @@ Next, let's take a closer look at how to parse the JSON data...
 ## Further Reading
 
 1. [Code a Simple Github API Webapp using jQuery & Ajax](http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax)
+1. [StackOverflow: So, JSONP or CORS?](http://stackoverflow.com/questions/12296910/so-jsonp-or-cors)

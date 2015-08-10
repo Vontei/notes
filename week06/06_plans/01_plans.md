@@ -53,7 +53,7 @@ Food.
 
 ## Exercises/Homework
 
-- EXERCISE: AJAX and Web APIs
+- STRETCH EXERCISE: [Pokemon Library]() (AJAX, APIS, OOP!)
 - **For Wednesday:**
   - Make sure you finish the [JavaScript OOP Zoo](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-oop-zoo) problem as we will be doing a group code review
   - Complete your [Front-end Project Proposal](https://github.com/gSchool/g11-course-curriculum/blob/master/resources/front-end-project-proposal.md)

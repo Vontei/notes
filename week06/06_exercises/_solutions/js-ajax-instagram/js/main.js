@@ -26,7 +26,7 @@ $(document).on('ready', function() {
         // *** JSON Parsing *** //
         // console.log(data);
         // console.log(data.data);
-        console.log(data.data[0].images);
+        // console.log(data.data[0].images);
         // ** end parsing experiment *** //
         // assign returned data to output variable
         var output = data.data;

@@ -292,6 +292,12 @@ Go back and look at the actual AJAX request. Identify the parts of the code that
 
 ![](instagram-v2.png)
 
+At this point you need to register for a `client_id` from the [Instagram API](https://instagram.com/developer/). If you don't do this you will eventually get an error. Simply login, click *Manage Accounts*, and then create a new account. Enter dummy info, like so:
+
+![](instagram-register.png)
+
+On the next page, just grab the `client_id` and add it to your code. Test it out again in your browser.
+
 Next, let's take a closer look at how the JSON data was parsed...
 
 ## Working with API Data
@@ -306,7 +312,7 @@ for(var i = 0; i < output.length; i++) {
 }
 ```
 
-How did we know how to do this? Practice. Plus a litle help from our old friend, the `console.log()`. Let's look at how to parse this, step-by-step.
+How did we know how to do this? Practice. Plus a little help from our old friend, the `console.log()`. Let's look at how to parse this, step-by-step.
 
 ### Step 1: `data`
 
@@ -368,7 +374,7 @@ Need to break apart (parse) an object? Start console logging it. See if you can 
 
 ## Stretch
 
-- Stretch Goal! Coming soon!
+- Stretch Goal! Create a Pokemon Library, similar to the [Game Library](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-game-library), using data from [Pokéapi - The Pokémon RESTful API](http://pokeapi.co/).
 
 ## Further Reading
 

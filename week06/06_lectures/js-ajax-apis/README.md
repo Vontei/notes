@@ -8,6 +8,7 @@ This article looks at how to utilize AJAX (asynchronous JavaScript and XML) to r
 1. [API Restrictions and Workarounds](#api-restrictions-and-workarounds)
 1. [Utilizing API Data](#utilizing-api-data)
 1. [Working with API Data](#working-with-api-data)
+1. [Stretch](#stretch)
 1. [Further Reading](#further-reading)
 
 ## Objectives
@@ -16,7 +17,7 @@ By the end of this lesson you should be able to...
 
 - explain what AJAX stands for
 - write code that grabs JSON data from an API and does something with it
-- write syntactically valid AJAX calls using the jQuery methond `$.ajax`
+- write syntactically valid AJAX calls using the jQuery method `$.ajax`
 - describe what happens when `$.ajax` is invoked - that it takes an object as an argument, that it makes an HTTP request, that the `then` functions fire on a 200 response, that the error functions fire on non-2xx responses
 - write AJAX calls that send form parameters from an object
 - write AJAX calls that send the request body as JSON
@@ -31,12 +32,14 @@ By the end of this lesson you should be able to...
 
 ## Key terms
 
-1. AJAX
+1. AJAX/XMLHTTPRequest
 1. JSON
 1. JSONP
 1. API
 1. Web Service/Web API
 1. Endpoint
+1. CORS (cross-origin resource sharing)
+1. Same-origin policy
 
 ## Setup
 
@@ -49,9 +52,11 @@ By the end of this lesson you should be able to...
 
 > Remember to commit your code early and often!
 
-## Introduction to APIs
+## Introduction to AJAX and APIs
 
-Start by watching this basic overview of AJAX -> [What is AJAX?](https://www.youtube.com/watch?v=RDo3hBL1rfA)
+Start by watching this, [What is AJAX?](https://www.youtube.com/watch?v=RDo3hBL1rfA), basic overview of AJAX.
+
+So, AJAX (also called XMLHTTPRequest) is used for exchanging data with an API and updating portions of a web page asynchronously, in order to avoid a page refresh.
 
 An [API](https://en.wikipedia.org/wiki/Application_programming_interface) is an Application Programming Interface. It provides a means for external, third parties to write code that interacts with the API provider. A [web service](https://en.wikipedia.org/wiki/Web_API) (or web API) is a type of API that generally operates over HTTP, allowing web developers to access third party data for use on their own websites. For example, you could utilize real estate data from the API provided by the New York Tomes to generate charts and graphs for your local real estate market.
 
@@ -110,8 +115,17 @@ Look familiar? It should. It's simply an object with key/value pairs. Keep in mi
 
 ## API Restrictions and Workarounds
 
-1. CORS
-1. JSONP
+For security reasons, web browsers prevent "cross-site" or "cross-site" request from one domain to another in order to prevent malicious attacks from one website to another through the DOM.
+
+> For more on this, read about the the [same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy).
+
+These restrictions have made it difficult for web developers to access third-party web services.
+
+Fortunately, there are two ways around this policy - [Cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) (CORS) and [JavaScript with Padding](https://en.wikipedia.org/wiki/JSONP) (JSONP).
+
+Put simply, CORS provides a means for defining the specific resources that are available cross-site. It's a standard that is [available](http://caniuse.com/#search=cors) in most modern web browsers, which enables negotiation to happen between a request and the external server.
+
+JSONP, on the other hand, is less secure since it is used to "trick" browsers into making "cross-site" requests. Because of this, CORS is the preferred method of getting around the same-origin policy, except in cases where it's not supported by the browser. That said, since this project/tutorial is meant to detail the basics of AJAX and APIS, we will be using a JSONP supported API since, in most cases, CORS-enabled web services since these requests can be complicate.
 
 ## Utilizing API Data
 
@@ -176,7 +190,7 @@ $.ajax({
   success:function(data){
     // assign returned data to output variable
     var output = data.data;
-    // clearn image container
+    // clear image container
     $("#image-container").html('');
     // iterate through the returned data, appending the images to the dom
     for(var i = 0; i < output.length; i++) {
@@ -203,9 +217,9 @@ $.ajax({
 1. First, we defined the endpoint that we want to request data from, `searchUrl` by passing the `$searchString` to it.
 1. Then utilizing the `url`, `type`, `data`, and `dataType` properties, we make the actual request. Essentially, we are asking Instagram for JSONP data, based on our search parameters -
   - `url` - endpoint that we're requesting data from
-  - `type` - a GET request is simply a request asking for data; anytime you vistit a website you are making a GET request (more on this in a future tutorial)
+  - `type` - a GET request is simply a request asking for data; anytime you visit a website you are making a GET request (more on this in a future tutorial)
   - `data` - here we are adding an ID required by the API (again, more on this in a future tutorial)
-  - `dataType` - since we're grabbing JSONP data, we can specificy JSONP data as the data type and then convert it to JSON.
+  - `dataType` - since we're grabbing JSONP data, we can specify JSONP data as the data type and then convert it to JSON.
 1. Next, we're handling a `success` - meaning that we get a 200 response back - by iterating through the returned data (e.g., JSON), grabbing the image URL (by parsing the JSON data), and then appending the data to the DOM.
 
 The remaining steps should be fairly straightforward. If you have questions, check the inline code comments.
@@ -240,7 +254,7 @@ $(document).on('ready', function() {
       success:function(data){
         // assign returned data to output variable
         var output = data.data;
-        // clearn image container
+        // clear image container
         $("#image-container").html('');
         // iterate through the returned data, appending the images to the dom
         for(var i = 0; i < output.length; i++) {
@@ -270,8 +284,18 @@ function convertToJSON(data) {
 }
 ```
 
+Go back and look at the actual AJAX request. Identify the parts of the code that are used for exchanging data with an API? Which parts are for updating the your application? Test this out in the browser. Did you notice how this all happens without a page refresh!
+
 Next, let's take a closer look at how to parse the JSON data...
 
 ## Working with API Data
 
+- Parsing data!
+
+## Stretch
+
+- Stretch Goal!
+
 ## Further Reading
+
+1. [Code a Simple Github API Webapp using jQuery & Ajax](http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax)

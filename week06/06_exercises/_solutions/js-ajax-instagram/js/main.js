@@ -23,6 +23,11 @@ $(document).on('ready', function() {
       data: {client_id:'61f8b631abd34732a3bcd8c73d0d73a9'},
       dataType:'jsonp',
       success:function(data){
+        // *** JSON Parsing *** //
+        // console.log(data);
+        // console.log(data.data);
+        console.log(data.data[0].images);
+        // ** end parsing experiment *** //
         // assign returned data to output variable
         var output = data.data;
         // clearn image container

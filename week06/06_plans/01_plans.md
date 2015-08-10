@@ -49,6 +49,8 @@ Food.
 
 ## 4pm - Code!
 
+## 4:30pm - JSON Parsing
+
 ## Exercises/Homework
 
 - EXERCISE: AJAX and Web APIs

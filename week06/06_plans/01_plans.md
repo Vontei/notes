@@ -41,7 +41,7 @@ Food.
 
 ## 1pm - Lecture
 
-- Intro to AJAX and Web APIs
+- [Intro to AJAX and Web APIs](https://github.com/gSchool/g11-course-curriculum/tree/master/week06/06_lectures/js-ajax-apis#stretch)
 
 ## 2pm - Pair Programming
 
@@ -53,7 +53,7 @@ Food.
 
 ## Exercises/Homework
 
-- STRETCH EXERCISE: [Pokemon Library]() (AJAX, APIS, OOP!)
+- STRETCH EXERCISE: [Pokemon Library](https://github.com/gSchool/g11-course-curriculum/tree/master/week06/06_lectures/js-ajax-apis#stretch) (AJAX, APIS, OOP!)
 - **For Wednesday:**
   - Make sure you finish the [JavaScript OOP Zoo](https://github.com/gSchool/g11-course-curriculum/tree/master/week05/05_exercises/js-oop-zoo) problem as we will be doing a group code review
   - Complete your [Front-end Project Proposal](https://github.com/gSchool/g11-course-curriculum/blob/master/resources/front-end-project-proposal.md)

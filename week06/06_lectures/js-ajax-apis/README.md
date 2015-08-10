@@ -54,11 +54,15 @@ By the end of this lesson you should be able to...
 
 ## Introduction to AJAX and APIs
 
-Start by watching this, [What is AJAX?](https://www.youtube.com/watch?v=RDo3hBL1rfA), basic overview of AJAX.
+### AJAX
 
-So, AJAX (also called XMLHTTPRequest) is used for exchanging data with an API and updating portions of a web page asynchronously, in order to avoid a page refresh.
+Start by watching this, [What is AJAX?](https://www.youtube.com/watch?v=RDo3hBL1rfA), basic overview of AJAX. So, AJAX (also called XMLHTTPRequest) is used for exchanging data with an API and updating portions of a web page asynchronously, in order to avoid a page refresh.
 
-An [API](https://en.wikipedia.org/wiki/Application_programming_interface) is an Application Programming Interface. It provides a means for external, third parties to write code that interacts with the API provider. A [web service](https://en.wikipedia.org/wiki/Web_API) (or web API) is a type of API that generally operates over HTTP, allowing web developers to access third party data for use on their own websites. For example, you could utilize real estate data from the API provided by the New York Tomes to generate charts and graphs for your local real estate market.
+### API
+
+An [API](https://en.wikipedia.org/wiki/Application_programming_interface) is an Application Programming Interface. It provides a means for external, third parties to write code that interacts with the API provider. A [web service](https://en.wikipedia.org/wiki/Web_API) (or web API) is a type of API that generally operates over HTTP, allowing web developers to access third party data for use on their own websites. For example, you could utilize real estate data from the API provided by the New York Times to generate charts and graphs for your local real estate market.
+
+It's important to note that APIs provide access (reading and writing) to data from a site's database, but prevent the user making the request from getting anywhere close to the database.
 
 Let's look at a quick example...
 
@@ -292,7 +296,21 @@ Next, let's take a closer look at how the JSON data was parsed...
 
 ## Working with API Data
 
-- Parsing data!
+In the above example, we parsed the JSON data like so:
+
+```javascript
+var output = data.data;
+for(var i = 0; i < output.length; i++) {
+  imageURLs[i] = output[i].images.low_resolution.url;
+  $("#image-container").append('<img src="' + imageURLs[i] + '"/>');
+}
+```
+
+How did we know how to do this? Practice. Plus a litle help from our old friend, the `console.log()`. Let's look at how to parse this, step-by-step.
+
+### Step 1: `data`
+
+Start by looking at what `data` returns by adding a `console.log(data)` just below the `success:function(data){` line. Test this out in the browser and open the console. You should see something like:
 
 ## Stretch
 
@@ -302,3 +320,4 @@ Next, let's take a closer look at how the JSON data was parsed...
 
 1. [Code a Simple Github API Webapp using jQuery & Ajax](http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax)
 1. [StackOverflow: So, JSONP or CORS?](http://stackoverflow.com/questions/12296910/so-jsonp-or-cors)
+1. [A Beginner’s Guide To jQuery-Based JSON API Clients](http://www.smashingmagazine.com/2012/02/beginners-guide-jquery-based-json-api-clients/)

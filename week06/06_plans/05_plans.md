@@ -22,5 +22,5 @@ Food.
 
 ## Exercises/Homework
 
-talks - patrick
+talks - patrick, michael, lucy (?)
 

@@ -41,7 +41,7 @@ Food.
 
 ## 1pm - Lecture
 
-- [Intro to AJAX and Web APIs](https://github.com/gSchool/g11-course-curriculum/tree/master/week06/06_lectures/js-ajax-apis#stretch)
+- [Intro to AJAX and Web APIs](https://github.com/gSchool/g11-course-curriculum/tree/master/week06/06_lectures/js-ajax-apis)
 
 ## 2pm - Pair Programming
 

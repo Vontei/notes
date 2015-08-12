@@ -11,7 +11,7 @@
 
 ## 9:15am Warm-up
 
-- Process over projects
+- Exact Change
 
 ## 10am Project Proposals
 

@@ -2,8 +2,8 @@
 
 ## Today's Goals
 
-- Code Review
 - Project Proposals
+- Code Review
 
 ## 9am Standup
 
@@ -11,12 +11,16 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
+- Process over projects
+
+## 10am Project Proposals
 
 ## 12pm Lunch
 
 Food.
 
-## 1pm Code!
+## 1pm Code Review
 
 ## Exercises/Homework
+
+- Personal project

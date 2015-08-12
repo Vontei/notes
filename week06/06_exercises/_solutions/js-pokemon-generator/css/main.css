@@ -1,0 +1,17 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.pokemon-container {
+  border: 2px solid black;
+}
+
+.pokemon-img {
+  max-height: 200px;
+}
+
+button {
+  margin: 50px auto;
+  display: block;
+}

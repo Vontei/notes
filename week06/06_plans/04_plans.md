@@ -10,7 +10,9 @@
 
 ## 9:15am Warm-up
 
-## 9:30 - Lecture
+- Performance Tracker
+
+## 9:45 Code!
 
 ## 12pm Lunch
 
@@ -18,6 +20,8 @@ Food.
 
 ## 1pm Code!
 
+## 4pm Breakout groups
+
 ## Exercises/Homework
 
-- Fill out ZPD
+- Personal project

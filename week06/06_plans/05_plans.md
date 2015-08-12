@@ -10,9 +10,9 @@
 
 ## 9:15am Assesments
 
-## 10am Week in Review
+- Feedback
 
-## 9:30 - Lecture
+## 10am Lecture
 
 ## 12pm Lunch
 
@@ -20,7 +20,15 @@ Food.
 
 ## 1pm Code!
 
+- 1on1s
+
+## 4pm Getting a job
+
+## 4:30pm
+
+Lightining talks - Patrick, Michael, Lucy
+
 ## Exercises/Homework
 
-talks - patrick, michael, lucy (?)
+- Personal project
 

@@ -12,6 +12,7 @@
 ### Feedback Examples
 
 1. If you were going to implement the pseudocode, would it be easy to follow?
+1. Is the code commented?
 1. Proper Variable Naming - make the variable name descriptive and concise
   - Avoid naming variables after the data structure (array, string, arr, object, obj, etc)
   - Avoid numbered variables (var1, var2, var3)

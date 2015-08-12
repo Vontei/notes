@@ -29,25 +29,25 @@
 ## Unit 5
 
 * Object Oriented Programming
-* AJAX
-* APIs
-* HTTP and Internet Basics
+* Develop Denver Conference
 
 ## Unit 6
 
-* Rapid web development Workflow
+* Call vs Apply
+* AJAX and APIs
 * Front-end Project
-
-# Tentative
 
 ## Unit 7
 
-* Node
-* NPM, Servers, Express
-* RESTful Routing
+* Front-end Project (continued...)
+* Node and Express
+
+# Tentative
 
 ## Unit 8
 
+* NPM, Servers, Express
+* RESTful Routing
 * CRUD with Express
 * Databases
 * MongoDB

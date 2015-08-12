@@ -17,7 +17,7 @@
   - Avoid naming variables after the data structure (array, string, arr, object, obj, etc)
   - Avoid numbered variables (var1, var2, var3)
   - Avoid single character names (i, x, n)
-1. Proper Method Naming *The name should reflect the functions's single responsibility*
+1. Proper Function Naming *The name should reflect the functions's single responsibility*
 1. Keep it DRY
   - Condense repetitive code
   - Create new functions/methods to encapsulate common pieces of functionality

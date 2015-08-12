@@ -8,7 +8,7 @@
 
 - Events, Helps, Interestings
 
-## 9:15am Assesments
+## 9:15am Assessments
 
 - Feedback
 
@@ -26,9 +26,8 @@ Food.
 
 ## 4:30pm
 
-Lightining talks - Patrick, Michael, Lucy
+Lightning talks - Patrick and Michael
 
 ## Exercises/Homework
 
 - Personal project
-

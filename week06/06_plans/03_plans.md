@@ -11,7 +11,7 @@
 
 ## 9:15am Warm-up
 
-- Exact Change
+- [Exact Change](https://github.com/gSchool/g11-course-curriculum/blob/master/resources/practice/03_exactchange.js)
 
 ## 10am Project Proposals
 

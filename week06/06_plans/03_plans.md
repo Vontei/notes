@@ -21,7 +21,7 @@ Food.
 
 ## 1pm Code Review
 
-101
+[101](https://github.com/gSchool/g11-course-curriculum/blob/master/resources/code-review.md)
 
 ## Exercises/Homework
 

@@ -22,6 +22,9 @@ Food.
 
 ## 4pm Breakout groups
 
+- OOP/jQuery boilerplate
+
 ## Exercises/Homework
 
 - Personal project
+- WEDNESDAY CODE REVIEW: Game Library Exercise

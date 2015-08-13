@@ -10,8 +10,6 @@
 
 ## 9:15am Warm-up
 
-- Performance Tracker
-
 ## 9:45 Code!
 
 ## 12pm Lunch

@@ -47,11 +47,11 @@ function updateCanvas() {
   }
   if(square1.y < 0) {
     square1.y = 0;}
-  if(square1.y > 360) {
-    square1.y = 360;
+  if(square1.y > 300) {
+    square1.y = 300;
   }
-  if(square1.x > 360) {
-    square1.x = 360;
+  if(square1.x > 280) {
+    square1.x = 280;
   }
 
   // move square1 to canvas
@@ -68,41 +68,41 @@ function updateCanvas() {
     square1.y += square1.speed;
   }
 
-  // contrain square2 to canvas
-  if(square2.x < 0) {
-    square2.x = 0;
-  }
-  if(square2.y < 0) {
-    square2.y = 0;
-  }
-  if(square2.y > 360) {
-    square2.y = 360;
-  }
-  if(square2.x > 360) {
-    square2.x = 360;
-  }
+  // // contrain square2 to canvas
+  // if(square2.x < 0) {
+  //   square2.x = 0;
+  // }
+  // if(square2.y < 0) {
+  //   square2.y = 0;
+  // }
+  // if(square2.y > 300) {
+  //   square2.y = 300;
+  // }
+  // if(square2.x > 300) {
+  //   square2.x = 300;
+  // }
 
-  // contrain square1 to canvas
-  if(keys[68]) {
-    square2.x += square2.speed;
-  }
-  if(keys[65]) {
-    square2.x -= square2.speed;
-  }
-  if(keys[87]) {
-    square2.y -= square2.speed;
-  }
-  if(keys[83]) {
-    square2.y += square2.speed;
-  }
+  // // contrain square1 to canvas
+  // if(keys[68]) {
+  //   square2.x += square2.speed;
+  // }
+  // if(keys[65]) {
+  //   square2.x -= square2.speed;
+  // }
+  // if(keys[87]) {
+  //   square2.y -= square2.speed;
+  // }
+  // if(keys[83]) {
+  //   square2.y += square2.speed;
+  // }
 }
 
 // check for collision
 function checkCollision(first, second) {
-return !(
-  first.x > second.x + second.w ||
-  first.x + first.w < second.x ||
-  first.y > second.y + second.h ||
-  first.y + first.h < second.y
-);
+  return !(
+    first.x > second.x + second.w ||
+    first.x + first.w < second.x ||
+    first.y > second.y + second.h ||
+    first.y + first.h < second.y
+  );
 }

@@ -1,5 +1,7 @@
 # To do
 
+Brew some beer!
+
 ## Part 1 - Constructors
 
 1. Implement a Beer class

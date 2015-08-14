@@ -26,7 +26,7 @@ Food.
 
 ## 4:30pm
 
-Lightning talks - Patrick and Michael
+Lightning talks - Patrick
 
 ## Exercises/Homework
 

@@ -8,8 +8,10 @@
 
 - Events, Helps, Interestings
 
-## 9:15am Assessments
+## 9:15am Warmup!
 
+- [Todo](https://github.com/gSchool/g11-course-curriculum/tree/master/week06/06_lectures/sublime-plain-tasks-demo)
+- Breakout groups, weekend update!, check-in
 - Feedback
 
 ## 10am Lecture
@@ -31,4 +33,4 @@ Lightning talks - Patrick
 ## Exercises/Homework
 
 - Personal project
-- WEDNESDAY CODE REVIEW: Game Library Exercise
+- **WEDNESDAY CODE REVIEW**: Game Library Exercise

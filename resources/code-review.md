@@ -25,3 +25,7 @@
 1. Was every variable necessary?
 1. What did the developer do well? What could they have done better?
 1. Did you learn anything from this solution?
+
+## External Resources
+
+- [What to look for in a Code Review](http://blog.jetbrains.com/upsource/2015/07/23/what-to-look-for-in-a-code-review/)

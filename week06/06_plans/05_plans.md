@@ -31,3 +31,4 @@ Lightning talks - Patrick and Michael
 ## Exercises/Homework
 
 - Personal project
+- WEDNESDAY CODE REVIEW: Game Library Exercise

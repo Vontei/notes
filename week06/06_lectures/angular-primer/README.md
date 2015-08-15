@@ -104,8 +104,3 @@ Define:
 1. `ng-if`:
 
 Read through the following basic intro - [AngularJS Introduction](http://www.w3schools.com/angular/angular_intro.asp)
-
-
-
-
-

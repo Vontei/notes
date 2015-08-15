@@ -100,8 +100,8 @@ Finally, what's with the double curly braces, `{{` `}}`, in the template?
 
 Define:
 
-1. `ng-repeat`
-1. `ng-if`
+1. `ng-repeat`:
+1. `ng-if`:
 
 Read through the following basic intro - [AngularJS Introduction](http://www.w3schools.com/angular/angular_intro.asp)
 

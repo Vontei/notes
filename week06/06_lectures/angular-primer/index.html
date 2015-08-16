@@ -5,12 +5,42 @@
     <meta charset="utf-8">
     <title>{{ greeting }} World</title>
     <!-- stylesheets -->
+    <script src="js/angular-ui-router.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <p>Say something to the world - <input type="text" ng-model="greeting" ng-init="greeting='Hello, '"></p>
+    <button ng-click='ng-show/ng-hide' ng-model='akhil'>AKHIL</button>
+    <button ng-click='ng-show/ng-hide' ng-model='nick'>NICK</button>
+
+  <button ng-click="count = 5" ng-init="count=1">
+    Increment
+  </button>
+  <span>
+    count: {{count}}
+    count: {{count}}
+  </span>
+    <h1>AKHIL</h1>
+    <p>Enter Your Name - <input type="text" ng-model="name" ng-init="greeting='Name'"></p>
+    <p>How old are you? <input id='thing' type="text" ng-model="age" ng-init="hello=''"></p>
+    <h1> CAN YOU CODE <input type='text' ng-model='code'></h1>
+
     <p>{{ greeting }} world!</p>
-    <!-- scripts -->
+    <p>
+    <p ng-if='name'>Hey {{name}} can you code? : {{code}}</p>
+    <p ng-if='age'>Age: {{age}}</p>
+
+  <div ng-if='nick'>
+    <h1>NICK</h1>
+    <p>How old are you? <input id='thing' type="text" ng-model="age" ng-init="hello=''"></p>
+    <h1> CAN YOU CODE <input type='text' ng-model='code'></h1>
+
+    <p>{{ greeting }} world!</p>
+    <p>
+    <p ng-if='name'>Hey {{name}} can you code? : {{code}}</p>
+    <p ng-if='age'>Age: {{age}}</p>
+</div>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
   </body>

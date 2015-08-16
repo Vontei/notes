@@ -7,9 +7,11 @@
 1. Install the [Yo! Galvanize HTML Generator](https://github.com/gSchool/generator-galvanize-html)
 1. Create the main boilerplate:
 
+
   ```sh
   yo galvanize-html
   Welcome to Galvanize's HTML Generator
+
   ? Bootstrap? No
   ? Normalize.css? No
   ? jQuery? No
@@ -85,22 +87,35 @@ Before we start building, read over some of Angular's main features:
 Using your information retrieval skills, define the following directives from the [Angular site](https://angularjs.org/):
 
 1. `ng-app`:
+-- when you have angular yo put the cdn on the page and it goes thorought th epage and renders the page based on it
+-- it initializes the
 1. `ng-model`:
+it binds the inputs to the model. it binds things to the dom and reverse as well .
 
 What does the `ng` prefix mean?
+indicates an angular directive so that angular can read it .
+
 
 Also, in your own words, define:
 
 1. Two-way binding:
+synchronizing data between the model and view.
 1. Templates:
+used for embedding JA ANfular logic in your html files.
+
+
 
 Finally, what's with the double curly braces, `{{` `}}`, in the template?
+# {% %} ng repeat or a for loop
 
 ### Finished early?
 
 Define:
 
 1. `ng-repeat`:
+ for loops
 1. `ng-if`:
+logic if 
+
 
 Read through the following basic intro - [AngularJS Introduction](http://www.w3schools.com/angular/angular_intro.asp)
